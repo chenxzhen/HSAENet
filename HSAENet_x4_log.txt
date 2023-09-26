@@ -1,0 +1,1290 @@
+2023-07-17 09:30:15,630 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Training Dataset ...
+2023-07-17 09:30:15,647 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of training data is: 43768
+2023-07-17 09:30:15,647 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Validation Dataset ...
+2023-07-17 09:30:15,647 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of validation data is: 23
+2023-07-17 09:30:15,647 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Model Initial ...
+2023-07-17 09:30:18,695 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of parameter is: 2601480
+2023-07-17 09:30:18,986 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - No existing model, starting training from scratch...
+2023-07-17 09:30:19,058 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - PARAMETER ...
+2023-07-17 09:30:19,058 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Namespace(angRes_in=5, angRes_out=5, batch_size=8, channels=60, data_name='ALL', decay_rate=0, device='cuda:0', epoch=75, gamma=0.5, iter=3000, local_rank=0, lr=0.0002, minibatch_for_test=1, model_name='base_parallel_3_res_4_iAFF_cswin_3_deverse', n_steps=15, num_workers=8, param=True, patch_size_for_test=32, path_for_test='./data_for_test/4xSR_5x5/', path_for_train='./data_for_training/4xSR_5x5/', path_log='./log/', path_pre_pth='./path/EPIT_5x5_4x_model.pth', save_path='./Results/', scale_factor=4, stride_for_test=16, task='SR', tensorboard=True, use_pre_ckpt=True)
+2023-07-17 09:30:19,080 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Start training...
+2023-07-17 09:30:19,080 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 1 /75:
+2023-07-17 09:31:45,369 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Training Dataset ...
+2023-07-17 09:31:45,385 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of training data is: 43768
+2023-07-17 09:31:45,385 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Validation Dataset ...
+2023-07-17 09:31:45,385 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of validation data is: 23
+2023-07-17 09:31:45,385 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Model Initial ...
+2023-07-17 09:31:48,391 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of parameter is: 2601480
+2023-07-17 09:31:48,605 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - No existing model, starting training from scratch...
+2023-07-17 09:31:48,675 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - PARAMETER ...
+2023-07-17 09:31:48,675 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Namespace(angRes_in=5, angRes_out=5, batch_size=8, channels=60, data_name='ALL', decay_rate=0, device='cuda:0', epoch=75, gamma=0.5, iter=3000, local_rank=0, lr=0.0002, minibatch_for_test=1, model_name='base_parallel_3_res_4_iAFF_cswin_3_deverse', n_steps=15, num_workers=8, param=True, patch_size_for_test=32, path_for_test='./data_for_test/4xSR_5x5/', path_for_train='./data_for_training/4xSR_5x5/', path_log='./log/', path_pre_pth=None, save_path='./Results/', scale_factor=4, stride_for_test=16, task='SR', tensorboard=True, use_pre_ckpt=True)
+2023-07-17 09:31:48,697 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Start training...
+2023-07-17 09:31:48,697 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 1 /75:
+2023-07-17 09:34:54,917 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Training Dataset ...
+2023-07-17 09:34:54,934 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of training data is: 43768
+2023-07-17 09:34:54,934 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Validation Dataset ...
+2023-07-17 09:34:54,934 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of validation data is: 23
+2023-07-17 09:34:54,934 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Model Initial ...
+2023-07-17 09:34:58,396 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of parameter is: 2601480
+2023-07-17 09:34:58,612 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - No existing model, starting training from scratch...
+2023-07-17 09:34:58,681 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - PARAMETER ...
+2023-07-17 09:34:58,681 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Namespace(angRes_in=5, angRes_out=5, batch_size=4, channels=60, data_name='ALL', decay_rate=0, device='cuda:0', epoch=75, gamma=0.5, iter=3000, local_rank=0, lr=0.0002, minibatch_for_test=1, model_name='base_parallel_3_res_4_iAFF_cswin_3_deverse', n_steps=15, num_workers=8, param=True, patch_size_for_test=32, path_for_test='./data_for_test/4xSR_5x5/', path_for_train='./data_for_training/4xSR_5x5/', path_log='./log/', path_pre_pth=None, save_path='./Results/', scale_factor=4, stride_for_test=16, task='SR', tensorboard=True, use_pre_ckpt=True)
+2023-07-17 09:34:58,703 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Start training...
+2023-07-17 09:34:58,703 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 1 /75:
+2023-07-17 09:45:54,501 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Training Dataset ...
+2023-07-17 09:45:54,517 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of training data is: 43768
+2023-07-17 09:45:54,517 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Validation Dataset ...
+2023-07-17 09:45:54,517 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of validation data is: 23
+2023-07-17 09:45:54,517 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Model Initial ...
+2023-07-17 09:45:57,814 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of parameter is: 2601480
+2023-07-17 09:45:58,030 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - No existing model, starting training from scratch...
+2023-07-17 09:45:58,101 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - PARAMETER ...
+2023-07-17 09:45:58,101 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Namespace(angRes_in=5, angRes_out=5, batch_size=8, channels=60, data_name='ALL', decay_rate=0, device='cuda:0', epoch=75, gamma=0.5, iter=3000, local_rank=0, lr=0.0002, minibatch_for_test=1, model_name='base_parallel_3_res_4_iAFF_cswin_3_deverse', n_steps=15, num_workers=8, param=True, patch_size_for_test=32, path_for_test='./data_for_test/4xSR_5x5/', path_for_train='./data_for_training/4xSR_5x5/', path_log='./log/', path_pre_pth=None, save_path='./Results/', scale_factor=4, stride_for_test=16, task='SR', tensorboard=True, use_pre_ckpt=True)
+2023-07-17 09:45:58,124 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Start training...
+2023-07-17 09:45:58,125 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 1 /75:
+2023-07-17 09:49:47,649 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Training Dataset ...
+2023-07-17 09:49:47,664 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of training data is: 43768
+2023-07-17 09:49:47,664 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Validation Dataset ...
+2023-07-17 09:49:47,664 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of validation data is: 23
+2023-07-17 09:49:47,664 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Model Initial ...
+2023-07-17 09:49:50,940 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of parameter is: 2601480
+2023-07-17 09:49:51,155 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - No existing model, starting training from scratch...
+2023-07-17 09:49:51,225 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - PARAMETER ...
+2023-07-17 09:49:51,225 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Namespace(angRes_in=5, angRes_out=5, batch_size=8, channels=60, data_name='ALL', decay_rate=0, device='cuda:0', epoch=75, gamma=0.5, iter=3000, local_rank=0, lr=0.0002, minibatch_for_test=1, model_name='base_parallel_3_res_4_iAFF_cswin_3_deverse', n_steps=15, num_workers=8, param=True, patch_size_for_test=32, path_for_test='./data_for_test/4xSR_5x5/', path_for_train='./data_for_training/4xSR_5x5/', path_log='./log/', path_pre_pth=None, save_path='./Results/', scale_factor=4, stride_for_test=16, task='SR', tensorboard=True, use_pre_ckpt=True)
+2023-07-17 09:49:51,247 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Start training...
+2023-07-17 09:49:51,247 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 1 /75:
+2023-07-17 09:51:16,387 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Training Dataset ...
+2023-07-17 09:51:16,402 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of training data is: 43768
+2023-07-17 09:51:16,403 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Validation Dataset ...
+2023-07-17 09:51:16,403 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of validation data is: 23
+2023-07-17 09:51:16,404 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Model Initial ...
+2023-07-17 09:51:20,650 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of parameter is: 2601480
+2023-07-17 09:51:21,024 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - No existing model, starting training from scratch...
+2023-07-17 09:51:21,232 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - PARAMETER ...
+2023-07-17 09:51:21,232 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Namespace(angRes_in=5, angRes_out=5, batch_size=8, channels=60, data_name='ALL', decay_rate=0, device='cuda:0', epoch=75, gamma=0.5, iter=3000, local_rank=0, lr=0.0002, minibatch_for_test=1, model_name='base_parallel_3_res_4_iAFF_cswin_3_deverse', n_steps=15, num_workers=8, param=True, patch_size_for_test=32, path_for_test='./data_for_test/4xSR_5x5/', path_for_train='./data_for_training/4xSR_5x5/', path_log='./log/', path_pre_pth=None, save_path='./Results/', scale_factor=4, stride_for_test=16, task='SR', tensorboard=True, use_pre_ckpt=True)
+2023-07-17 09:51:21,535 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Start training...
+2023-07-17 09:51:21,535 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 1 /75:
+2023-07-17 09:54:10,945 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Training Dataset ...
+2023-07-17 09:54:10,960 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of training data is: 43768
+2023-07-17 09:54:10,960 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Validation Dataset ...
+2023-07-17 09:54:10,961 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of validation data is: 23
+2023-07-17 09:54:10,961 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Model Initial ...
+2023-07-17 09:54:13,974 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of parameter is: 2601480
+2023-07-17 09:54:14,229 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - No existing model, starting training from scratch...
+2023-07-17 09:54:14,333 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - PARAMETER ...
+2023-07-17 09:54:14,333 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Namespace(angRes_in=5, angRes_out=5, batch_size=8, channels=60, data_name='ALL', decay_rate=0, device='cuda:0', epoch=75, gamma=0.5, iter=3000, local_rank=0, lr=0.0002, minibatch_for_test=1, model_name='base_parallel_3_res_4_iAFF_cswin_3_deverse', n_steps=15, num_workers=8, param=True, patch_size_for_test=32, path_for_test='./data_for_test/4xSR_5x5/', path_for_train='./data_for_training/4xSR_5x5/', path_log='./log/', path_pre_pth=None, save_path='./Results/', scale_factor=4, stride_for_test=16, task='SR', tensorboard=True, use_pre_ckpt=True)
+2023-07-17 09:54:14,356 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Start training...
+2023-07-17 09:54:14,356 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 1 /75:
+2023-07-17 09:56:26,354 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Training Dataset ...
+2023-07-17 09:56:26,370 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of training data is: 43768
+2023-07-17 09:56:26,370 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Load Validation Dataset ...
+2023-07-17 09:56:26,371 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of validation data is: 23
+2023-07-17 09:56:26,371 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Model Initial ...
+2023-07-17 09:56:29,689 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - The number of parameter is: 2601480
+2023-07-17 09:56:29,905 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - No existing model, starting training from scratch...
+2023-07-17 09:56:30,009 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - PARAMETER ...
+2023-07-17 09:56:30,009 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Namespace(angRes_in=5, angRes_out=5, batch_size=8, channels=60, data_name='ALL', decay_rate=0, device='cuda:0', epoch=75, gamma=0.5, iter=3000, local_rank=0, lr=0.0002, minibatch_for_test=1, model_name='base_parallel_3_res_4_iAFF_cswin_3_deverse', n_steps=15, num_workers=8, param=True, patch_size_for_test=32, path_for_test='./data_for_test/4xSR_5x5/', path_for_train='./data_for_training/4xSR_5x5/', path_log='./log/', path_pre_pth=None, save_path='./Results/', scale_factor=4, stride_for_test=16, task='SR', tensorboard=True, use_pre_ckpt=True)
+2023-07-17 09:56:30,031 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Start training...
+2023-07-17 09:56:30,031 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 1 /75:
+2023-07-17 11:08:51,979 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 11:08:51 Valid----           EPFL, PSNR---27.059009, SSIM---0.882797
+2023-07-17 11:09:47,781 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 11:09:47 Valid----        HCI_new, PSNR---29.309777, SSIM---0.885871
+2023-07-17 11:10:51,549 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 11:10:51 Valid----        HCI_old, PSNR---34.907446, SSIM---0.956474
+2023-07-17 11:12:07,332 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 11:12:07 Valid----    INRIA_Lytro, PSNR---29.089199, SSIM---0.928336
+2023-07-17 11:12:35,777 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 11:12:35 Valid----Stanford_Gantry, PSNR---28.223237, SSIM---0.898927
+2023-07-17 11:12:35,778 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 11:12:35 Average_Result: Average_PSNR---29.717734, Average_SSIM---0.910481
+2023-07-17 11:12:36,107 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_01 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-17 12:13:41,686 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 12:13:41 Valid----           EPFL, PSNR---27.713176, SSIM---0.896383
+2023-07-17 12:14:37,643 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 12:14:37 Valid----        HCI_new, PSNR---30.018691, SSIM---0.900389
+2023-07-17 12:15:40,538 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 12:15:40 Valid----        HCI_old, PSNR---35.837814, SSIM---0.963416
+2023-07-17 12:16:56,003 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 12:16:56 Valid----    INRIA_Lytro, PSNR---29.877944, SSIM---0.938733
+2023-07-17 12:17:24,800 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 12:17:24 Valid----Stanford_Gantry, PSNR---29.201880, SSIM---0.920984
+2023-07-17 12:17:24,801 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 12:17:24 Average_Result: Average_PSNR---30.529901, Average_SSIM---0.923981
+2023-07-17 12:17:24,952 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_01 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-17 12:17:25,078 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_01 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_01_model.pth
+2023-07-17 12:17:25,080 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 2 /75:
+2023-07-17 13:31:51,445 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 13:31:51 Valid----           EPFL, PSNR---28.220101, SSIM---0.901237
+2023-07-17 13:32:47,458 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 13:32:47 Valid----        HCI_new, PSNR---30.286257, SSIM---0.905202
+2023-07-17 13:33:50,416 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 13:33:50 Valid----        HCI_old, PSNR---36.203268, SSIM---0.965669
+2023-07-17 13:35:06,107 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 13:35:06 Valid----    INRIA_Lytro, PSNR---30.418139, SSIM---0.941844
+2023-07-17 13:35:34,513 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 13:35:34 Valid----Stanford_Gantry, PSNR---29.643433, SSIM---0.928856
+2023-07-17 13:35:34,513 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 13:35:34 Average_Result: Average_PSNR---30.954240, Average_SSIM---0.928562
+2023-07-17 13:35:34,685 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_02 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-17 14:38:12,419 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 14:38:12 Valid----           EPFL, PSNR---28.400153, SSIM---0.904955
+2023-07-17 14:39:08,390 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 14:39:08 Valid----        HCI_new, PSNR---30.462657, SSIM---0.908293
+2023-07-17 14:40:11,560 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 14:40:11 Valid----        HCI_old, PSNR---36.416183, SSIM---0.967040
+2023-07-17 14:41:27,220 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 14:41:27 Valid----    INRIA_Lytro, PSNR---30.542152, SSIM---0.944225
+2023-07-17 14:41:55,614 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 14:41:55 Valid----Stanford_Gantry, PSNR---29.896591, SSIM---0.933170
+2023-07-17 14:41:55,616 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 14:41:55 Average_Result: Average_PSNR---31.143547, Average_SSIM---0.931537
+2023-07-17 14:41:55,789 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_02 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-17 14:41:55,927 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_02 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_02_model.pth
+2023-07-17 14:41:55,929 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 3 /75:
+2023-07-17 15:55:44,411 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 15:55:44 Valid----           EPFL, PSNR---28.630904, SSIM---0.907898
+2023-07-17 15:56:40,225 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 15:56:40 Valid----        HCI_new, PSNR---30.598424, SSIM---0.910186
+2023-07-17 15:57:42,895 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 15:57:42 Valid----        HCI_old, PSNR---36.502582, SSIM---0.967565
+2023-07-17 15:58:58,543 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 15:58:58 Valid----    INRIA_Lytro, PSNR---30.751132, SSIM---0.945595
+2023-07-17 15:59:26,843 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 15:59:26 Valid----Stanford_Gantry, PSNR---30.050461, SSIM---0.936196
+2023-07-17 15:59:26,844 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 15:59:26 Average_Result: Average_PSNR---31.306701, Average_SSIM---0.933488
+2023-07-17 15:59:27,129 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_03 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-17 17:00:43,331 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 17:00:43 Valid----           EPFL, PSNR---28.700166, SSIM---0.909075
+2023-07-17 17:01:39,842 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 17:01:39 Valid----        HCI_new, PSNR---30.686266, SSIM---0.911610
+2023-07-17 17:02:43,341 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 17:02:43 Valid----        HCI_old, PSNR---36.572448, SSIM---0.968164
+2023-07-17 17:03:59,293 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 17:03:59 Valid----    INRIA_Lytro, PSNR---30.726858, SSIM---0.945789
+2023-07-17 17:04:28,033 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 17:04:28 Valid----Stanford_Gantry, PSNR---30.264982, SSIM---0.938139
+2023-07-17 17:04:28,034 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 17:04:28 Average_Result: Average_PSNR---31.390144, Average_SSIM---0.934555
+2023-07-17 17:04:28,191 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_03 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-17 17:04:28,315 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_03 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_03_model.pth
+2023-07-17 17:04:28,316 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 4 /75:
+2023-07-17 18:18:22,820 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 18:18:22 Valid----           EPFL, PSNR---28.647786, SSIM---0.910163
+2023-07-17 18:19:18,641 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 18:19:18 Valid----        HCI_new, PSNR---30.783188, SSIM---0.913122
+2023-07-17 18:20:21,908 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 18:20:21 Valid----        HCI_old, PSNR---36.773695, SSIM---0.969060
+2023-07-17 18:21:37,322 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 18:21:37 Valid----    INRIA_Lytro, PSNR---30.644249, SSIM---0.946534
+2023-07-17 18:22:05,618 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 18:22:05 Valid----Stanford_Gantry, PSNR---30.388882, SSIM---0.940280
+2023-07-17 18:22:05,618 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 18:22:05 Average_Result: Average_PSNR---31.447560, Average_SSIM---0.935832
+2023-07-17 18:22:05,785 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_04 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-17 19:23:27,112 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 19:23:27 Valid----           EPFL, PSNR---28.784873, SSIM---0.910793
+2023-07-17 19:24:23,093 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 19:24:23 Valid----        HCI_new, PSNR---30.750468, SSIM---0.912266
+2023-07-17 19:25:26,088 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 19:25:26 Valid----        HCI_old, PSNR---36.706506, SSIM---0.969023
+2023-07-17 19:26:42,069 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 19:26:42 Valid----    INRIA_Lytro, PSNR---30.825457, SSIM---0.946899
+2023-07-17 19:27:10,486 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 19:27:10 Valid----Stanford_Gantry, PSNR---30.383787, SSIM---0.939203
+2023-07-17 19:27:10,487 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 19:27:10 Average_Result: Average_PSNR---31.490218, Average_SSIM---0.935637
+2023-07-17 19:27:10,644 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_04 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-17 19:27:10,869 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_04 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_04_model.pth
+2023-07-17 19:27:10,870 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 5 /75:
+2023-07-17 20:41:02,955 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 20:41:02 Valid----           EPFL, PSNR---28.949714, SSIM---0.912939
+2023-07-17 20:41:59,440 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 20:41:59 Valid----        HCI_new, PSNR---30.930274, SSIM---0.914870
+2023-07-17 20:43:02,254 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 20:43:02 Valid----        HCI_old, PSNR---36.838370, SSIM---0.969869
+2023-07-17 20:44:17,856 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 20:44:17 Valid----    INRIA_Lytro, PSNR---30.962306, SSIM---0.948125
+2023-07-17 20:44:46,134 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 20:44:46 Valid----Stanford_Gantry, PSNR---30.651814, SSIM---0.943394
+2023-07-17 20:44:46,135 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 20:44:46 Average_Result: Average_PSNR---31.666496, Average_SSIM---0.937840
+2023-07-17 20:44:46,302 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_05 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-17 21:46:05,402 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 21:46:05 Valid----           EPFL, PSNR---28.998778, SSIM---0.913855
+2023-07-17 21:47:01,625 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 21:47:01 Valid----        HCI_new, PSNR---30.985392, SSIM---0.916223
+2023-07-17 21:48:04,611 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 21:48:04 Valid----        HCI_old, PSNR---37.024004, SSIM---0.970464
+2023-07-17 21:49:20,168 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 21:49:20 Valid----    INRIA_Lytro, PSNR---30.942602, SSIM---0.948972
+2023-07-17 21:49:49,250 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 21:49:49 Valid----Stanford_Gantry, PSNR---30.784685, SSIM---0.945532
+2023-07-17 21:49:49,251 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 21:49:49 Average_Result: Average_PSNR---31.747092, Average_SSIM---0.939009
+2023-07-17 21:49:49,437 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_05 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-17 21:49:49,588 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_05 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_05_model.pth
+2023-07-17 21:49:49,589 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 6 /75:
+2023-07-17 23:03:34,909 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 23:03:34 Valid----           EPFL, PSNR---28.936557, SSIM---0.913886
+2023-07-17 23:04:30,718 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 23:04:30 Valid----        HCI_new, PSNR---31.005840, SSIM---0.915995
+2023-07-17 23:05:33,553 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 23:05:33 Valid----        HCI_old, PSNR---36.996689, SSIM---0.970361
+2023-07-17 23:06:48,902 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 23:06:48 Valid----    INRIA_Lytro, PSNR---30.908512, SSIM---0.948704
+2023-07-17 23:07:17,153 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 23:07:17 Valid----Stanford_Gantry, PSNR---30.850613, SSIM---0.944884
+2023-07-17 23:07:17,154 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 17 23:07:17 Average_Result: Average_PSNR---31.739642, Average_SSIM---0.938766
+2023-07-18 00:08:37,649 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 00:08:37 Valid----           EPFL, PSNR---29.180418, SSIM---0.914875
+2023-07-18 00:09:34,330 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 00:09:34 Valid----        HCI_new, PSNR---31.031154, SSIM---0.916951
+2023-07-18 00:10:38,050 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 00:10:38 Valid----        HCI_old, PSNR---37.123568, SSIM---0.971000
+2023-07-18 00:11:53,697 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 00:11:53 Valid----    INRIA_Lytro, PSNR---31.195740, SSIM---0.949068
+2023-07-18 00:12:22,076 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 00:12:22 Valid----Stanford_Gantry, PSNR---30.891594, SSIM---0.945938
+2023-07-18 00:12:22,076 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 00:12:22 Average_Result: Average_PSNR---31.884495, Average_SSIM---0.939567
+2023-07-18 00:12:22,352 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_06 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-18 00:12:22,476 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_06 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_06_model.pth
+2023-07-18 00:12:22,477 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 7 /75:
+2023-07-18 01:26:12,853 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 01:26:12 Valid----           EPFL, PSNR---29.216239, SSIM---0.915584
+2023-07-18 01:27:08,738 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 01:27:08 Valid----        HCI_new, PSNR---31.109492, SSIM---0.917461
+2023-07-18 01:28:11,328 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 01:28:11 Valid----        HCI_old, PSNR---37.220315, SSIM---0.971275
+2023-07-18 01:29:26,786 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 01:29:26 Valid----    INRIA_Lytro, PSNR---31.233979, SSIM---0.949802
+2023-07-18 01:29:55,042 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 01:29:55 Valid----Stanford_Gantry, PSNR---30.998375, SSIM---0.947556
+2023-07-18 01:29:55,043 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 01:29:55 Average_Result: Average_PSNR---31.955680, Average_SSIM---0.940336
+2023-07-18 01:29:55,210 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_07 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-18 02:31:04,636 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 02:31:04 Valid----           EPFL, PSNR---29.180344, SSIM---0.915324
+2023-07-18 02:32:00,679 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 02:32:00 Valid----        HCI_new, PSNR---31.089180, SSIM---0.916834
+2023-07-18 02:33:03,628 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 02:33:03 Valid----        HCI_old, PSNR---37.107588, SSIM---0.971282
+2023-07-18 02:34:19,204 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 02:34:19 Valid----    INRIA_Lytro, PSNR---31.148026, SSIM---0.949419
+2023-07-18 02:34:47,557 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 02:34:47 Valid----Stanford_Gantry, PSNR---30.983087, SSIM---0.946700
+2023-07-18 02:34:47,558 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 02:34:47 Average_Result: Average_PSNR---31.901645, Average_SSIM---0.939912
+2023-07-18 02:34:47,694 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_07 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_07_model.pth
+2023-07-18 02:34:47,695 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 8 /75:
+2023-07-18 03:48:40,668 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 03:48:40 Valid----           EPFL, PSNR---29.311988, SSIM---0.916012
+2023-07-18 03:49:36,639 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 03:49:36 Valid----        HCI_new, PSNR---31.131321, SSIM---0.917530
+2023-07-18 03:50:39,526 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 03:50:39 Valid----        HCI_old, PSNR---37.233458, SSIM---0.971557
+2023-07-18 03:51:56,089 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 03:51:56 Valid----    INRIA_Lytro, PSNR---31.336995, SSIM---0.949696
+2023-07-18 03:52:24,936 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 03:52:24 Valid----Stanford_Gantry, PSNR---31.077343, SSIM---0.948033
+2023-07-18 03:52:24,937 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 03:52:24 Average_Result: Average_PSNR---32.018221, Average_SSIM---0.940566
+2023-07-18 03:52:25,102 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_08 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-18 04:53:38,817 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 04:53:38 Valid----           EPFL, PSNR---29.211418, SSIM---0.917030
+2023-07-18 04:54:34,702 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 04:54:34 Valid----        HCI_new, PSNR---31.195620, SSIM---0.918489
+2023-07-18 04:55:37,449 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 04:55:37 Valid----        HCI_old, PSNR---37.332980, SSIM---0.971978
+2023-07-18 04:56:52,834 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 04:56:52 Valid----    INRIA_Lytro, PSNR---31.133703, SSIM---0.950132
+2023-07-18 04:57:21,193 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 04:57:21 Valid----Stanford_Gantry, PSNR---31.144124, SSIM---0.948651
+2023-07-18 04:57:21,194 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 04:57:21 Average_Result: Average_PSNR---32.003569, Average_SSIM---0.941256
+2023-07-18 04:57:21,330 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_08 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_08_model.pth
+2023-07-18 04:57:21,331 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 9 /75:
+2023-07-18 06:11:22,188 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 06:11:22 Valid----           EPFL, PSNR---29.386686, SSIM---0.917115
+2023-07-18 06:12:18,203 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 06:12:18 Valid----        HCI_new, PSNR---31.163195, SSIM---0.918348
+2023-07-18 06:13:20,829 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 06:13:20 Valid----        HCI_old, PSNR---37.316484, SSIM---0.971864
+2023-07-18 06:14:36,580 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 06:14:36 Valid----    INRIA_Lytro, PSNR---31.460318, SSIM---0.950636
+2023-07-18 06:15:04,840 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 06:15:04 Valid----Stanford_Gantry, PSNR---31.151775, SSIM---0.949214
+2023-07-18 06:15:04,841 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 06:15:04 Average_Result: Average_PSNR---32.095692, Average_SSIM---0.941435
+2023-07-18 06:15:05,007 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_09 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-18 07:16:17,395 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 07:16:17 Valid----           EPFL, PSNR---29.268552, SSIM---0.916825
+2023-07-18 07:17:13,310 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 07:17:13 Valid----        HCI_new, PSNR---31.205505, SSIM---0.918588
+2023-07-18 07:18:17,208 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 07:18:17 Valid----        HCI_old, PSNR---37.398749, SSIM---0.972178
+2023-07-18 07:19:32,971 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 07:19:32 Valid----    INRIA_Lytro, PSNR---31.316767, SSIM---0.950201
+2023-07-18 07:20:01,304 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 07:20:01 Valid----Stanford_Gantry, PSNR---31.223383, SSIM---0.948656
+2023-07-18 07:20:01,304 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 07:20:01 Average_Result: Average_PSNR---32.082591, Average_SSIM---0.941290
+2023-07-18 07:20:01,567 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_09 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_09_model.pth
+2023-07-18 07:20:01,568 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 10 /75:
+2023-07-18 08:33:40,446 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 08:33:40 Valid----           EPFL, PSNR---29.343728, SSIM---0.918250
+2023-07-18 08:34:37,189 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 08:34:37 Valid----        HCI_new, PSNR---31.262984, SSIM---0.919452
+2023-07-18 08:35:39,903 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 08:35:39 Valid----        HCI_old, PSNR---37.405706, SSIM---0.972387
+2023-07-18 08:36:55,269 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 08:36:55 Valid----    INRIA_Lytro, PSNR---31.383283, SSIM---0.950999
+2023-07-18 08:37:23,700 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 08:37:23 Valid----Stanford_Gantry, PSNR---31.249263, SSIM---0.949975
+2023-07-18 08:37:23,701 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 08:37:23 Average_Result: Average_PSNR---32.128993, Average_SSIM---0.942213
+2023-07-18 08:37:23,867 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_10 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-18 09:38:49,482 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 09:38:49 Valid----           EPFL, PSNR---29.355574, SSIM---0.917484
+2023-07-18 09:39:45,665 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 09:39:45 Valid----        HCI_new, PSNR---31.247667, SSIM---0.918630
+2023-07-18 09:40:49,274 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 09:40:49 Valid----        HCI_old, PSNR---37.397799, SSIM---0.972401
+2023-07-18 09:42:05,438 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 09:42:05 Valid----    INRIA_Lytro, PSNR---31.332355, SSIM---0.950147
+2023-07-18 09:42:34,092 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 09:42:34 Valid----Stanford_Gantry, PSNR---31.268773, SSIM---0.948945
+2023-07-18 09:42:34,093 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 09:42:34 Average_Result: Average_PSNR---32.120434, Average_SSIM---0.941522
+2023-07-18 09:42:34,232 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_10 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_10_model.pth
+2023-07-18 09:42:34,234 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 11 /75:
+2023-07-18 10:56:48,559 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 10:56:48 Valid----           EPFL, PSNR---29.477249, SSIM---0.918811
+2023-07-18 10:57:44,844 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 10:57:44 Valid----        HCI_new, PSNR---31.270607, SSIM---0.919482
+2023-07-18 10:58:48,143 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 10:58:48 Valid----        HCI_old, PSNR---37.477227, SSIM---0.972625
+2023-07-18 11:00:04,243 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 11:00:04 Valid----    INRIA_Lytro, PSNR---31.537488, SSIM---0.951253
+2023-07-18 11:00:32,870 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 11:00:32 Valid----Stanford_Gantry, PSNR---31.336504, SSIM---0.949937
+2023-07-18 11:00:32,872 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 11:00:32 Average_Result: Average_PSNR---32.219815, Average_SSIM---0.942422
+2023-07-18 11:00:33,216 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_11 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-18 12:01:46,060 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 12:01:46 Valid----           EPFL, PSNR---29.528778, SSIM---0.919015
+2023-07-18 12:02:42,075 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 12:02:42 Valid----        HCI_new, PSNR---31.327924, SSIM---0.920597
+2023-07-18 12:03:46,294 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 12:03:46 Valid----        HCI_old, PSNR---37.568051, SSIM---0.973191
+2023-07-18 12:05:02,346 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 12:05:02 Valid----    INRIA_Lytro, PSNR---31.655452, SSIM---0.951659
+2023-07-18 12:05:30,769 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 12:05:30 Valid----Stanford_Gantry, PSNR---31.385411, SSIM---0.951556
+2023-07-18 12:05:30,769 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 12:05:30 Average_Result: Average_PSNR---32.293123, Average_SSIM---0.943204
+2023-07-18 12:05:30,926 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_11 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-18 12:05:31,051 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_11 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_11_model.pth
+2023-07-18 12:05:31,052 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 12 /75:
+2023-07-18 13:19:30,298 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 13:19:30 Valid----           EPFL, PSNR---29.375449, SSIM---0.919205
+2023-07-18 13:20:26,238 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 13:20:26 Valid----        HCI_new, PSNR---31.335850, SSIM---0.920557
+2023-07-18 13:21:29,024 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 13:21:29 Valid----        HCI_old, PSNR---37.570989, SSIM---0.973284
+2023-07-18 13:22:45,166 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 13:22:45 Valid----    INRIA_Lytro, PSNR---31.268207, SSIM---0.951342
+2023-07-18 13:23:13,856 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 13:23:13 Valid----Stanford_Gantry, PSNR---31.415658, SSIM---0.951192
+2023-07-18 13:23:13,858 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 13:23:13 Average_Result: Average_PSNR---32.193230, Average_SSIM---0.943116
+2023-07-18 14:24:28,807 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 14:24:28 Valid----           EPFL, PSNR---29.469302, SSIM---0.920115
+2023-07-18 14:25:25,521 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 14:25:25 Valid----        HCI_new, PSNR---31.341589, SSIM---0.920540
+2023-07-18 14:26:30,077 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 14:26:30 Valid----        HCI_old, PSNR---37.613368, SSIM---0.973472
+2023-07-18 14:27:46,757 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 14:27:46 Valid----    INRIA_Lytro, PSNR---31.397474, SSIM---0.951925
+2023-07-18 14:28:15,236 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 14:28:15 Valid----Stanford_Gantry, PSNR---31.417397, SSIM---0.951642
+2023-07-18 14:28:15,237 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 14:28:15 Average_Result: Average_PSNR---32.247826, Average_SSIM---0.943539
+2023-07-18 14:28:15,380 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_12 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_12_model.pth
+2023-07-18 14:28:15,382 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 13 /75:
+2023-07-18 15:42:02,744 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 15:42:02 Valid----           EPFL, PSNR---29.373244, SSIM---0.919851
+2023-07-18 15:42:58,610 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 15:42:58 Valid----        HCI_new, PSNR---31.309320, SSIM---0.920954
+2023-07-18 15:44:01,459 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 15:44:01 Valid----        HCI_old, PSNR---37.461543, SSIM---0.973076
+2023-07-18 15:45:17,438 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 15:45:17 Valid----    INRIA_Lytro, PSNR---31.294249, SSIM---0.951605
+2023-07-18 15:45:45,658 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 15:45:45 Valid----Stanford_Gantry, PSNR---31.380688, SSIM---0.951781
+2023-07-18 15:45:45,659 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 15:45:45 Average_Result: Average_PSNR---32.163809, Average_SSIM---0.943453
+2023-07-18 16:47:01,471 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 16:47:01 Valid----           EPFL, PSNR---29.400764, SSIM---0.919846
+2023-07-18 16:47:57,927 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 16:47:57 Valid----        HCI_new, PSNR---31.375229, SSIM---0.920891
+2023-07-18 16:49:00,939 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 16:49:00 Valid----        HCI_old, PSNR---37.528608, SSIM---0.973163
+2023-07-18 16:50:16,898 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 16:50:16 Valid----    INRIA_Lytro, PSNR---31.293164, SSIM---0.951636
+2023-07-18 16:50:45,540 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 16:50:45 Valid----Stanford_Gantry, PSNR---31.503398, SSIM---0.951986
+2023-07-18 16:50:45,541 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 16:50:45 Average_Result: Average_PSNR---32.220233, Average_SSIM---0.943504
+2023-07-18 16:50:45,677 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_13 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_13_model.pth
+2023-07-18 16:50:45,678 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 14 /75:
+2023-07-18 18:04:37,389 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 18:04:37 Valid----           EPFL, PSNR---29.496887, SSIM---0.918604
+2023-07-18 18:05:33,246 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 18:05:33 Valid----        HCI_new, PSNR---31.235293, SSIM---0.918845
+2023-07-18 18:06:36,125 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 18:06:36 Valid----        HCI_old, PSNR---37.493047, SSIM---0.972478
+2023-07-18 18:07:51,547 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 18:07:51 Valid----    INRIA_Lytro, PSNR---31.550022, SSIM---0.950534
+2023-07-18 18:08:19,792 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 18:08:19 Valid----Stanford_Gantry, PSNR---31.223010, SSIM---0.948494
+2023-07-18 18:08:19,793 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 18:08:19 Average_Result: Average_PSNR---32.199652, Average_SSIM---0.941791
+2023-07-18 19:09:35,271 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 19:09:35 Valid----           EPFL, PSNR---29.611477, SSIM---0.918890
+2023-07-18 19:10:31,183 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 19:10:31 Valid----        HCI_new, PSNR---31.375268, SSIM---0.920685
+2023-07-18 19:11:34,087 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 19:11:34 Valid----        HCI_old, PSNR---37.584630, SSIM---0.973052
+2023-07-18 19:12:49,320 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 19:12:49 Valid----    INRIA_Lytro, PSNR---31.766202, SSIM---0.951273
+2023-07-18 19:13:17,634 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 19:13:17 Valid----Stanford_Gantry, PSNR---31.523015, SSIM---0.952376
+2023-07-18 19:13:17,634 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 19:13:17 Average_Result: Average_PSNR---32.372118, Average_SSIM---0.943255
+2023-07-18 19:13:17,791 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_14 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-18 19:13:17,915 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_14 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_14_model.pth
+2023-07-18 19:13:17,917 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 15 /75:
+2023-07-18 20:27:05,121 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 20:27:05 Valid----           EPFL, PSNR---29.506900, SSIM---0.920390
+2023-07-18 20:28:01,796 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 20:28:01 Valid----        HCI_new, PSNR---31.425558, SSIM---0.921510
+2023-07-18 20:29:06,024 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 20:29:06 Valid----        HCI_old, PSNR---37.584381, SSIM---0.973229
+2023-07-18 20:30:21,657 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 20:30:21 Valid----    INRIA_Lytro, PSNR---31.569391, SSIM---0.952032
+2023-07-18 20:30:50,213 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 20:30:50 Valid----Stanford_Gantry, PSNR---31.606696, SSIM---0.952940
+2023-07-18 20:30:50,214 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 20:30:50 Average_Result: Average_PSNR---32.338585, Average_SSIM---0.944020
+2023-07-18 21:32:10,553 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 21:32:10 Valid----           EPFL, PSNR---29.489611, SSIM---0.920472
+2023-07-18 21:33:06,807 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 21:33:06 Valid----        HCI_new, PSNR---31.420737, SSIM---0.921240
+2023-07-18 21:34:09,695 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 21:34:09 Valid----        HCI_old, PSNR---37.639866, SSIM---0.973279
+2023-07-18 21:35:25,015 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 21:35:25 Valid----    INRIA_Lytro, PSNR---31.462684, SSIM---0.952180
+2023-07-18 21:35:53,360 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 21:35:53 Valid----Stanford_Gantry, PSNR---31.619305, SSIM---0.952951
+2023-07-18 21:35:53,361 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 21:35:53 Average_Result: Average_PSNR---32.326441, Average_SSIM---0.944024
+2023-07-18 21:35:53,499 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_15 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_15_model.pth
+2023-07-18 21:35:53,500 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 16 /75:
+2023-07-18 22:49:48,574 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 22:49:48 Valid----           EPFL, PSNR---29.651508, SSIM---0.921528
+2023-07-18 22:50:44,328 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 22:50:44 Valid----        HCI_new, PSNR---31.460234, SSIM---0.922304
+2023-07-18 22:51:47,015 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 22:51:47 Valid----        HCI_old, PSNR---37.786107, SSIM---0.974344
+2023-07-18 22:53:02,319 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 22:53:02 Valid----    INRIA_Lytro, PSNR---31.772926, SSIM---0.953107
+2023-07-18 22:53:30,641 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 22:53:30 Valid----Stanford_Gantry, PSNR---31.703318, SSIM---0.954085
+2023-07-18 22:53:30,642 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 22:53:30 Average_Result: Average_PSNR---32.474819, Average_SSIM---0.945074
+2023-07-18 22:53:30,810 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_16 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-18 23:54:43,262 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 23:54:43 Valid----           EPFL, PSNR---29.683257, SSIM---0.921333
+2023-07-18 23:55:39,158 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 23:55:39 Valid----        HCI_new, PSNR---31.476216, SSIM---0.922394
+2023-07-18 23:56:42,015 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 23:56:42 Valid----        HCI_old, PSNR---37.786362, SSIM---0.974185
+2023-07-18 23:57:57,383 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 23:57:57 Valid----    INRIA_Lytro, PSNR---31.798040, SSIM---0.952974
+2023-07-18 23:58:25,862 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 23:58:25 Valid----Stanford_Gantry, PSNR---31.807688, SSIM---0.954567
+2023-07-18 23:58:25,863 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 18 23:58:25 Average_Result: Average_PSNR---32.510313, Average_SSIM---0.945091
+2023-07-18 23:58:26,018 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_16 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-18 23:58:26,151 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_16 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_16_model.pth
+2023-07-18 23:58:26,153 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 17 /75:
+2023-07-19 01:12:19,372 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 01:12:19 Valid----           EPFL, PSNR---29.620268, SSIM---0.922122
+2023-07-19 01:13:15,517 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 01:13:15 Valid----        HCI_new, PSNR---31.510414, SSIM---0.922870
+2023-07-19 01:14:20,088 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 01:14:20 Valid----        HCI_old, PSNR---37.843834, SSIM---0.974543
+2023-07-19 01:15:36,086 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 01:15:36 Valid----    INRIA_Lytro, PSNR---31.699584, SSIM---0.953277
+2023-07-19 01:16:04,993 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 01:16:04 Valid----Stanford_Gantry, PSNR---31.855649, SSIM---0.955349
+2023-07-19 01:16:04,994 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 01:16:04 Average_Result: Average_PSNR---32.505950, Average_SSIM---0.945632
+2023-07-19 02:17:42,042 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 02:17:42 Valid----           EPFL, PSNR---29.554616, SSIM---0.921621
+2023-07-19 02:18:38,164 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 02:18:38 Valid----        HCI_new, PSNR---31.513351, SSIM---0.922950
+2023-07-19 02:19:41,635 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 02:19:41 Valid----        HCI_old, PSNR---37.809552, SSIM---0.974318
+2023-07-19 02:20:57,425 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 02:20:57 Valid----    INRIA_Lytro, PSNR---31.552966, SSIM---0.953026
+2023-07-19 02:21:25,855 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 02:21:25 Valid----Stanford_Gantry, PSNR---31.839749, SSIM---0.955442
+2023-07-19 02:21:25,856 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 02:21:25 Average_Result: Average_PSNR---32.454047, Average_SSIM---0.945472
+2023-07-19 02:21:25,995 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_17 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_17_model.pth
+2023-07-19 02:21:25,997 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 18 /75:
+2023-07-19 03:35:20,555 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 03:35:20 Valid----           EPFL, PSNR---29.543131, SSIM---0.921682
+2023-07-19 03:36:16,820 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 03:36:16 Valid----        HCI_new, PSNR---31.498893, SSIM---0.922912
+2023-07-19 03:37:21,016 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 03:37:21 Valid----        HCI_old, PSNR---37.773949, SSIM---0.974352
+2023-07-19 03:38:37,466 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 03:38:37 Valid----    INRIA_Lytro, PSNR---31.562535, SSIM---0.953064
+2023-07-19 03:39:06,084 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 03:39:06 Valid----Stanford_Gantry, PSNR---31.841135, SSIM---0.955410
+2023-07-19 03:39:06,085 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 03:39:06 Average_Result: Average_PSNR---32.443929, Average_SSIM---0.945484
+2023-07-19 04:40:26,432 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 04:40:26 Valid----           EPFL, PSNR---29.751505, SSIM---0.921980
+2023-07-19 04:41:22,669 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 04:41:22 Valid----        HCI_new, PSNR---31.532512, SSIM---0.922891
+2023-07-19 04:42:25,787 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 04:42:25 Valid----        HCI_old, PSNR---37.882500, SSIM---0.974618
+2023-07-19 04:43:41,973 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 04:43:41 Valid----    INRIA_Lytro, PSNR---31.789872, SSIM---0.953185
+2023-07-19 04:44:10,614 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 04:44:10 Valid----Stanford_Gantry, PSNR---31.832402, SSIM---0.954953
+2023-07-19 04:44:10,615 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 04:44:10 Average_Result: Average_PSNR---32.557758, Average_SSIM---0.945525
+2023-07-19 04:44:10,760 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_18 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-19 04:44:10,887 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_18 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_18_model.pth
+2023-07-19 04:44:10,888 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 19 /75:
+2023-07-19 05:57:58,827 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 05:57:58 Valid----           EPFL, PSNR---29.620831, SSIM---0.921629
+2023-07-19 05:58:55,275 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 05:58:55 Valid----        HCI_new, PSNR---31.507299, SSIM---0.922860
+2023-07-19 05:59:58,380 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 05:59:58 Valid----        HCI_old, PSNR---37.822089, SSIM---0.974280
+2023-07-19 06:01:14,122 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 06:01:14 Valid----    INRIA_Lytro, PSNR---31.627764, SSIM---0.953002
+2023-07-19 06:01:42,570 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 06:01:42 Valid----Stanford_Gantry, PSNR---31.956156, SSIM---0.955942
+2023-07-19 06:01:42,571 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 06:01:42 Average_Result: Average_PSNR---32.506827, Average_SSIM---0.945543
+2023-07-19 07:03:12,027 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 07:03:12 Valid----           EPFL, PSNR---29.646971, SSIM---0.922153
+2023-07-19 07:04:08,083 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 07:04:08 Valid----        HCI_new, PSNR---31.529525, SSIM---0.923109
+2023-07-19 07:05:11,396 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 07:05:11 Valid----        HCI_old, PSNR---37.838309, SSIM---0.974811
+2023-07-19 07:06:27,456 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 07:06:27 Valid----    INRIA_Lytro, PSNR---31.650147, SSIM---0.953471
+2023-07-19 07:06:55,874 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 07:06:55 Valid----Stanford_Gantry, PSNR---31.904045, SSIM---0.955844
+2023-07-19 07:06:55,874 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 07:06:55 Average_Result: Average_PSNR---32.513800, Average_SSIM---0.945877
+2023-07-19 07:06:56,019 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_19 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_19_model.pth
+2023-07-19 07:06:56,021 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 20 /75:
+2023-07-19 08:25:54,862 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 08:25:54 Valid----           EPFL, PSNR---29.730271, SSIM---0.922493
+2023-07-19 08:26:51,323 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 08:26:51 Valid----        HCI_new, PSNR---31.541498, SSIM---0.923630
+2023-07-19 08:27:54,374 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 08:27:54 Valid----        HCI_old, PSNR---37.806538, SSIM---0.974619
+2023-07-19 08:29:09,949 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 08:29:09 Valid----    INRIA_Lytro, PSNR---31.844049, SSIM---0.953737
+2023-07-19 08:29:38,570 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 08:29:38 Valid----Stanford_Gantry, PSNR---31.891345, SSIM---0.955901
+2023-07-19 08:29:38,570 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 08:29:38 Average_Result: Average_PSNR---32.562740, Average_SSIM---0.946076
+2023-07-19 08:29:38,726 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_20 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-19 09:30:59,072 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 09:30:59 Valid----           EPFL, PSNR---29.744195, SSIM---0.922341
+2023-07-19 09:31:55,287 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 09:31:55 Valid----        HCI_new, PSNR---31.535916, SSIM---0.923162
+2023-07-19 09:32:58,990 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 09:32:58 Valid----        HCI_old, PSNR---37.864960, SSIM---0.974764
+2023-07-19 09:34:14,761 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 09:34:14 Valid----    INRIA_Lytro, PSNR---31.859892, SSIM---0.953399
+2023-07-19 09:34:43,532 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 09:34:43 Valid----Stanford_Gantry, PSNR---31.923859, SSIM---0.955685
+2023-07-19 09:34:43,533 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 09:34:43 Average_Result: Average_PSNR---32.585764, Average_SSIM---0.945870
+2023-07-19 09:34:43,688 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_20 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-19 09:34:43,813 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_20 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_20_model.pth
+2023-07-19 09:34:43,815 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 21 /75:
+2023-07-19 10:49:01,209 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 10:49:01 Valid----           EPFL, PSNR---29.786059, SSIM---0.921761
+2023-07-19 10:49:57,342 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 10:49:57 Valid----        HCI_new, PSNR---31.554595, SSIM---0.923248
+2023-07-19 10:51:00,310 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 10:51:00 Valid----        HCI_old, PSNR---37.797850, SSIM---0.974260
+2023-07-19 10:52:16,414 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 10:52:16 Valid----    INRIA_Lytro, PSNR---31.926305, SSIM---0.953219
+2023-07-19 10:52:45,311 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 10:52:45 Valid----Stanford_Gantry, PSNR---31.913719, SSIM---0.955711
+2023-07-19 10:52:45,312 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 10:52:45 Average_Result: Average_PSNR---32.595706, Average_SSIM---0.945640
+2023-07-19 10:52:45,478 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_21 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-19 11:54:03,891 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 11:54:03 Valid----           EPFL, PSNR---29.738248, SSIM---0.922473
+2023-07-19 11:54:59,953 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 11:54:59 Valid----        HCI_new, PSNR---31.545402, SSIM---0.923092
+2023-07-19 11:56:04,221 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 11:56:04 Valid----        HCI_old, PSNR---37.882512, SSIM---0.974605
+2023-07-19 11:57:20,022 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 11:57:20 Valid----    INRIA_Lytro, PSNR---31.798291, SSIM---0.953472
+2023-07-19 11:57:48,746 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 11:57:48 Valid----Stanford_Gantry, PSNR---31.952485, SSIM---0.955887
+2023-07-19 11:57:48,747 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 11:57:48 Average_Result: Average_PSNR---32.583388, Average_SSIM---0.945906
+2023-07-19 11:57:48,906 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_21 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_21_model.pth
+2023-07-19 11:57:48,907 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 22 /75:
+2023-07-19 13:12:08,240 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 13:12:08 Valid----           EPFL, PSNR---29.804146, SSIM---0.922863
+2023-07-19 13:13:04,436 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 13:13:04 Valid----        HCI_new, PSNR---31.556365, SSIM---0.923478
+2023-07-19 13:14:07,587 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 13:14:07 Valid----        HCI_old, PSNR---37.844226, SSIM---0.974586
+2023-07-19 13:15:24,604 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 13:15:24 Valid----    INRIA_Lytro, PSNR---31.954328, SSIM---0.953667
+2023-07-19 13:15:52,965 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 13:15:52 Valid----Stanford_Gantry, PSNR---32.000790, SSIM---0.956522
+2023-07-19 13:15:52,965 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 13:15:52 Average_Result: Average_PSNR---32.631971, Average_SSIM---0.946223
+2023-07-19 13:15:53,255 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_22 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-19 14:18:51,580 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 14:18:51 Valid----           EPFL, PSNR---29.691082, SSIM---0.922583
+2023-07-19 14:20:19,121 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 14:20:19 Valid----        HCI_new, PSNR---31.561323, SSIM---0.923621
+2023-07-19 14:21:24,384 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 14:21:24 Valid----        HCI_old, PSNR---37.881666, SSIM---0.974827
+2023-07-19 14:22:40,342 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 14:22:40 Valid----    INRIA_Lytro, PSNR---31.814435, SSIM---0.953708
+2023-07-19 14:23:08,881 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 14:23:08 Valid----Stanford_Gantry, PSNR---31.989584, SSIM---0.956457
+2023-07-19 14:23:08,881 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 14:23:08 Average_Result: Average_PSNR---32.587618, Average_SSIM---0.946239
+2023-07-19 14:23:09,021 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_22 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_22_model.pth
+2023-07-19 14:23:09,022 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 23 /75:
+2023-07-19 15:44:02,811 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 15:44:02 Valid----           EPFL, PSNR---29.791250, SSIM---0.922296
+2023-07-19 15:44:59,632 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 15:44:59 Valid----        HCI_new, PSNR---31.536942, SSIM---0.922964
+2023-07-19 15:46:03,115 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 15:46:03 Valid----        HCI_old, PSNR---37.834335, SSIM---0.974331
+2023-07-19 15:47:19,006 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 15:47:19 Valid----    INRIA_Lytro, PSNR---31.887095, SSIM---0.953219
+2023-07-19 15:47:47,610 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 15:47:47 Valid----Stanford_Gantry, PSNR---31.950966, SSIM---0.955756
+2023-07-19 15:47:47,611 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 15:47:47 Average_Result: Average_PSNR---32.600117, Average_SSIM---0.945713
+2023-07-19 16:49:21,198 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 16:49:21 Valid----           EPFL, PSNR---29.689710, SSIM---0.922447
+2023-07-19 16:50:17,779 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 16:50:17 Valid----        HCI_new, PSNR---31.533029, SSIM---0.922894
+2023-07-19 16:51:21,271 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 16:51:21 Valid----        HCI_old, PSNR---37.831892, SSIM---0.974429
+2023-07-19 16:52:38,646 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 16:52:38 Valid----    INRIA_Lytro, PSNR---31.788198, SSIM---0.953404
+2023-07-19 16:53:07,709 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 16:53:07 Valid----Stanford_Gantry, PSNR---32.014778, SSIM---0.956032
+2023-07-19 16:53:07,710 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 16:53:07 Average_Result: Average_PSNR---32.571521, Average_SSIM---0.945841
+2023-07-19 16:53:08,029 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_23 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_23_model.pth
+2023-07-19 16:53:08,031 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 24 /75:
+2023-07-19 18:07:01,750 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 18:07:01 Valid----           EPFL, PSNR---29.748303, SSIM---0.922723
+2023-07-19 18:07:57,786 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 18:07:57 Valid----        HCI_new, PSNR---31.563013, SSIM---0.923439
+2023-07-19 18:09:00,874 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 18:09:00 Valid----        HCI_old, PSNR---37.856732, SSIM---0.974547
+2023-07-19 18:10:16,696 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 18:10:16 Valid----    INRIA_Lytro, PSNR---31.833177, SSIM---0.953530
+2023-07-19 18:10:45,161 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 18:10:45 Valid----Stanford_Gantry, PSNR---32.025670, SSIM---0.956463
+2023-07-19 18:10:45,162 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 18:10:45 Average_Result: Average_PSNR---32.605379, Average_SSIM---0.946140
+2023-07-19 19:12:18,370 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 19:12:18 Valid----           EPFL, PSNR---29.735100, SSIM---0.922533
+2023-07-19 19:13:14,919 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 19:13:14 Valid----        HCI_new, PSNR---31.560104, SSIM---0.923224
+2023-07-19 19:14:18,759 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 19:14:18 Valid----        HCI_old, PSNR---37.886272, SSIM---0.974565
+2023-07-19 19:15:34,747 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 19:15:34 Valid----    INRIA_Lytro, PSNR---31.872308, SSIM---0.953577
+2023-07-19 19:16:03,611 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 19:16:03 Valid----Stanford_Gantry, PSNR---31.981322, SSIM---0.956321
+2023-07-19 19:16:03,611 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 19:16:03 Average_Result: Average_PSNR---32.607021, Average_SSIM---0.946044
+2023-07-19 19:16:03,750 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_24 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_24_model.pth
+2023-07-19 19:16:03,751 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 25 /75:
+2023-07-19 20:29:56,324 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 20:29:56 Valid----           EPFL, PSNR---29.791804, SSIM---0.922666
+2023-07-19 20:30:53,331 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 20:30:53 Valid----        HCI_new, PSNR---31.570067, SSIM---0.923343
+2023-07-19 20:31:57,560 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 20:31:57 Valid----        HCI_old, PSNR---37.903507, SSIM---0.974805
+2023-07-19 20:33:13,200 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 20:33:13 Valid----    INRIA_Lytro, PSNR---31.876075, SSIM---0.953402
+2023-07-19 20:33:41,901 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 20:33:41 Valid----Stanford_Gantry, PSNR---31.950741, SSIM---0.955613
+2023-07-19 20:33:41,902 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 20:33:41 Average_Result: Average_PSNR---32.618439, Average_SSIM---0.945966
+2023-07-19 21:35:01,125 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 21:35:01 Valid----           EPFL, PSNR---29.793284, SSIM---0.922661
+2023-07-19 21:35:57,855 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 21:35:57 Valid----        HCI_new, PSNR---31.557739, SSIM---0.923223
+2023-07-19 21:37:01,573 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 21:37:01 Valid----        HCI_old, PSNR---37.879359, SSIM---0.974547
+2023-07-19 21:38:17,889 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 21:38:17 Valid----    INRIA_Lytro, PSNR---31.944215, SSIM---0.953608
+2023-07-19 21:38:46,759 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 21:38:46 Valid----Stanford_Gantry, PSNR---32.012191, SSIM---0.956459
+2023-07-19 21:38:46,760 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 21:38:46 Average_Result: Average_PSNR---32.637358, Average_SSIM---0.946100
+2023-07-19 21:38:46,917 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_25 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-19 21:38:47,043 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_25 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_25_model.pth
+2023-07-19 21:38:47,044 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 26 /75:
+2023-07-19 22:52:47,159 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 22:52:47 Valid----           EPFL, PSNR---29.756507, SSIM---0.922939
+2023-07-19 22:53:43,511 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 22:53:43 Valid----        HCI_new, PSNR---31.553685, SSIM---0.923395
+2023-07-19 22:54:46,627 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 22:54:46 Valid----        HCI_old, PSNR---37.848009, SSIM---0.974461
+2023-07-19 22:56:02,473 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 22:56:02 Valid----    INRIA_Lytro, PSNR---31.795885, SSIM---0.953587
+2023-07-19 22:56:31,295 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 22:56:31 Valid----Stanford_Gantry, PSNR---32.005823, SSIM---0.956611
+2023-07-19 22:56:31,296 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 22:56:31 Average_Result: Average_PSNR---32.591982, Average_SSIM---0.946199
+2023-07-19 23:57:59,884 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 23:57:59 Valid----           EPFL, PSNR---29.658334, SSIM---0.922948
+2023-07-19 23:58:56,196 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 19 23:58:56 Valid----        HCI_new, PSNR---31.546231, SSIM---0.923519
+2023-07-20 00:00:00,782 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 00:00:00 Valid----        HCI_old, PSNR---37.875602, SSIM---0.974775
+2023-07-20 00:01:16,893 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 00:01:16 Valid----    INRIA_Lytro, PSNR---31.777729, SSIM---0.953794
+2023-07-20 00:01:45,393 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 00:01:45 Valid----Stanford_Gantry, PSNR---32.025991, SSIM---0.956766
+2023-07-20 00:01:45,394 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 00:01:45 Average_Result: Average_PSNR---32.576778, Average_SSIM---0.946360
+2023-07-20 00:01:45,547 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_26 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_26_model.pth
+2023-07-20 00:01:45,549 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 27 /75:
+2023-07-20 01:15:50,301 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 01:15:50 Valid----           EPFL, PSNR---29.864101, SSIM---0.922847
+2023-07-20 01:16:46,390 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 01:16:46 Valid----        HCI_new, PSNR---31.571802, SSIM---0.923544
+2023-07-20 01:17:49,536 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 01:17:49 Valid----        HCI_old, PSNR---37.888933, SSIM---0.974469
+2023-07-20 01:19:05,177 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 01:19:05 Valid----    INRIA_Lytro, PSNR---31.916322, SSIM---0.953372
+2023-07-20 01:19:33,583 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 01:19:33 Valid----Stanford_Gantry, PSNR---31.940867, SSIM---0.955873
+2023-07-20 01:19:33,584 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 01:19:33 Average_Result: Average_PSNR---32.636405, Average_SSIM---0.946021
+2023-07-20 02:20:56,181 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 02:20:56 Valid----           EPFL, PSNR---29.776535, SSIM---0.923336
+2023-07-20 02:21:53,168 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 02:21:53 Valid----        HCI_new, PSNR---31.559214, SSIM---0.923241
+2023-07-20 02:23:15,935 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 02:23:15 Valid----        HCI_old, PSNR---37.925149, SSIM---0.974837
+2023-07-20 02:24:54,437 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 02:24:54 Valid----    INRIA_Lytro, PSNR---31.816813, SSIM---0.953786
+2023-07-20 02:25:37,761 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 02:25:37 Valid----Stanford_Gantry, PSNR---31.932386, SSIM---0.955511
+2023-07-20 02:25:37,763 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 02:25:37 Average_Result: Average_PSNR---32.602020, Average_SSIM---0.946142
+2023-07-20 02:25:37,911 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_27 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_27_model.pth
+2023-07-20 02:25:37,912 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 28 /75:
+2023-07-20 03:47:15,991 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 03:47:15 Valid----           EPFL, PSNR---29.868700, SSIM---0.923524
+2023-07-20 03:48:12,712 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 03:48:12 Valid----        HCI_new, PSNR---31.574202, SSIM---0.923830
+2023-07-20 03:49:15,932 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 03:49:15 Valid----        HCI_old, PSNR---37.942209, SSIM---0.974932
+2023-07-20 03:50:31,572 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 03:50:31 Valid----    INRIA_Lytro, PSNR---32.020835, SSIM---0.953910
+2023-07-20 03:51:00,118 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 03:51:00 Valid----Stanford_Gantry, PSNR---32.080452, SSIM---0.957285
+2023-07-20 03:51:00,119 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 03:51:00 Average_Result: Average_PSNR---32.697280, Average_SSIM---0.946696
+2023-07-20 03:51:00,289 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_28 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-20 04:52:30,676 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 04:52:30 Valid----           EPFL, PSNR---29.721385, SSIM---0.923045
+2023-07-20 04:53:27,442 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 04:53:27 Valid----        HCI_new, PSNR---31.587308, SSIM---0.923445
+2023-07-20 04:54:30,826 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 04:54:30 Valid----        HCI_old, PSNR---37.888022, SSIM---0.974702
+2023-07-20 04:55:46,598 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 04:55:46 Valid----    INRIA_Lytro, PSNR---31.739534, SSIM---0.953762
+2023-07-20 04:56:15,185 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 04:56:15 Valid----Stanford_Gantry, PSNR---31.994999, SSIM---0.955812
+2023-07-20 04:56:15,185 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 04:56:15 Average_Result: Average_PSNR---32.586250, Average_SSIM---0.946153
+2023-07-20 04:56:15,324 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_28 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_28_model.pth
+2023-07-20 04:56:15,325 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 29 /75:
+2023-07-20 06:11:56,434 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 06:11:56 Valid----           EPFL, PSNR---29.885147, SSIM---0.923086
+2023-07-20 06:12:53,179 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 06:12:53 Valid----        HCI_new, PSNR---31.567210, SSIM---0.923354
+2023-07-20 06:13:56,664 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 06:13:56 Valid----        HCI_old, PSNR---37.894293, SSIM---0.974696
+2023-07-20 06:15:12,755 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 06:15:12 Valid----    INRIA_Lytro, PSNR---32.020962, SSIM---0.953953
+2023-07-20 06:15:42,102 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 06:15:42 Valid----Stanford_Gantry, PSNR---31.991870, SSIM---0.955931
+2023-07-20 06:15:42,106 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 06:15:42 Average_Result: Average_PSNR---32.671897, Average_SSIM---0.946204
+2023-07-20 07:17:09,305 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 07:17:09 Valid----           EPFL, PSNR---29.705383, SSIM---0.922939
+2023-07-20 07:18:06,042 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 07:18:06 Valid----        HCI_new, PSNR---31.578622, SSIM---0.923539
+2023-07-20 07:19:09,901 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 07:19:09 Valid----        HCI_old, PSNR---37.885485, SSIM---0.974641
+2023-07-20 07:20:26,589 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 07:20:26 Valid----    INRIA_Lytro, PSNR---31.742177, SSIM---0.953788
+2023-07-20 07:20:55,725 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 07:20:55 Valid----Stanford_Gantry, PSNR---31.939923, SSIM---0.955549
+2023-07-20 07:20:55,726 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 07:20:55 Average_Result: Average_PSNR---32.570318, Average_SSIM---0.946091
+2023-07-20 07:20:55,865 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_29 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_29_model.pth
+2023-07-20 07:20:55,866 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 30 /75:
+2023-07-20 08:34:55,550 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 08:34:55 Valid----           EPFL, PSNR---29.832184, SSIM---0.923435
+2023-07-20 08:35:51,763 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 08:35:51 Valid----        HCI_new, PSNR---31.581392, SSIM---0.923799
+2023-07-20 08:36:54,943 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 08:36:54 Valid----        HCI_old, PSNR---37.943501, SSIM---0.974993
+2023-07-20 08:38:10,584 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 08:38:10 Valid----    INRIA_Lytro, PSNR---31.968334, SSIM---0.953983
+2023-07-20 08:38:39,102 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 08:38:39 Valid----Stanford_Gantry, PSNR---32.014264, SSIM---0.956819
+2023-07-20 08:38:39,103 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 08:38:39 Average_Result: Average_PSNR---32.667935, Average_SSIM---0.946606
+2023-07-20 09:40:11,389 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 09:40:11 Valid----           EPFL, PSNR---29.856240, SSIM---0.923681
+2023-07-20 09:41:08,462 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 09:41:08 Valid----        HCI_new, PSNR---31.589771, SSIM---0.923992
+2023-07-20 09:42:13,460 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 09:42:13 Valid----        HCI_old, PSNR---37.964698, SSIM---0.974899
+2023-07-20 09:43:29,867 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 09:43:29 Valid----    INRIA_Lytro, PSNR---31.970052, SSIM---0.954155
+2023-07-20 09:43:58,352 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 09:43:58 Valid----Stanford_Gantry, PSNR---32.007269, SSIM---0.956977
+2023-07-20 09:43:58,353 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 09:43:58 Average_Result: Average_PSNR---32.677606, Average_SSIM---0.946741
+2023-07-20 09:43:58,490 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_30 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_30_model.pth
+2023-07-20 09:43:58,491 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 31 /75:
+2023-07-20 10:57:55,185 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 10:57:55 Valid----           EPFL, PSNR---29.917697, SSIM---0.923652
+2023-07-20 10:58:51,374 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 10:58:51 Valid----        HCI_new, PSNR---31.632720, SSIM---0.924349
+2023-07-20 10:59:55,781 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 10:59:55 Valid----        HCI_old, PSNR---37.980295, SSIM---0.975003
+2023-07-20 11:01:11,723 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 11:01:11 Valid----    INRIA_Lytro, PSNR---32.079231, SSIM---0.954279
+2023-07-20 11:01:40,179 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 11:01:40 Valid----Stanford_Gantry, PSNR---32.082272, SSIM---0.956876
+2023-07-20 11:01:40,180 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 11:01:40 Average_Result: Average_PSNR---32.738443, Average_SSIM---0.946832
+2023-07-20 11:01:40,377 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_31 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-20 12:02:55,625 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 12:02:55 Valid----           EPFL, PSNR---29.886002, SSIM---0.923734
+2023-07-20 12:03:51,826 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 12:03:51 Valid----        HCI_new, PSNR---31.628147, SSIM---0.924262
+2023-07-20 12:04:54,928 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 12:04:54 Valid----        HCI_old, PSNR---37.972213, SSIM---0.975118
+2023-07-20 12:06:10,456 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 12:06:10 Valid----    INRIA_Lytro, PSNR---32.038360, SSIM---0.954257
+2023-07-20 12:06:39,059 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 12:06:39 Valid----Stanford_Gantry, PSNR---32.137223, SSIM---0.957557
+2023-07-20 12:06:39,059 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 12:06:39 Average_Result: Average_PSNR---32.732389, Average_SSIM---0.946985
+2023-07-20 12:06:39,310 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_31 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_31_model.pth
+2023-07-20 12:06:39,312 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 32 /75:
+2023-07-20 13:20:52,105 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 13:20:52 Valid----           EPFL, PSNR---29.830134, SSIM---0.923804
+2023-07-20 13:21:48,300 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 13:21:48 Valid----        HCI_new, PSNR---31.635245, SSIM---0.924439
+2023-07-20 13:22:51,627 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 13:22:51 Valid----        HCI_old, PSNR---37.989402, SSIM---0.975111
+2023-07-20 13:24:08,255 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 13:24:08 Valid----    INRIA_Lytro, PSNR---31.998709, SSIM---0.954335
+2023-07-20 13:24:36,920 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 13:24:36 Valid----Stanford_Gantry, PSNR---32.142085, SSIM---0.957518
+2023-07-20 13:24:36,921 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 13:24:36 Average_Result: Average_PSNR---32.719115, Average_SSIM---0.947041
+2023-07-20 14:26:30,022 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 14:26:30 Valid----           EPFL, PSNR---29.881527, SSIM---0.923840
+2023-07-20 14:27:26,151 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 14:27:26 Valid----        HCI_new, PSNR---31.625804, SSIM---0.924183
+2023-07-20 14:28:29,453 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 14:28:29 Valid----        HCI_old, PSNR---38.002958, SSIM---0.975163
+2023-07-20 14:29:45,685 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 14:29:45 Valid----    INRIA_Lytro, PSNR---32.051162, SSIM---0.954331
+2023-07-20 14:30:14,126 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 14:30:14 Valid----Stanford_Gantry, PSNR---32.149910, SSIM---0.957351
+2023-07-20 14:30:14,127 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 14:30:14 Average_Result: Average_PSNR---32.742272, Average_SSIM---0.946974
+2023-07-20 14:30:14,286 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_32 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-20 14:30:14,411 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_32 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_32_model.pth
+2023-07-20 14:30:14,412 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 33 /75:
+2023-07-20 15:44:18,737 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 15:44:18 Valid----           EPFL, PSNR---29.825330, SSIM---0.923825
+2023-07-20 15:45:14,724 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 15:45:14 Valid----        HCI_new, PSNR---31.631766, SSIM---0.924377
+2023-07-20 15:46:17,810 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 15:46:17 Valid----        HCI_old, PSNR---37.997852, SSIM---0.975110
+2023-07-20 15:47:33,501 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 15:47:33 Valid----    INRIA_Lytro, PSNR---31.925146, SSIM---0.954280
+2023-07-20 15:48:01,867 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 15:48:01 Valid----Stanford_Gantry, PSNR---32.151936, SSIM---0.957632
+2023-07-20 15:48:01,868 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 15:48:01 Average_Result: Average_PSNR---32.706406, Average_SSIM---0.947045
+2023-07-20 16:49:14,382 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 16:49:14 Valid----           EPFL, PSNR---29.812254, SSIM---0.923872
+2023-07-20 16:50:10,639 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 16:50:10 Valid----        HCI_new, PSNR---31.643583, SSIM---0.924534
+2023-07-20 16:51:14,035 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 16:51:14 Valid----        HCI_old, PSNR---37.978312, SSIM---0.974976
+2023-07-20 16:52:30,473 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 16:52:30 Valid----    INRIA_Lytro, PSNR---32.012612, SSIM---0.954501
+2023-07-20 16:52:59,207 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 16:52:59 Valid----Stanford_Gantry, PSNR---32.163588, SSIM---0.957730
+2023-07-20 16:52:59,208 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 16:52:59 Average_Result: Average_PSNR---32.722070, Average_SSIM---0.947122
+2023-07-20 16:52:59,348 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_33 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_33_model.pth
+2023-07-20 16:52:59,350 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 34 /75:
+2023-07-20 18:06:58,820 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 18:06:58 Valid----           EPFL, PSNR---29.887344, SSIM---0.924015
+2023-07-20 18:07:55,924 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 18:07:55 Valid----        HCI_new, PSNR---31.626175, SSIM---0.924350
+2023-07-20 18:08:59,020 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 18:08:59 Valid----        HCI_old, PSNR---37.984318, SSIM---0.975079
+2023-07-20 18:10:14,440 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 18:10:14 Valid----    INRIA_Lytro, PSNR---32.023309, SSIM---0.954303
+2023-07-20 18:10:42,834 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 18:10:42 Valid----Stanford_Gantry, PSNR---32.179108, SSIM---0.957748
+2023-07-20 18:10:42,835 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 18:10:42 Average_Result: Average_PSNR---32.740051, Average_SSIM---0.947099
+2023-07-20 19:12:07,121 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 19:12:07 Valid----           EPFL, PSNR---29.835817, SSIM---0.923795
+2023-07-20 19:13:03,154 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 19:13:03 Valid----        HCI_new, PSNR---31.616613, SSIM---0.924296
+2023-07-20 19:14:06,251 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 19:14:06 Valid----        HCI_old, PSNR---38.020591, SSIM---0.975120
+2023-07-20 19:15:21,747 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 19:15:21 Valid----    INRIA_Lytro, PSNR---31.946643, SSIM---0.954327
+2023-07-20 19:15:50,139 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 19:15:50 Valid----Stanford_Gantry, PSNR---32.140433, SSIM---0.957350
+2023-07-20 19:15:50,140 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 19:15:50 Average_Result: Average_PSNR---32.712019, Average_SSIM---0.946978
+2023-07-20 19:15:50,276 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_34 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_34_model.pth
+2023-07-20 19:15:50,277 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 35 /75:
+2023-07-20 20:29:52,402 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 20:29:52 Valid----           EPFL, PSNR---29.839314, SSIM---0.923517
+2023-07-20 20:30:48,339 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 20:30:48 Valid----        HCI_new, PSNR---31.632161, SSIM---0.924371
+2023-07-20 20:31:51,461 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 20:31:51 Valid----        HCI_old, PSNR---37.991448, SSIM---0.975081
+2023-07-20 20:33:06,971 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 20:33:06 Valid----    INRIA_Lytro, PSNR---32.023298, SSIM---0.954266
+2023-07-20 20:33:35,404 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 20:33:35 Valid----Stanford_Gantry, PSNR---32.090909, SSIM---0.957220
+2023-07-20 20:33:35,405 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 20:33:35 Average_Result: Average_PSNR---32.715426, Average_SSIM---0.946891
+2023-07-20 21:35:32,116 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 21:35:32 Valid----           EPFL, PSNR---29.834269, SSIM---0.923807
+2023-07-20 21:36:28,226 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 21:36:28 Valid----        HCI_new, PSNR---31.648248, SSIM---0.924585
+2023-07-20 21:37:31,304 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 21:37:31 Valid----        HCI_old, PSNR---38.001095, SSIM---0.975185
+2023-07-20 21:38:46,824 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 21:38:46 Valid----    INRIA_Lytro, PSNR---31.970430, SSIM---0.954326
+2023-07-20 21:39:15,288 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 21:39:15 Valid----Stanford_Gantry, PSNR---32.168810, SSIM---0.957581
+2023-07-20 21:39:15,288 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 21:39:15 Average_Result: Average_PSNR---32.724570, Average_SSIM---0.947097
+2023-07-20 21:39:15,427 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_35 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_35_model.pth
+2023-07-20 21:39:15,428 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 36 /75:
+2023-07-20 22:53:14,074 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 22:53:14 Valid----           EPFL, PSNR---29.800906, SSIM---0.923486
+2023-07-20 22:54:10,155 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 22:54:10 Valid----        HCI_new, PSNR---31.612145, SSIM---0.923878
+2023-07-20 22:55:13,409 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 22:55:13 Valid----        HCI_old, PSNR---38.012847, SSIM---0.975091
+2023-07-20 22:56:29,457 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 22:56:29 Valid----    INRIA_Lytro, PSNR---31.928126, SSIM---0.954157
+2023-07-20 22:56:58,057 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 22:56:58 Valid----Stanford_Gantry, PSNR---32.127292, SSIM---0.956755
+2023-07-20 22:56:58,058 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 22:56:58 Average_Result: Average_PSNR---32.696263, Average_SSIM---0.946673
+2023-07-20 23:58:07,459 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 23:58:07 Valid----           EPFL, PSNR---29.870608, SSIM---0.923855
+2023-07-20 23:59:03,595 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 20 23:59:03 Valid----        HCI_new, PSNR---31.651957, SSIM---0.924368
+2023-07-21 00:00:06,715 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 00:00:06 Valid----        HCI_old, PSNR---38.050172, SSIM---0.975292
+2023-07-21 00:01:22,526 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 00:01:22 Valid----    INRIA_Lytro, PSNR---32.052902, SSIM---0.954504
+2023-07-21 00:01:51,241 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 00:01:51 Valid----Stanford_Gantry, PSNR---32.241029, SSIM---0.957855
+2023-07-21 00:01:51,242 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 00:01:51 Average_Result: Average_PSNR---32.773334, Average_SSIM---0.947175
+2023-07-21 00:01:51,399 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_36 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-21 00:01:51,524 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_36 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_36_model.pth
+2023-07-21 00:01:51,525 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 37 /75:
+2023-07-21 01:15:51,358 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 01:15:51 Valid----           EPFL, PSNR---29.839786, SSIM---0.924011
+2023-07-21 01:16:47,275 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 01:16:47 Valid----        HCI_new, PSNR---31.641216, SSIM---0.924461
+2023-07-21 01:17:50,324 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 01:17:50 Valid----        HCI_old, PSNR---38.027477, SSIM---0.975286
+2023-07-21 01:19:05,772 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 01:19:05 Valid----    INRIA_Lytro, PSNR---31.931872, SSIM---0.954409
+2023-07-21 01:19:34,145 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 01:19:34 Valid----Stanford_Gantry, PSNR---32.175200, SSIM---0.957508
+2023-07-21 01:19:34,146 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 01:19:34 Average_Result: Average_PSNR---32.723110, Average_SSIM---0.947135
+2023-07-21 02:21:02,602 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 02:21:02 Valid----           EPFL, PSNR---29.814635, SSIM---0.923670
+2023-07-21 02:21:59,031 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 02:21:59 Valid----        HCI_new, PSNR---31.651524, SSIM---0.924418
+2023-07-21 02:23:02,970 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 02:23:02 Valid----        HCI_old, PSNR---38.029911, SSIM---0.975214
+2023-07-21 02:24:18,818 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 02:24:18 Valid----    INRIA_Lytro, PSNR---31.914217, SSIM---0.954239
+2023-07-21 02:24:47,268 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 02:24:47 Valid----Stanford_Gantry, PSNR---32.147915, SSIM---0.957350
+2023-07-21 02:24:47,269 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 02:24:47 Average_Result: Average_PSNR---32.711640, Average_SSIM---0.946978
+2023-07-21 02:24:47,407 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_37 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_37_model.pth
+2023-07-21 02:24:47,408 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 38 /75:
+2023-07-21 03:38:53,134 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 03:38:53 Valid----           EPFL, PSNR---29.840665, SSIM---0.924206
+2023-07-21 03:39:49,243 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 03:39:49 Valid----        HCI_new, PSNR---31.667543, SSIM---0.924795
+2023-07-21 03:40:52,879 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 03:40:52 Valid----        HCI_old, PSNR---37.997064, SSIM---0.975188
+2023-07-21 03:42:08,860 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 03:42:08 Valid----    INRIA_Lytro, PSNR---31.959708, SSIM---0.954505
+2023-07-21 03:42:37,416 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 03:42:37 Valid----Stanford_Gantry, PSNR---32.173412, SSIM---0.957565
+2023-07-21 03:42:37,417 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 03:42:37 Average_Result: Average_PSNR---32.727678, Average_SSIM---0.947252
+2023-07-21 04:43:47,878 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 04:43:47 Valid----           EPFL, PSNR---29.906530, SSIM---0.924086
+2023-07-21 04:44:44,002 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 04:44:44 Valid----        HCI_new, PSNR---31.616068, SSIM---0.924281
+2023-07-21 04:45:48,337 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 04:45:48 Valid----        HCI_old, PSNR---38.004143, SSIM---0.975044
+2023-07-21 04:47:04,390 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 04:47:04 Valid----    INRIA_Lytro, PSNR---32.038600, SSIM---0.954462
+2023-07-21 04:47:32,958 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 04:47:32 Valid----Stanford_Gantry, PSNR---32.160299, SSIM---0.957381
+2023-07-21 04:47:32,959 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 04:47:32 Average_Result: Average_PSNR---32.745128, Average_SSIM---0.947051
+2023-07-21 04:47:33,267 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_38 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_38_model.pth
+2023-07-21 04:47:33,269 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 39 /75:
+2023-07-21 06:01:30,934 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 06:01:30 Valid----           EPFL, PSNR---29.886705, SSIM---0.924106
+2023-07-21 06:02:27,074 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 06:02:27 Valid----        HCI_new, PSNR---31.638256, SSIM---0.924489
+2023-07-21 06:03:30,271 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 06:03:30 Valid----        HCI_old, PSNR---38.047468, SSIM---0.975228
+2023-07-21 06:04:45,720 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 06:04:45 Valid----    INRIA_Lytro, PSNR---32.022269, SSIM---0.954436
+2023-07-21 06:05:14,086 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 06:05:14 Valid----Stanford_Gantry, PSNR---32.108579, SSIM---0.957235
+2023-07-21 06:05:14,086 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 06:05:14 Average_Result: Average_PSNR---32.740655, Average_SSIM---0.947099
+2023-07-21 07:06:27,299 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 07:06:27 Valid----           EPFL, PSNR---29.834756, SSIM---0.923864
+2023-07-21 07:07:23,482 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 07:07:23 Valid----        HCI_new, PSNR---31.645911, SSIM---0.924630
+2023-07-21 07:08:26,772 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 07:08:26 Valid----        HCI_old, PSNR---37.982187, SSIM---0.975133
+2023-07-21 07:09:42,964 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 07:09:42 Valid----    INRIA_Lytro, PSNR---31.991795, SSIM---0.954514
+2023-07-21 07:10:11,552 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 07:10:11 Valid----Stanford_Gantry, PSNR---32.141639, SSIM---0.957649
+2023-07-21 07:10:11,553 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 07:10:11 Average_Result: Average_PSNR---32.719258, Average_SSIM---0.947158
+2023-07-21 07:10:11,692 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_39 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_39_model.pth
+2023-07-21 07:10:11,693 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 40 /75:
+2023-07-21 08:24:11,645 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 08:24:11 Valid----           EPFL, PSNR---29.789304, SSIM---0.923943
+2023-07-21 08:25:07,682 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 08:25:07 Valid----        HCI_new, PSNR---31.645236, SSIM---0.924703
+2023-07-21 08:26:10,957 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 08:26:10 Valid----        HCI_old, PSNR---37.975237, SSIM---0.975157
+2023-07-21 08:27:27,200 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 08:27:27 Valid----    INRIA_Lytro, PSNR---31.990601, SSIM---0.954514
+2023-07-21 08:27:56,167 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 08:27:56 Valid----Stanford_Gantry, PSNR---32.233177, SSIM---0.958475
+2023-07-21 08:27:56,168 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 08:27:56 Average_Result: Average_PSNR---32.726711, Average_SSIM---0.947358
+2023-07-21 09:29:14,096 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 09:29:14 Valid----           EPFL, PSNR---29.827554, SSIM---0.923977
+2023-07-21 09:30:10,345 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 09:30:10 Valid----        HCI_new, PSNR---31.624949, SSIM---0.924586
+2023-07-21 09:31:13,640 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 09:31:13 Valid----        HCI_old, PSNR---37.983071, SSIM---0.975051
+2023-07-21 09:32:29,889 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 09:32:29 Valid----    INRIA_Lytro, PSNR---32.006770, SSIM---0.954497
+2023-07-21 09:32:58,542 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 09:32:58 Valid----Stanford_Gantry, PSNR---32.241034, SSIM---0.958068
+2023-07-21 09:32:58,543 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 09:32:58 Average_Result: Average_PSNR---32.736676, Average_SSIM---0.947236
+2023-07-21 09:32:58,690 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_40 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_40_model.pth
+2023-07-21 09:32:58,692 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 41 /75:
+2023-07-21 10:47:01,542 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 10:47:01 Valid----           EPFL, PSNR---29.845029, SSIM---0.924216
+2023-07-21 10:47:57,655 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 10:47:57 Valid----        HCI_new, PSNR---31.658810, SSIM---0.924523
+2023-07-21 10:49:01,613 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 10:49:01 Valid----        HCI_old, PSNR---38.025277, SSIM---0.975220
+2023-07-21 10:50:17,276 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 10:50:17 Valid----    INRIA_Lytro, PSNR---31.964456, SSIM---0.954464
+2023-07-21 10:50:45,902 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 10:50:45 Valid----Stanford_Gantry, PSNR---32.253110, SSIM---0.958106
+2023-07-21 10:50:45,903 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 10:50:45 Average_Result: Average_PSNR---32.749336, Average_SSIM---0.947306
+2023-07-21 11:51:57,907 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 11:51:57 Valid----           EPFL, PSNR---29.934642, SSIM---0.924161
+2023-07-21 11:52:54,934 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 11:52:54 Valid----        HCI_new, PSNR---31.658864, SSIM---0.924613
+2023-07-21 11:53:59,233 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 11:53:59 Valid----        HCI_old, PSNR---38.015284, SSIM---0.975196
+2023-07-21 11:55:15,949 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 11:55:15 Valid----    INRIA_Lytro, PSNR---32.101239, SSIM---0.954482
+2023-07-21 11:55:44,575 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 11:55:44 Valid----Stanford_Gantry, PSNR---32.165396, SSIM---0.957513
+2023-07-21 11:55:44,576 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 11:55:44 Average_Result: Average_PSNR---32.775085, Average_SSIM---0.947193
+2023-07-21 11:55:44,866 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_41 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-21 11:55:44,991 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_41 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_41_model.pth
+2023-07-21 11:55:44,992 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 42 /75:
+2023-07-21 13:09:36,086 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 13:09:36 Valid----           EPFL, PSNR---29.891339, SSIM---0.923953
+2023-07-21 13:10:32,145 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 13:10:32 Valid----        HCI_new, PSNR---31.655707, SSIM---0.924367
+2023-07-21 13:11:35,243 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 13:11:35 Valid----        HCI_old, PSNR---38.047368, SSIM---0.975241
+2023-07-21 13:12:51,238 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 13:12:51 Valid----    INRIA_Lytro, PSNR---32.090551, SSIM---0.954494
+2023-07-21 13:13:20,027 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 13:13:20 Valid----Stanford_Gantry, PSNR---32.229545, SSIM---0.957820
+2023-07-21 13:13:20,028 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 13:13:20 Average_Result: Average_PSNR---32.782902, Average_SSIM---0.947175
+2023-07-21 13:13:20,215 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_42 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-21 14:14:35,794 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 14:14:35 Valid----           EPFL, PSNR---29.862357, SSIM---0.924121
+2023-07-21 14:15:32,109 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 14:15:32 Valid----        HCI_new, PSNR---31.647941, SSIM---0.924321
+2023-07-21 14:16:35,521 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 14:16:35 Valid----        HCI_old, PSNR---38.000533, SSIM---0.975003
+2023-07-21 14:17:51,881 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 14:17:51 Valid----    INRIA_Lytro, PSNR---32.009424, SSIM---0.954549
+2023-07-21 14:18:20,396 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 14:18:20 Valid----Stanford_Gantry, PSNR---32.186342, SSIM---0.957549
+2023-07-21 14:18:20,397 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 14:18:20 Average_Result: Average_PSNR---32.741320, Average_SSIM---0.947109
+2023-07-21 14:18:20,535 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_42 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_42_model.pth
+2023-07-21 14:18:20,536 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 43 /75:
+2023-07-21 15:32:16,652 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 15:32:16 Valid----           EPFL, PSNR---29.861048, SSIM---0.924168
+2023-07-21 15:33:13,029 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 15:33:13 Valid----        HCI_new, PSNR---31.640585, SSIM---0.924763
+2023-07-21 15:34:16,448 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 15:34:16 Valid----        HCI_old, PSNR---38.009702, SSIM---0.975128
+2023-07-21 15:35:33,067 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 15:35:33 Valid----    INRIA_Lytro, PSNR---31.993883, SSIM---0.954513
+2023-07-21 15:36:01,715 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 15:36:01 Valid----Stanford_Gantry, PSNR---32.187688, SSIM---0.957791
+2023-07-21 15:36:01,716 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 15:36:01 Average_Result: Average_PSNR---32.738581, Average_SSIM---0.947273
+2023-07-21 16:37:14,820 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 16:37:14 Valid----           EPFL, PSNR---29.848354, SSIM---0.924225
+2023-07-21 16:38:11,094 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 16:38:11 Valid----        HCI_new, PSNR---31.683129, SSIM---0.924745
+2023-07-21 16:39:14,134 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 16:39:14 Valid----        HCI_old, PSNR---37.984868, SSIM---0.975024
+2023-07-21 16:40:31,146 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 16:40:31 Valid----    INRIA_Lytro, PSNR---31.957358, SSIM---0.954327
+2023-07-21 16:40:59,949 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 16:40:59 Valid----Stanford_Gantry, PSNR---32.193396, SSIM---0.957611
+2023-07-21 16:40:59,950 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 16:40:59 Average_Result: Average_PSNR---32.733421, Average_SSIM---0.947186
+2023-07-21 16:41:00,101 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_43 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_43_model.pth
+2023-07-21 16:41:00,103 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 44 /75:
+2023-07-21 17:55:01,298 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 17:55:01 Valid----           EPFL, PSNR---29.894108, SSIM---0.924028
+2023-07-21 17:55:58,251 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 17:55:58 Valid----        HCI_new, PSNR---31.665533, SSIM---0.924821
+2023-07-21 17:57:01,939 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 17:57:01 Valid----        HCI_old, PSNR---38.025818, SSIM---0.975095
+2023-07-21 17:58:17,939 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 17:58:17 Valid----    INRIA_Lytro, PSNR---32.047697, SSIM---0.954398
+2023-07-21 17:58:46,411 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 17:58:46 Valid----Stanford_Gantry, PSNR---32.217860, SSIM---0.957789
+2023-07-21 17:58:46,411 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 17:58:46 Average_Result: Average_PSNR---32.770203, Average_SSIM---0.947226
+2023-07-21 18:59:58,117 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 18:59:58 Valid----           EPFL, PSNR---29.857746, SSIM---0.924043
+2023-07-21 19:00:54,414 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 19:00:54 Valid----        HCI_new, PSNR---31.636801, SSIM---0.924328
+2023-07-21 19:01:57,495 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 19:01:57 Valid----        HCI_old, PSNR---37.978029, SSIM---0.974981
+2023-07-21 19:03:13,476 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 19:03:13 Valid----    INRIA_Lytro, PSNR---32.019007, SSIM---0.954369
+2023-07-21 19:03:41,958 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 19:03:41 Valid----Stanford_Gantry, PSNR---32.196661, SSIM---0.957367
+2023-07-21 19:03:41,959 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 19:03:41 Average_Result: Average_PSNR---32.737649, Average_SSIM---0.947018
+2023-07-21 19:03:42,096 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_44 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_44_model.pth
+2023-07-21 19:03:42,097 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 45 /75:
+2023-07-21 20:17:38,537 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 20:17:38 Valid----           EPFL, PSNR---29.898744, SSIM---0.924224
+2023-07-21 20:18:34,525 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 20:18:34 Valid----        HCI_new, PSNR---31.671038, SSIM---0.924672
+2023-07-21 20:19:37,759 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 20:19:37 Valid----        HCI_old, PSNR---38.024072, SSIM---0.975088
+2023-07-21 20:20:54,796 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 20:20:54 Valid----    INRIA_Lytro, PSNR---32.096550, SSIM---0.954626
+2023-07-21 20:21:23,540 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 20:21:23 Valid----Stanford_Gantry, PSNR---32.210638, SSIM---0.957857
+2023-07-21 20:21:23,541 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 20:21:23 Average_Result: Average_PSNR---32.780208, Average_SSIM---0.947294
+2023-07-21 21:22:49,161 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 21:22:49 Valid----           EPFL, PSNR---29.896931, SSIM---0.924518
+2023-07-21 21:23:45,315 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 21:23:45 Valid----        HCI_new, PSNR---31.682783, SSIM---0.925025
+2023-07-21 21:24:48,415 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 21:24:48 Valid----        HCI_old, PSNR---38.019467, SSIM---0.975257
+2023-07-21 21:26:04,473 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 21:26:04 Valid----    INRIA_Lytro, PSNR---32.051473, SSIM---0.954721
+2023-07-21 21:26:32,866 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 21:26:32 Valid----Stanford_Gantry, PSNR---32.276394, SSIM---0.958423
+2023-07-21 21:26:32,867 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 21:26:32 Average_Result: Average_PSNR---32.785409, Average_SSIM---0.947589
+2023-07-21 21:26:33,024 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_45 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-21 21:26:33,149 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_45 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_45_model.pth
+2023-07-21 21:26:33,150 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 46 /75:
+2023-07-21 22:40:40,929 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 22:40:40 Valid----           EPFL, PSNR---29.918161, SSIM---0.924393
+2023-07-21 22:41:37,564 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 22:41:37 Valid----        HCI_new, PSNR---31.655472, SSIM---0.924719
+2023-07-21 22:42:41,497 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 22:42:41 Valid----        HCI_old, PSNR---38.064940, SSIM---0.975429
+2023-07-21 22:43:57,120 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 22:43:57 Valid----    INRIA_Lytro, PSNR---32.082907, SSIM---0.954719
+2023-07-21 22:44:25,532 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 22:44:25 Valid----Stanford_Gantry, PSNR---32.267572, SSIM---0.958237
+2023-07-21 22:44:25,533 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 22:44:25 Average_Result: Average_PSNR---32.797810, Average_SSIM---0.947500
+2023-07-21 22:44:25,859 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_46 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-21 23:45:39,963 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 23:45:39 Valid----           EPFL, PSNR---29.901845, SSIM---0.924423
+2023-07-21 23:46:36,004 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 23:46:36 Valid----        HCI_new, PSNR---31.679423, SSIM---0.924844
+2023-07-21 23:47:39,094 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 23:47:39 Valid----        HCI_old, PSNR---38.050861, SSIM---0.975232
+2023-07-21 23:48:54,930 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 23:48:54 Valid----    INRIA_Lytro, PSNR---32.049425, SSIM---0.954642
+2023-07-21 23:49:23,564 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 23:49:23 Valid----Stanford_Gantry, PSNR---32.229552, SSIM---0.957729
+2023-07-21 23:49:23,566 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 21 23:49:23 Average_Result: Average_PSNR---32.782221, Average_SSIM---0.947374
+2023-07-21 23:49:23,705 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_46 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_46_model.pth
+2023-07-21 23:49:23,707 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 47 /75:
+2023-07-22 01:03:54,620 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 01:03:54 Valid----           EPFL, PSNR---29.915418, SSIM---0.924549
+2023-07-22 01:04:50,674 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 01:04:50 Valid----        HCI_new, PSNR---31.677301, SSIM---0.924919
+2023-07-22 01:05:53,723 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 01:05:53 Valid----        HCI_old, PSNR---38.048378, SSIM---0.975334
+2023-07-22 01:07:09,274 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 01:07:09 Valid----    INRIA_Lytro, PSNR---32.073366, SSIM---0.954681
+2023-07-22 01:07:37,702 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 01:07:37 Valid----Stanford_Gantry, PSNR---32.249888, SSIM---0.958274
+2023-07-22 01:07:37,703 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 01:07:37 Average_Result: Average_PSNR---32.792870, Average_SSIM---0.947551
+2023-07-22 02:09:05,682 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 02:09:05 Valid----           EPFL, PSNR---29.900833, SSIM---0.924375
+2023-07-22 02:10:02,110 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 02:10:02 Valid----        HCI_new, PSNR---31.683305, SSIM---0.924973
+2023-07-22 02:11:05,180 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 02:11:05 Valid----        HCI_old, PSNR---38.043357, SSIM---0.975254
+2023-07-22 02:12:20,743 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 02:12:20 Valid----    INRIA_Lytro, PSNR---32.086076, SSIM---0.954780
+2023-07-22 02:12:49,112 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 02:12:49 Valid----Stanford_Gantry, PSNR---32.240736, SSIM---0.958130
+2023-07-22 02:12:49,113 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 02:12:49 Average_Result: Average_PSNR---32.790862, Average_SSIM---0.947502
+2023-07-22 02:12:49,364 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_47 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_47_model.pth
+2023-07-22 02:12:49,365 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 48 /75:
+2023-07-22 03:26:38,065 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 03:26:38 Valid----           EPFL, PSNR---29.853337, SSIM---0.924611
+2023-07-22 03:27:34,179 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 03:27:34 Valid----        HCI_new, PSNR---31.671787, SSIM---0.924926
+2023-07-22 03:28:37,835 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 03:28:37 Valid----        HCI_old, PSNR---38.052074, SSIM---0.975372
+2023-07-22 03:29:53,485 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 03:29:53 Valid----    INRIA_Lytro, PSNR---32.065294, SSIM---0.954854
+2023-07-22 03:30:21,872 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 03:30:21 Valid----Stanford_Gantry, PSNR---32.234915, SSIM---0.958108
+2023-07-22 03:30:21,873 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 03:30:21 Average_Result: Average_PSNR---32.775481, Average_SSIM---0.947574
+2023-07-22 04:31:45,997 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 04:31:45 Valid----           EPFL, PSNR---29.888771, SSIM---0.924725
+2023-07-22 04:32:42,428 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 04:32:42 Valid----        HCI_new, PSNR---31.686710, SSIM---0.925340
+2023-07-22 04:33:45,840 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 04:33:45 Valid----        HCI_old, PSNR---38.073337, SSIM---0.975445
+2023-07-22 04:35:01,889 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 04:35:01 Valid----    INRIA_Lytro, PSNR---32.070914, SSIM---0.954892
+2023-07-22 04:35:30,507 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 04:35:30 Valid----Stanford_Gantry, PSNR---32.278362, SSIM---0.958721
+2023-07-22 04:35:30,508 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 04:35:30 Average_Result: Average_PSNR---32.799619, Average_SSIM---0.947824
+2023-07-22 04:35:30,668 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_48 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-22 04:35:30,798 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_48 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_48_model.pth
+2023-07-22 04:35:30,799 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 49 /75:
+2023-07-22 05:49:45,239 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 05:49:45 Valid----           EPFL, PSNR---29.876127, SSIM---0.924443
+2023-07-22 05:50:41,192 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 05:50:41 Valid----        HCI_new, PSNR---31.684578, SSIM---0.924966
+2023-07-22 05:51:44,222 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 05:51:44 Valid----        HCI_old, PSNR---38.035867, SSIM---0.975193
+2023-07-22 05:53:00,339 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 05:53:00 Valid----    INRIA_Lytro, PSNR---32.059608, SSIM---0.954749
+2023-07-22 05:53:28,725 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 05:53:28 Valid----Stanford_Gantry, PSNR---32.231550, SSIM---0.958027
+2023-07-22 05:53:28,726 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 05:53:28 Average_Result: Average_PSNR---32.777546, Average_SSIM---0.947476
+2023-07-22 06:55:14,740 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 06:55:14 Valid----           EPFL, PSNR---29.862659, SSIM---0.924489
+2023-07-22 06:56:10,829 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 06:56:10 Valid----        HCI_new, PSNR---31.654578, SSIM---0.924718
+2023-07-22 06:57:13,923 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 06:57:13 Valid----        HCI_old, PSNR---38.040028, SSIM---0.975322
+2023-07-22 06:58:29,425 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 06:58:29 Valid----    INRIA_Lytro, PSNR---32.025345, SSIM---0.954719
+2023-07-22 06:58:58,025 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 06:58:58 Valid----Stanford_Gantry, PSNR---32.271831, SSIM---0.958197
+2023-07-22 06:58:58,026 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 06:58:58 Average_Result: Average_PSNR---32.770888, Average_SSIM---0.947489
+2023-07-22 06:58:58,163 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_49 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_49_model.pth
+2023-07-22 06:58:58,164 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 50 /75:
+2023-07-22 08:12:54,794 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 08:12:54 Valid----           EPFL, PSNR---29.825115, SSIM---0.924406
+2023-07-22 08:13:51,027 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 08:13:51 Valid----        HCI_new, PSNR---31.690732, SSIM---0.925088
+2023-07-22 08:14:54,477 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 08:14:54 Valid----        HCI_old, PSNR---38.041078, SSIM---0.975357
+2023-07-22 08:16:10,259 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 08:16:10 Valid----    INRIA_Lytro, PSNR---31.981526, SSIM---0.954717
+2023-07-22 08:16:38,686 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 08:16:38 Valid----Stanford_Gantry, PSNR---32.273707, SSIM---0.958461
+2023-07-22 08:16:38,687 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 08:16:38 Average_Result: Average_PSNR---32.762432, Average_SSIM---0.947606
+2023-07-22 09:18:09,408 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 09:18:09 Valid----           EPFL, PSNR---29.877287, SSIM---0.924526
+2023-07-22 09:19:05,455 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 09:19:05 Valid----        HCI_new, PSNR---31.668524, SSIM---0.924773
+2023-07-22 09:20:08,526 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 09:20:08 Valid----        HCI_old, PSNR---38.040718, SSIM---0.975302
+2023-07-22 09:21:24,598 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 09:21:24 Valid----    INRIA_Lytro, PSNR---32.040071, SSIM---0.954698
+2023-07-22 09:21:53,673 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 09:21:53 Valid----Stanford_Gantry, PSNR---32.272939, SSIM---0.958229
+2023-07-22 09:21:53,674 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 09:21:53 Average_Result: Average_PSNR---32.779908, Average_SSIM---0.947506
+2023-07-22 09:21:53,827 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_50 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_50_model.pth
+2023-07-22 09:21:53,829 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 51 /75:
+2023-07-22 10:35:51,422 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 10:35:51 Valid----           EPFL, PSNR---29.875987, SSIM---0.924516
+2023-07-22 10:36:47,526 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 10:36:47 Valid----        HCI_new, PSNR---31.681559, SSIM---0.925070
+2023-07-22 10:37:50,844 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 10:37:50 Valid----        HCI_old, PSNR---38.089067, SSIM---0.975510
+2023-07-22 10:39:06,647 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 10:39:06 Valid----    INRIA_Lytro, PSNR---32.066602, SSIM---0.954850
+2023-07-22 10:39:35,443 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 10:39:35 Valid----Stanford_Gantry, PSNR---32.252750, SSIM---0.958150
+2023-07-22 10:39:35,444 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 10:39:35 Average_Result: Average_PSNR---32.793193, Average_SSIM---0.947619
+2023-07-22 11:41:09,459 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 11:41:09 Valid----           EPFL, PSNR---29.868511, SSIM---0.924319
+2023-07-22 11:42:05,489 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 11:42:05 Valid----        HCI_new, PSNR---31.653088, SSIM---0.924517
+2023-07-22 11:43:09,392 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 11:43:09 Valid----        HCI_old, PSNR---38.037753, SSIM---0.975177
+2023-07-22 11:44:25,504 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 11:44:25 Valid----    INRIA_Lytro, PSNR---32.055741, SSIM---0.954663
+2023-07-22 11:44:54,008 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 11:44:54 Valid----Stanford_Gantry, PSNR---32.230009, SSIM---0.957859
+2023-07-22 11:44:54,008 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 11:44:54 Average_Result: Average_PSNR---32.769020, Average_SSIM---0.947307
+2023-07-22 11:44:54,146 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_51 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_51_model.pth
+2023-07-22 11:44:54,147 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 52 /75:
+2023-07-22 12:59:15,382 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 12:59:15 Valid----           EPFL, PSNR---29.852550, SSIM---0.924354
+2023-07-22 13:00:11,617 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 13:00:11 Valid----        HCI_new, PSNR---31.645219, SSIM---0.924609
+2023-07-22 13:01:14,804 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 13:01:14 Valid----        HCI_old, PSNR---38.045226, SSIM---0.975197
+2023-07-22 13:02:30,733 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 13:02:30 Valid----    INRIA_Lytro, PSNR---32.049179, SSIM---0.954695
+2023-07-22 13:02:59,136 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 13:02:59 Valid----Stanford_Gantry, PSNR---32.231522, SSIM---0.957843
+2023-07-22 13:02:59,136 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 13:02:59 Average_Result: Average_PSNR---32.764739, Average_SSIM---0.947340
+2023-07-22 14:04:31,611 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 14:04:31 Valid----           EPFL, PSNR---29.848626, SSIM---0.924411
+2023-07-22 14:05:28,521 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 14:05:28 Valid----        HCI_new, PSNR---31.676365, SSIM---0.925068
+2023-07-22 14:06:32,645 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 14:06:32 Valid----        HCI_old, PSNR---38.061202, SSIM---0.975362
+2023-07-22 14:07:48,389 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 14:07:48 Valid----    INRIA_Lytro, PSNR---32.019111, SSIM---0.954686
+2023-07-22 14:08:16,773 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 14:08:16 Valid----Stanford_Gantry, PSNR---32.313983, SSIM---0.958420
+2023-07-22 14:08:16,774 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 14:08:16 Average_Result: Average_PSNR---32.783858, Average_SSIM---0.947589
+2023-07-22 14:08:16,927 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_52 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_52_model.pth
+2023-07-22 14:08:16,929 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 53 /75:
+2023-07-22 15:22:10,567 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 15:22:10 Valid----           EPFL, PSNR---29.863161, SSIM---0.924482
+2023-07-22 15:23:07,010 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 15:23:07 Valid----        HCI_new, PSNR---31.681452, SSIM---0.925050
+2023-07-22 15:24:10,361 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 15:24:10 Valid----        HCI_old, PSNR---38.070135, SSIM---0.975354
+2023-07-22 15:25:26,191 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 15:25:26 Valid----    INRIA_Lytro, PSNR---32.077940, SSIM---0.954865
+2023-07-22 15:25:54,888 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 15:25:54 Valid----Stanford_Gantry, PSNR---32.275936, SSIM---0.958383
+2023-07-22 15:25:54,889 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 15:25:54 Average_Result: Average_PSNR---32.793725, Average_SSIM---0.947627
+2023-07-22 16:27:24,156 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 16:27:24 Valid----           EPFL, PSNR---29.820624, SSIM---0.924448
+2023-07-22 16:28:20,881 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 16:28:20 Valid----        HCI_new, PSNR---31.676000, SSIM---0.924962
+2023-07-22 16:29:24,168 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 16:29:24 Valid----        HCI_old, PSNR---38.049955, SSIM---0.975288
+2023-07-22 16:30:39,700 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 16:30:39 Valid----    INRIA_Lytro, PSNR---31.970662, SSIM---0.954724
+2023-07-22 16:31:08,121 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 16:31:08 Valid----Stanford_Gantry, PSNR---32.290548, SSIM---0.958399
+2023-07-22 16:31:08,122 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 16:31:08 Average_Result: Average_PSNR---32.761558, Average_SSIM---0.947564
+2023-07-22 16:31:08,281 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_53 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_53_model.pth
+2023-07-22 16:31:08,283 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 54 /75:
+2023-07-22 17:45:09,767 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 17:45:09 Valid----           EPFL, PSNR---29.876732, SSIM---0.924609
+2023-07-22 17:46:06,092 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 17:46:06 Valid----        HCI_new, PSNR---31.702064, SSIM---0.925253
+2023-07-22 17:47:09,178 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 17:47:09 Valid----        HCI_old, PSNR---38.045103, SSIM---0.975226
+2023-07-22 17:48:25,654 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 17:48:25 Valid----    INRIA_Lytro, PSNR---32.028783, SSIM---0.954842
+2023-07-22 17:48:54,206 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 17:48:54 Valid----Stanford_Gantry, PSNR---32.290059, SSIM---0.958347
+2023-07-22 17:48:54,207 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 17:48:54 Average_Result: Average_PSNR---32.788548, Average_SSIM---0.947655
+2023-07-22 18:50:08,596 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 18:50:08 Valid----           EPFL, PSNR---29.835237, SSIM---0.924694
+2023-07-22 18:51:04,894 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 18:51:04 Valid----        HCI_new, PSNR---31.682181, SSIM---0.925080
+2023-07-22 18:52:08,447 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 18:52:08 Valid----        HCI_old, PSNR---38.040630, SSIM---0.975280
+2023-07-22 18:53:24,747 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 18:53:24 Valid----    INRIA_Lytro, PSNR---31.977007, SSIM---0.954871
+2023-07-22 18:53:53,657 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 18:53:53 Valid----Stanford_Gantry, PSNR---32.280020, SSIM---0.958396
+2023-07-22 18:53:53,658 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 18:53:53 Average_Result: Average_PSNR---32.763015, Average_SSIM---0.947664
+2023-07-22 18:53:53,798 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_54 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_54_model.pth
+2023-07-22 18:53:53,800 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 55 /75:
+2023-07-22 20:07:55,878 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 20:07:55 Valid----           EPFL, PSNR---29.861580, SSIM---0.924570
+2023-07-22 20:08:51,963 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 20:08:51 Valid----        HCI_new, PSNR---31.679753, SSIM---0.925017
+2023-07-22 20:09:54,922 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 20:09:54 Valid----        HCI_old, PSNR---38.056177, SSIM---0.975342
+2023-07-22 20:11:10,436 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 20:11:10 Valid----    INRIA_Lytro, PSNR---32.016395, SSIM---0.954830
+2023-07-22 20:11:38,795 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 20:11:38 Valid----Stanford_Gantry, PSNR---32.282009, SSIM---0.958435
+2023-07-22 20:11:38,796 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 20:11:38 Average_Result: Average_PSNR---32.779183, Average_SSIM---0.947639
+2023-07-22 21:12:56,842 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 21:12:56 Valid----           EPFL, PSNR---29.889150, SSIM---0.924613
+2023-07-22 21:13:52,929 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 21:13:52 Valid----        HCI_new, PSNR---31.687667, SSIM---0.925203
+2023-07-22 21:14:55,995 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 21:14:55 Valid----        HCI_old, PSNR---38.071207, SSIM---0.975341
+2023-07-22 21:16:11,609 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 21:16:11 Valid----    INRIA_Lytro, PSNR---32.042729, SSIM---0.954834
+2023-07-22 21:16:39,987 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 21:16:39 Valid----Stanford_Gantry, PSNR---32.282231, SSIM---0.958586
+2023-07-22 21:16:39,988 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 21:16:39 Average_Result: Average_PSNR---32.794597, Average_SSIM---0.947715
+2023-07-22 21:16:40,154 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_55 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_55_model.pth
+2023-07-22 21:16:40,155 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 56 /75:
+2023-07-22 22:30:37,360 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 22:30:37 Valid----           EPFL, PSNR---29.837210, SSIM---0.924798
+2023-07-22 22:31:33,427 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 22:31:33 Valid----        HCI_new, PSNR---31.663262, SSIM---0.925064
+2023-07-22 22:32:36,502 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 22:32:36 Valid----        HCI_old, PSNR---38.047333, SSIM---0.975303
+2023-07-22 22:33:52,450 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 22:33:52 Valid----    INRIA_Lytro, PSNR---31.980714, SSIM---0.954819
+2023-07-22 22:34:20,894 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 22:34:20 Valid----Stanford_Gantry, PSNR---32.246805, SSIM---0.958290
+2023-07-22 22:34:20,895 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 22:34:20 Average_Result: Average_PSNR---32.755065, Average_SSIM---0.947655
+2023-07-22 23:35:47,376 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 23:35:47 Valid----           EPFL, PSNR---29.844344, SSIM---0.924718
+2023-07-22 23:36:43,407 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 23:36:43 Valid----        HCI_new, PSNR---31.684163, SSIM---0.925086
+2023-07-22 23:37:46,429 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 23:37:46 Valid----        HCI_old, PSNR---38.047542, SSIM---0.975348
+2023-07-22 23:39:01,992 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 23:39:01 Valid----    INRIA_Lytro, PSNR---31.958822, SSIM---0.954816
+2023-07-22 23:39:30,351 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 23:39:30 Valid----Stanford_Gantry, PSNR---32.305671, SSIM---0.958583
+2023-07-22 23:39:30,352 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 22 23:39:30 Average_Result: Average_PSNR---32.768109, Average_SSIM---0.947710
+2023-07-22 23:39:30,488 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_56 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_56_model.pth
+2023-07-22 23:39:30,489 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 57 /75:
+2023-07-23 00:53:36,324 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 00:53:36 Valid----           EPFL, PSNR---29.866265, SSIM---0.924692
+2023-07-23 00:54:32,190 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 00:54:32 Valid----        HCI_new, PSNR---31.683720, SSIM---0.925172
+2023-07-23 00:55:35,054 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 00:55:35 Valid----        HCI_old, PSNR---38.030647, SSIM---0.975169
+2023-07-23 00:56:50,525 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 00:56:50 Valid----    INRIA_Lytro, PSNR---32.040447, SSIM---0.954867
+2023-07-23 00:57:19,038 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 00:57:19 Valid----Stanford_Gantry, PSNR---32.259814, SSIM---0.958389
+2023-07-23 00:57:19,039 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 00:57:19 Average_Result: Average_PSNR---32.776179, Average_SSIM---0.947658
+2023-07-23 01:58:35,512 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 01:58:35 Valid----           EPFL, PSNR---29.913864, SSIM---0.924625
+2023-07-23 01:59:31,519 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 01:59:31 Valid----        HCI_new, PSNR---31.663810, SSIM---0.925090
+2023-07-23 02:00:34,576 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 02:00:34 Valid----        HCI_old, PSNR---38.050686, SSIM---0.975374
+2023-07-23 02:01:50,225 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 02:01:50 Valid----    INRIA_Lytro, PSNR---32.102597, SSIM---0.954934
+2023-07-23 02:02:18,563 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 02:02:18 Valid----Stanford_Gantry, PSNR---32.258622, SSIM---0.958435
+2023-07-23 02:02:18,564 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 02:02:18 Average_Result: Average_PSNR---32.797916, Average_SSIM---0.947692
+2023-07-23 02:02:18,701 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_57 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_57_model.pth
+2023-07-23 02:02:18,703 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 58 /75:
+2023-07-23 03:16:15,216 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 03:16:15 Valid----           EPFL, PSNR---29.876838, SSIM---0.924528
+2023-07-23 03:17:11,139 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 03:17:11 Valid----        HCI_new, PSNR---31.680329, SSIM---0.925012
+2023-07-23 03:18:14,157 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 03:18:14 Valid----        HCI_old, PSNR---38.059149, SSIM---0.975295
+2023-07-23 03:19:29,562 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 03:19:29 Valid----    INRIA_Lytro, PSNR---32.054794, SSIM---0.954650
+2023-07-23 03:19:57,936 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 03:19:57 Valid----Stanford_Gantry, PSNR---32.292043, SSIM---0.958481
+2023-07-23 03:19:57,936 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 03:19:57 Average_Result: Average_PSNR---32.792631, Average_SSIM---0.947593
+2023-07-23 04:21:31,847 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 04:21:31 Valid----           EPFL, PSNR---29.870474, SSIM---0.924773
+2023-07-23 04:22:27,841 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 04:22:27 Valid----        HCI_new, PSNR---31.673246, SSIM---0.925194
+2023-07-23 04:23:30,875 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 04:23:30 Valid----        HCI_old, PSNR---38.059628, SSIM---0.975370
+2023-07-23 04:24:46,439 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 04:24:46 Valid----    INRIA_Lytro, PSNR---32.032655, SSIM---0.954849
+2023-07-23 04:25:14,797 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 04:25:14 Valid----Stanford_Gantry, PSNR---32.278816, SSIM---0.958559
+2023-07-23 04:25:14,797 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 04:25:14 Average_Result: Average_PSNR---32.782964, Average_SSIM---0.947749
+2023-07-23 04:25:14,935 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_58 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_58_model.pth
+2023-07-23 04:25:14,937 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 59 /75:
+2023-07-23 05:39:39,059 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 05:39:39 Valid----           EPFL, PSNR---29.878732, SSIM---0.924446
+2023-07-23 05:40:35,045 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 05:40:35 Valid----        HCI_new, PSNR---31.687394, SSIM---0.925138
+2023-07-23 05:41:38,048 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 05:41:38 Valid----        HCI_old, PSNR---38.061979, SSIM---0.975356
+2023-07-23 05:42:53,491 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 05:42:53 Valid----    INRIA_Lytro, PSNR---32.047356, SSIM---0.954632
+2023-07-23 05:43:21,921 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 05:43:21 Valid----Stanford_Gantry, PSNR---32.298286, SSIM---0.958465
+2023-07-23 05:43:21,922 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 05:43:21 Average_Result: Average_PSNR---32.794750, Average_SSIM---0.947607
+2023-07-23 06:44:37,257 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 06:44:37 Valid----           EPFL, PSNR---29.879782, SSIM---0.924689
+2023-07-23 06:45:33,704 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 06:45:33 Valid----        HCI_new, PSNR---31.664266, SSIM---0.924918
+2023-07-23 06:46:36,757 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 06:46:36 Valid----        HCI_old, PSNR---38.054915, SSIM---0.975351
+2023-07-23 06:47:52,554 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 06:47:52 Valid----    INRIA_Lytro, PSNR---32.066304, SSIM---0.954762
+2023-07-23 06:48:21,211 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 06:48:21 Valid----Stanford_Gantry, PSNR---32.302236, SSIM---0.958434
+2023-07-23 06:48:21,212 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 06:48:21 Average_Result: Average_PSNR---32.793501, Average_SSIM---0.947631
+2023-07-23 06:48:21,380 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_59 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_59_model.pth
+2023-07-23 06:48:21,381 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 60 /75:
+2023-07-23 08:02:06,517 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 08:02:06 Valid----           EPFL, PSNR---29.872128, SSIM---0.924609
+2023-07-23 08:03:02,661 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 08:03:02 Valid----        HCI_new, PSNR---31.680962, SSIM---0.924983
+2023-07-23 08:04:05,581 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 08:04:05 Valid----        HCI_old, PSNR---38.049851, SSIM---0.975393
+2023-07-23 08:05:21,091 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 08:05:21 Valid----    INRIA_Lytro, PSNR---32.051337, SSIM---0.954819
+2023-07-23 08:05:49,455 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 08:05:49 Valid----Stanford_Gantry, PSNR---32.313585, SSIM---0.958467
+2023-07-23 08:05:49,456 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 08:05:49 Average_Result: Average_PSNR---32.793573, Average_SSIM---0.947654
+2023-07-23 09:07:10,348 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 09:07:10 Valid----           EPFL, PSNR---29.852833, SSIM---0.924817
+2023-07-23 09:08:06,687 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 09:08:06 Valid----        HCI_new, PSNR---31.688835, SSIM---0.925250
+2023-07-23 09:09:09,788 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 09:09:09 Valid----        HCI_old, PSNR---38.061470, SSIM---0.975401
+2023-07-23 09:10:25,321 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 09:10:25 Valid----    INRIA_Lytro, PSNR---32.012550, SSIM---0.954943
+2023-07-23 09:10:53,888 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 09:10:53 Valid----Stanford_Gantry, PSNR---32.278324, SSIM---0.958545
+2023-07-23 09:10:53,888 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 09:10:53 Average_Result: Average_PSNR---32.778802, Average_SSIM---0.947791
+2023-07-23 09:10:54,027 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_60 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_60_model.pth
+2023-07-23 09:10:54,028 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 61 /75:
+2023-07-23 10:24:56,737 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 10:24:56 Valid----           EPFL, PSNR---29.881814, SSIM---0.924795
+2023-07-23 10:25:53,307 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 10:25:53 Valid----        HCI_new, PSNR---31.687393, SSIM---0.925285
+2023-07-23 10:26:56,968 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 10:26:56 Valid----        HCI_old, PSNR---38.060642, SSIM---0.975386
+2023-07-23 10:28:12,878 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 10:28:12 Valid----    INRIA_Lytro, PSNR---32.066465, SSIM---0.954972
+2023-07-23 10:28:41,626 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 10:28:41 Valid----Stanford_Gantry, PSNR---32.309493, SSIM---0.958739
+2023-07-23 10:28:41,627 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 10:28:41 Average_Result: Average_PSNR---32.801161, Average_SSIM---0.947835
+2023-07-23 10:28:41,799 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_61 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-23 11:30:03,652 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 11:30:03 Valid----           EPFL, PSNR---29.874807, SSIM---0.924656
+2023-07-23 11:31:00,210 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 11:31:00 Valid----        HCI_new, PSNR---31.687350, SSIM---0.925091
+2023-07-23 11:32:03,366 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 11:32:03 Valid----        HCI_old, PSNR---38.076273, SSIM---0.975429
+2023-07-23 11:33:18,904 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 11:33:18 Valid----    INRIA_Lytro, PSNR---32.081159, SSIM---0.954937
+2023-07-23 11:33:47,291 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 11:33:47 Valid----Stanford_Gantry, PSNR---32.301528, SSIM---0.958463
+2023-07-23 11:33:47,291 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 11:33:47 Average_Result: Average_PSNR---32.804224, Average_SSIM---0.947715
+2023-07-23 11:33:47,446 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_61 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-23 11:33:47,576 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_61 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_61_model.pth
+2023-07-23 11:33:47,577 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 62 /75:
+2023-07-23 12:47:41,090 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 12:47:41 Valid----           EPFL, PSNR---29.862988, SSIM---0.924817
+2023-07-23 12:48:36,990 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 12:48:36 Valid----        HCI_new, PSNR---31.693535, SSIM---0.925312
+2023-07-23 12:49:40,211 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 12:49:40 Valid----        HCI_old, PSNR---38.054395, SSIM---0.975368
+2023-07-23 12:50:56,273 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 12:50:56 Valid----    INRIA_Lytro, PSNR---32.069571, SSIM---0.955008
+2023-07-23 12:51:24,938 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 12:51:24 Valid----Stanford_Gantry, PSNR---32.306288, SSIM---0.958686
+2023-07-23 12:51:24,939 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 12:51:24 Average_Result: Average_PSNR---32.797355, Average_SSIM---0.947838
+2023-07-23 13:52:47,080 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 13:52:47 Valid----           EPFL, PSNR---29.888747, SSIM---0.924890
+2023-07-23 13:53:43,246 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 13:53:43 Valid----        HCI_new, PSNR---31.703079, SSIM---0.925350
+2023-07-23 13:54:47,413 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 13:54:47 Valid----        HCI_old, PSNR---38.075906, SSIM---0.975516
+2023-07-23 13:56:03,472 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 13:56:03 Valid----    INRIA_Lytro, PSNR---32.064076, SSIM---0.954909
+2023-07-23 13:56:31,800 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 13:56:31 Valid----Stanford_Gantry, PSNR---32.322198, SSIM---0.958727
+2023-07-23 13:56:31,801 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 13:56:31 Average_Result: Average_PSNR---32.810801, Average_SSIM---0.947878
+2023-07-23 13:56:31,962 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_62 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-23 13:56:32,090 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_62 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_62_model.pth
+2023-07-23 13:56:32,091 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 63 /75:
+2023-07-23 15:10:30,470 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 15:10:30 Valid----           EPFL, PSNR---29.869452, SSIM---0.924613
+2023-07-23 15:11:27,062 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 15:11:27 Valid----        HCI_new, PSNR---31.696021, SSIM---0.925300
+2023-07-23 15:12:30,574 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 15:12:30 Valid----        HCI_old, PSNR---38.061613, SSIM---0.975362
+2023-07-23 15:13:46,546 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 15:13:46 Valid----    INRIA_Lytro, PSNR---32.043389, SSIM---0.954890
+2023-07-23 15:14:15,047 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 15:14:15 Valid----Stanford_Gantry, PSNR---32.300826, SSIM---0.958655
+2023-07-23 15:14:15,048 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 15:14:15 Average_Result: Average_PSNR---32.794260, Average_SSIM---0.947764
+2023-07-23 16:15:36,888 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 16:15:36 Valid----           EPFL, PSNR---29.868788, SSIM---0.924714
+2023-07-23 16:16:33,143 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 16:16:33 Valid----        HCI_new, PSNR---31.677752, SSIM---0.925046
+2023-07-23 16:17:37,171 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 16:17:37 Valid----        HCI_old, PSNR---38.071975, SSIM---0.975400
+2023-07-23 16:18:52,791 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 16:18:52 Valid----    INRIA_Lytro, PSNR---32.060359, SSIM---0.954872
+2023-07-23 16:19:21,357 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 16:19:21 Valid----Stanford_Gantry, PSNR---32.299292, SSIM---0.958487
+2023-07-23 16:19:21,358 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 16:19:21 Average_Result: Average_PSNR---32.795633, Average_SSIM---0.947704
+2023-07-23 16:19:21,497 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_63 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_63_model.pth
+2023-07-23 16:19:21,498 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 64 /75:
+2023-07-23 17:33:14,990 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 17:33:14 Valid----           EPFL, PSNR---29.869728, SSIM---0.924749
+2023-07-23 17:34:12,082 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 17:34:12 Valid----        HCI_new, PSNR---31.713783, SSIM---0.925459
+2023-07-23 17:35:15,617 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 17:35:15 Valid----        HCI_old, PSNR---38.058666, SSIM---0.975316
+2023-07-23 17:36:31,485 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 17:36:31 Valid----    INRIA_Lytro, PSNR---32.044550, SSIM---0.954930
+2023-07-23 17:36:59,895 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 17:36:59 Valid----Stanford_Gantry, PSNR---32.326057, SSIM---0.958721
+2023-07-23 17:36:59,897 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 17:36:59 Average_Result: Average_PSNR---32.802557, Average_SSIM---0.947835
+2023-07-23 18:38:21,331 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 18:38:21 Valid----           EPFL, PSNR---29.855627, SSIM---0.924720
+2023-07-23 18:39:17,356 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 18:39:17 Valid----        HCI_new, PSNR---31.698307, SSIM---0.925367
+2023-07-23 18:40:20,628 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 18:40:20 Valid----        HCI_old, PSNR---38.047766, SSIM---0.975286
+2023-07-23 18:41:36,045 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 18:41:36 Valid----    INRIA_Lytro, PSNR---32.018919, SSIM---0.954917
+2023-07-23 18:42:04,500 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 18:42:04 Valid----Stanford_Gantry, PSNR---32.322369, SSIM---0.958636
+2023-07-23 18:42:04,501 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 18:42:04 Average_Result: Average_PSNR---32.788598, Average_SSIM---0.947785
+2023-07-23 18:42:04,657 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_64 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_64_model.pth
+2023-07-23 18:42:04,658 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 65 /75:
+2023-07-23 19:56:01,760 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 19:56:01 Valid----           EPFL, PSNR---29.859074, SSIM---0.924830
+2023-07-23 19:56:57,692 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 19:56:57 Valid----        HCI_new, PSNR---31.703961, SSIM---0.925309
+2023-07-23 19:58:01,033 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 19:58:01 Valid----        HCI_old, PSNR---38.074562, SSIM---0.975440
+2023-07-23 19:59:16,450 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 19:59:16 Valid----    INRIA_Lytro, PSNR---32.015070, SSIM---0.954872
+2023-07-23 19:59:44,862 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 19:59:44 Valid----Stanford_Gantry, PSNR---32.289933, SSIM---0.958388
+2023-07-23 19:59:44,863 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 19:59:44 Average_Result: Average_PSNR---32.788520, Average_SSIM---0.947768
+2023-07-23 21:01:03,350 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 21:01:03 Valid----           EPFL, PSNR---29.870549, SSIM---0.924703
+2023-07-23 21:01:59,396 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 21:01:59 Valid----        HCI_new, PSNR---31.692266, SSIM---0.925238
+2023-07-23 21:03:03,156 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 21:03:03 Valid----        HCI_old, PSNR---38.049255, SSIM---0.975294
+2023-07-23 21:04:19,246 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 21:04:19 Valid----    INRIA_Lytro, PSNR---32.053794, SSIM---0.954867
+2023-07-23 21:04:47,897 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 21:04:47 Valid----Stanford_Gantry, PSNR---32.320614, SSIM---0.958668
+2023-07-23 21:04:47,898 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 21:04:47 Average_Result: Average_PSNR---32.797296, Average_SSIM---0.947754
+2023-07-23 21:04:48,046 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_65 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_65_model.pth
+2023-07-23 21:04:48,048 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 66 /75:
+2023-07-23 22:18:51,792 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 22:18:51 Valid----           EPFL, PSNR---29.845916, SSIM---0.924579
+2023-07-23 22:19:48,275 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 22:19:48 Valid----        HCI_new, PSNR---31.692202, SSIM---0.925181
+2023-07-23 22:20:52,268 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 22:20:52 Valid----        HCI_old, PSNR---38.040286, SSIM---0.975301
+2023-07-23 22:22:08,178 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 22:22:08 Valid----    INRIA_Lytro, PSNR---32.001260, SSIM---0.954861
+2023-07-23 22:22:37,049 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 22:22:37 Valid----Stanford_Gantry, PSNR---32.322307, SSIM---0.958603
+2023-07-23 22:22:37,050 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 22:22:37 Average_Result: Average_PSNR---32.780394, Average_SSIM---0.947705
+2023-07-23 23:23:51,494 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 23:23:51 Valid----           EPFL, PSNR---29.872280, SSIM---0.924820
+2023-07-23 23:24:48,278 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 23:24:48 Valid----        HCI_new, PSNR---31.694968, SSIM---0.925287
+2023-07-23 23:25:52,410 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 23:25:52 Valid----        HCI_old, PSNR---38.066417, SSIM---0.975428
+2023-07-23 23:27:07,906 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 23:27:07 Valid----    INRIA_Lytro, PSNR---32.051776, SSIM---0.954956
+2023-07-23 23:27:36,278 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 23:27:36 Valid----Stanford_Gantry, PSNR---32.297982, SSIM---0.958551
+2023-07-23 23:27:36,279 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 23 23:27:36 Average_Result: Average_PSNR---32.796685, Average_SSIM---0.947808
+2023-07-23 23:27:36,416 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_66 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_66_model.pth
+2023-07-23 23:27:36,417 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 67 /75:
+2023-07-24 00:41:32,092 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 00:41:32 Valid----           EPFL, PSNR---29.851974, SSIM---0.924734
+2023-07-24 00:42:28,104 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 00:42:28 Valid----        HCI_new, PSNR---31.688576, SSIM---0.925238
+2023-07-24 00:43:31,115 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 00:43:31 Valid----        HCI_old, PSNR---38.074696, SSIM---0.975353
+2023-07-24 00:44:46,561 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 00:44:46 Valid----    INRIA_Lytro, PSNR---32.011521, SSIM---0.954860
+2023-07-24 00:45:14,881 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 00:45:14 Valid----Stanford_Gantry, PSNR---32.318082, SSIM---0.958717
+2023-07-24 00:45:14,882 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 00:45:14 Average_Result: Average_PSNR---32.788970, Average_SSIM---0.947781
+2023-07-24 01:46:31,242 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 01:46:31 Valid----           EPFL, PSNR---29.864742, SSIM---0.924865
+2023-07-24 01:47:27,461 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 01:47:27 Valid----        HCI_new, PSNR---31.697485, SSIM---0.925357
+2023-07-24 01:48:30,626 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 01:48:30 Valid----        HCI_old, PSNR---38.076044, SSIM---0.975411
+2023-07-24 01:49:46,201 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 01:49:46 Valid----    INRIA_Lytro, PSNR---31.995461, SSIM---0.955003
+2023-07-24 01:50:15,142 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 01:50:15 Valid----Stanford_Gantry, PSNR---32.297035, SSIM---0.958609
+2023-07-24 01:50:15,143 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 01:50:15 Average_Result: Average_PSNR---32.786153, Average_SSIM---0.947849
+2023-07-24 01:50:15,280 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_67 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_67_model.pth
+2023-07-24 01:50:15,282 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 68 /75:
+2023-07-24 03:04:13,256 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 03:04:13 Valid----           EPFL, PSNR---29.885354, SSIM---0.924767
+2023-07-24 03:05:09,586 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 03:05:09 Valid----        HCI_new, PSNR---31.689359, SSIM---0.925340
+2023-07-24 03:06:12,885 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 03:06:12 Valid----        HCI_old, PSNR---38.083466, SSIM---0.975484
+2023-07-24 03:07:28,585 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 03:07:28 Valid----    INRIA_Lytro, PSNR---32.050064, SSIM---0.954912
+2023-07-24 03:07:57,192 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 03:07:57 Valid----Stanford_Gantry, PSNR---32.306018, SSIM---0.958712
+2023-07-24 03:07:57,193 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 03:07:57 Average_Result: Average_PSNR---32.802852, Average_SSIM---0.947843
+2023-07-24 04:09:16,056 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 04:09:16 Valid----           EPFL, PSNR---29.879170, SSIM---0.924734
+2023-07-24 04:10:12,163 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 04:10:12 Valid----        HCI_new, PSNR---31.690236, SSIM---0.925217
+2023-07-24 04:11:15,332 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 04:11:15 Valid----        HCI_old, PSNR---38.078636, SSIM---0.975432
+2023-07-24 04:12:31,316 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 04:12:31 Valid----    INRIA_Lytro, PSNR---32.062550, SSIM---0.954919
+2023-07-24 04:12:59,997 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 04:12:59 Valid----Stanford_Gantry, PSNR---32.325397, SSIM---0.958658
+2023-07-24 04:12:59,998 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 04:12:59 Average_Result: Average_PSNR---32.807198, Average_SSIM---0.947792
+2023-07-24 04:13:00,155 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_68 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_68_model.pth
+2023-07-24 04:13:00,157 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 69 /75:
+2023-07-24 05:27:06,581 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 05:27:06 Valid----           EPFL, PSNR---29.852235, SSIM---0.924733
+2023-07-24 05:28:02,803 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 05:28:02 Valid----        HCI_new, PSNR---31.672787, SSIM---0.925085
+2023-07-24 05:29:06,356 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 05:29:06 Valid----        HCI_old, PSNR---38.059413, SSIM---0.975306
+2023-07-24 05:30:21,905 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 05:30:21 Valid----    INRIA_Lytro, PSNR---32.043266, SSIM---0.954875
+2023-07-24 05:30:50,263 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 05:30:50 Valid----Stanford_Gantry, PSNR---32.308892, SSIM---0.958543
+2023-07-24 05:30:50,264 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 05:30:50 Average_Result: Average_PSNR---32.787318, Average_SSIM---0.947708
+2023-07-24 06:32:00,976 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 06:32:00 Valid----           EPFL, PSNR---29.883219, SSIM---0.924815
+2023-07-24 06:32:57,045 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 06:32:57 Valid----        HCI_new, PSNR---31.696257, SSIM---0.925260
+2023-07-24 06:34:00,297 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 06:34:00 Valid----        HCI_old, PSNR---38.050729, SSIM---0.975176
+2023-07-24 06:35:16,387 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 06:35:16 Valid----    INRIA_Lytro, PSNR---32.081068, SSIM---0.954900
+2023-07-24 06:35:44,778 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 06:35:44 Valid----Stanford_Gantry, PSNR---32.312468, SSIM---0.958601
+2023-07-24 06:35:44,778 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 06:35:44 Average_Result: Average_PSNR---32.804748, Average_SSIM---0.947750
+2023-07-24 06:35:45,030 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_69 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_69_model.pth
+2023-07-24 06:35:45,031 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 70 /75:
+2023-07-24 07:49:35,572 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 07:49:35 Valid----           EPFL, PSNR---29.824544, SSIM---0.924681
+2023-07-24 07:50:31,604 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 07:50:31 Valid----        HCI_new, PSNR---31.686523, SSIM---0.925232
+2023-07-24 07:51:34,749 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 07:51:34 Valid----        HCI_old, PSNR---38.042229, SSIM---0.975256
+2023-07-24 07:52:50,240 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 07:52:50 Valid----    INRIA_Lytro, PSNR---31.988402, SSIM---0.954849
+2023-07-24 07:53:18,567 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 07:53:18 Valid----Stanford_Gantry, PSNR---32.303839, SSIM---0.958660
+2023-07-24 07:53:18,568 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 07:53:18 Average_Result: Average_PSNR---32.769107, Average_SSIM---0.947735
+2023-07-24 08:54:43,385 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 08:54:43 Valid----           EPFL, PSNR---29.852073, SSIM---0.924817
+2023-07-24 08:55:39,513 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 08:55:39 Valid----        HCI_new, PSNR---31.696468, SSIM---0.925276
+2023-07-24 08:56:42,631 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 08:56:42 Valid----        HCI_old, PSNR---38.069720, SSIM---0.975393
+2023-07-24 08:57:58,233 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 08:57:58 Valid----    INRIA_Lytro, PSNR---32.033407, SSIM---0.954953
+2023-07-24 08:58:26,644 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 08:58:26 Valid----Stanford_Gantry, PSNR---32.305587, SSIM---0.958651
+2023-07-24 08:58:26,645 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 08:58:26 Average_Result: Average_PSNR---32.791451, Average_SSIM---0.947818
+2023-07-24 08:58:26,808 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_70 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_70_model.pth
+2023-07-24 08:58:26,809 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 71 /75:
+2023-07-24 10:12:35,440 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 10:12:35 Valid----           EPFL, PSNR---29.865660, SSIM---0.924911
+2023-07-24 10:13:31,419 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 10:13:31 Valid----        HCI_new, PSNR---31.703013, SSIM---0.925371
+2023-07-24 10:14:34,422 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 10:14:34 Valid----        HCI_old, PSNR---38.036681, SSIM---0.975283
+2023-07-24 10:15:50,052 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 10:15:50 Valid----    INRIA_Lytro, PSNR---32.015229, SSIM---0.954937
+2023-07-24 10:16:18,397 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 10:16:18 Valid----Stanford_Gantry, PSNR---32.315992, SSIM---0.958694
+2023-07-24 10:16:18,398 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 10:16:18 Average_Result: Average_PSNR---32.787315, Average_SSIM---0.947839
+2023-07-24 11:17:53,800 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 11:17:53 Valid----           EPFL, PSNR---29.868681, SSIM---0.924807
+2023-07-24 11:18:50,185 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 11:18:50 Valid----        HCI_new, PSNR---31.683693, SSIM---0.925194
+2023-07-24 11:19:53,434 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 11:19:53 Valid----        HCI_old, PSNR---38.049701, SSIM---0.975320
+2023-07-24 11:21:08,850 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 11:21:08 Valid----    INRIA_Lytro, PSNR---32.052030, SSIM---0.954980
+2023-07-24 11:21:37,269 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 11:21:37 Valid----Stanford_Gantry, PSNR---32.274824, SSIM---0.958501
+2023-07-24 11:21:37,270 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 11:21:37 Average_Result: Average_PSNR---32.785786, Average_SSIM---0.947760
+2023-07-24 11:21:37,408 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_71 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_71_model.pth
+2023-07-24 11:21:37,410 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 72 /75:
+2023-07-24 12:35:40,443 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 12:35:40 Valid----           EPFL, PSNR---29.873556, SSIM---0.924866
+2023-07-24 12:36:36,553 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 12:36:36 Valid----        HCI_new, PSNR---31.697466, SSIM---0.925220
+2023-07-24 12:37:39,461 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 12:37:39 Valid----        HCI_old, PSNR---38.022612, SSIM---0.975293
+2023-07-24 12:38:55,646 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 12:38:55 Valid----    INRIA_Lytro, PSNR---32.017078, SSIM---0.954903
+2023-07-24 12:39:24,058 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 12:39:24 Valid----Stanford_Gantry, PSNR---32.319877, SSIM---0.958624
+2023-07-24 12:39:24,059 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 12:39:24 Average_Result: Average_PSNR---32.786118, Average_SSIM---0.947781
+2023-07-24 13:40:49,782 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 13:40:49 Valid----           EPFL, PSNR---29.859959, SSIM---0.924838
+2023-07-24 13:41:46,203 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 13:41:46 Valid----        HCI_new, PSNR---31.701307, SSIM---0.925377
+2023-07-24 13:42:49,336 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 13:42:49 Valid----        HCI_old, PSNR---38.038452, SSIM---0.975224
+2023-07-24 13:44:05,042 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 13:44:05 Valid----    INRIA_Lytro, PSNR---32.018576, SSIM---0.954863
+2023-07-24 13:44:33,589 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 13:44:33 Valid----Stanford_Gantry, PSNR---32.319354, SSIM---0.958622
+2023-07-24 13:44:33,590 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 13:44:33 Average_Result: Average_PSNR---32.787530, Average_SSIM---0.947785
+2023-07-24 13:44:33,747 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_72 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_72_model.pth
+2023-07-24 13:44:33,749 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 73 /75:
+2023-07-24 14:58:26,611 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 14:58:26 Valid----           EPFL, PSNR---29.842516, SSIM---0.924847
+2023-07-24 14:59:22,888 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 14:59:22 Valid----        HCI_new, PSNR---31.703871, SSIM---0.925492
+2023-07-24 15:00:27,023 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 15:00:27 Valid----        HCI_old, PSNR---38.074049, SSIM---0.975374
+2023-07-24 15:01:42,930 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 15:01:42 Valid----    INRIA_Lytro, PSNR---31.971446, SSIM---0.954912
+2023-07-24 15:02:11,324 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 15:02:11 Valid----Stanford_Gantry, PSNR---32.310919, SSIM---0.958784
+2023-07-24 15:02:11,325 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 15:02:11 Average_Result: Average_PSNR---32.780560, Average_SSIM---0.947882
+2023-07-24 16:03:28,095 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 16:03:28 Valid----           EPFL, PSNR---29.857625, SSIM---0.924780
+2023-07-24 16:04:24,130 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 16:04:24 Valid----        HCI_new, PSNR---31.677043, SSIM---0.925130
+2023-07-24 16:05:27,510 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 16:05:27 Valid----        HCI_old, PSNR---38.063718, SSIM---0.975319
+2023-07-24 16:06:43,220 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 16:06:43 Valid----    INRIA_Lytro, PSNR---32.037930, SSIM---0.954924
+2023-07-24 16:07:11,734 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 16:07:11 Valid----Stanford_Gantry, PSNR---32.319740, SSIM---0.958634
+2023-07-24 16:07:11,735 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 16:07:11 Average_Result: Average_PSNR---32.791211, Average_SSIM---0.947757
+2023-07-24 16:07:12,006 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_73 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_73_model.pth
+2023-07-24 16:07:12,007 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 74 /75:
+2023-07-24 17:20:59,151 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 17:20:59 Valid----           EPFL, PSNR---29.907613, SSIM---0.924760
+2023-07-24 17:21:55,073 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 17:21:55 Valid----        HCI_new, PSNR---31.695040, SSIM---0.925313
+2023-07-24 17:22:58,049 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 17:22:58 Valid----        HCI_old, PSNR---38.064259, SSIM---0.975374
+2023-07-24 17:24:13,544 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 17:24:13 Valid----    INRIA_Lytro, PSNR---32.105394, SSIM---0.954979
+2023-07-24 17:24:42,318 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 17:24:42 Valid----Stanford_Gantry, PSNR---32.305724, SSIM---0.958634
+2023-07-24 17:24:42,319 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 17:24:42 Average_Result: Average_PSNR---32.815606, Average_SSIM---0.947812
+2023-07-24 17:24:42,503 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_74 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/best_model.pth
+2023-07-24 18:25:57,163 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 18:25:57 Valid----           EPFL, PSNR---29.835668, SSIM---0.924812
+2023-07-24 18:26:53,399 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 18:26:53 Valid----        HCI_new, PSNR---31.693461, SSIM---0.925459
+2023-07-24 18:27:56,469 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 18:27:56 Valid----        HCI_old, PSNR---38.051240, SSIM---0.975342
+2023-07-24 18:29:12,172 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 18:29:12 Valid----    INRIA_Lytro, PSNR---32.030901, SSIM---0.955018
+2023-07-24 18:29:40,649 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 18:29:40 Valid----Stanford_Gantry, PSNR---32.327371, SSIM---0.958893
+2023-07-24 18:29:40,649 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 18:29:40 Average_Result: Average_PSNR---32.787728, Average_SSIM---0.947905
+2023-07-24 18:29:40,806 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_74 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_74_model.pth
+2023-07-24 18:29:40,808 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - 
+Epoch 75 /75:
+2023-07-24 19:43:36,144 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 19:43:36 Valid----           EPFL, PSNR---29.858745, SSIM---0.924725
+2023-07-24 19:44:32,180 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 19:44:32 Valid----        HCI_new, PSNR---31.708429, SSIM---0.925382
+2023-07-24 19:45:35,309 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 19:45:35 Valid----        HCI_old, PSNR---38.054778, SSIM---0.975424
+2023-07-24 19:46:51,066 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 19:46:51 Valid----    INRIA_Lytro, PSNR---32.022793, SSIM---0.954955
+2023-07-24 19:47:19,826 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 19:47:19 Valid----Stanford_Gantry, PSNR---32.318290, SSIM---0.958778
+2023-07-24 19:47:19,827 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 19:47:19 Average_Result: Average_PSNR---32.792607, Average_SSIM---0.947853
+2023-07-24 20:48:39,022 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 20:48:39 Valid----           EPFL, PSNR---29.845839, SSIM---0.924708
+2023-07-24 20:49:35,562 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 20:49:35 Valid----        HCI_new, PSNR---31.688133, SSIM---0.925260
+2023-07-24 20:50:38,961 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 20:50:38 Valid----        HCI_old, PSNR---38.063440, SSIM---0.975357
+2023-07-24 20:51:55,077 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 20:51:55 Valid----    INRIA_Lytro, PSNR---32.040533, SSIM---0.954962
+2023-07-24 20:52:23,631 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 20:52:23 Valid----Stanford_Gantry, PSNR---32.338088, SSIM---0.958890
+2023-07-24 20:52:23,632 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Jul 24 20:52:23 Average_Result: Average_PSNR---32.795207, Average_SSIM---0.947835
+2023-07-24 20:52:23,900 - base_parallel_3_res_4_iAFF_cswin_3_deverse - INFO - Saving the epoch_75 model at log/SR_5x5_4x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_5x5_4x_epoch_75_model.pth
