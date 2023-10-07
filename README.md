@@ -9,6 +9,8 @@ Release code and models
 ![image](image/overview.png)
 
 # Quantitative and Qualitative Results
+See training log for quantitative results.
+
 ![image](image/x4.png)
 ![image](image/Quantitative Results.jpg)
 
