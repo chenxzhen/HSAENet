@@ -9,7 +9,7 @@ Release code and models
 ![image](image/overview.png)
 
 # Quantitative and Qualitative Results
-Please see training log [trianing log x4](HSAENet_x4_log.txt) for quantitative results.
+Please see training log [HSAENet_x4_log](HSAENet_x4_log.txt) for quantitative results.
 
 ![image](image/x4.png)
 ![image](image/Quantitative Results.jpg)
