@@ -1,0 +1,1180 @@
+
+Load Training Dataset ...
+The number of training data is: 43768
+
+Load Validation Dataset ...
+The number of validation data is: 23
+
+Model Initial ...
+The number of parameter is: 2558280
+Do not use pre-trained model!
+PARAMETER ...
+Namespace(angRes_in=5, angRes_out=5, batch_size=2, channels=60, data_name='ALL', decay_rate=0, device='cuda:0', epoch=75, gamma=0.5, iter=1500, local_rank=0, lr=0.0004, minibatch_for_test=1, model_name='base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation', n_steps=15, num_workers=4, param=True, patch_size_for_test=32, path_for_test='/home/wangxuebo/cxz/dataset/DPTTestingData/2xSR_5x5/', path_for_train='/home/wangxuebo/cxz/dataset/LFDFTrainingData/2xSR_5x5/', path_log='./log/', path_pre_pth='', rank=0, save_path='./Results/', scale_factor=2, stride_for_test=16, task='SR', tensorboard=True, use_pre_ckpt=False)
+
+Start training...
+
+Epoch 1 /75:
+Aug 15 15:24:08 Valid----Stanford_Gantry, PSNR---33.299327, SSIM---0.967547
+Aug 15 15:26:28 Valid----        HCI_new, PSNR---33.486133, SSIM---0.951040
+Aug 15 15:29:06 Valid----        HCI_old, PSNR---39.688629, SSIM---0.984719
+Aug 15 15:35:27 Valid----           EPFL, PSNR---31.300653, SSIM---0.955500
+Aug 15 15:38:38 Valid----    INRIA_Lytro, PSNR---33.092149, SSIM---0.970764
+Aug 15 15:38:38 Average_Result: Average_PSNR---34.173378, Average_SSIM---0.965914
+Saving the epoch_01 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 15 16:05:26 Valid----Stanford_Gantry, PSNR---34.868917, SSIM---0.978718
+Aug 15 16:07:46 Valid----        HCI_new, PSNR---34.911108, SSIM---0.963437
+Aug 15 16:10:24 Valid----        HCI_old, PSNR---41.444161, SSIM---0.989771
+Aug 15 16:16:44 Valid----           EPFL, PSNR---32.313516, SSIM---0.967425
+Aug 15 16:19:55 Valid----    INRIA_Lytro, PSNR---34.129508, SSIM---0.978717
+Aug 15 16:19:55 Average_Result: Average_PSNR---35.533442, Average_SSIM---0.975614
+Saving the epoch_01 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_01 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_01_model.pth
+
+Epoch 2 /75:
+Aug 15 16:52:00 Valid----Stanford_Gantry, PSNR---35.905424, SSIM---0.983408
+Aug 15 16:54:20 Valid----        HCI_new, PSNR---35.524368, SSIM---0.967539
+Aug 15 16:56:58 Valid----        HCI_old, PSNR---42.379988, SSIM---0.991737
+Aug 15 17:03:19 Valid----           EPFL, PSNR---32.884319, SSIM---0.970301
+Aug 15 17:06:29 Valid----    INRIA_Lytro, PSNR---34.713341, SSIM---0.980491
+Aug 15 17:06:29 Average_Result: Average_PSNR---36.281488, Average_SSIM---0.978695
+Saving the epoch_02 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 15 17:33:06 Valid----Stanford_Gantry, PSNR---36.457914, SSIM---0.985584
+Aug 15 17:35:26 Valid----        HCI_new, PSNR---35.897701, SSIM---0.969981
+Aug 15 17:38:04 Valid----        HCI_old, PSNR---42.789229, SSIM---0.992418
+Aug 15 17:44:24 Valid----           EPFL, PSNR---32.870985, SSIM---0.971190
+Aug 15 17:47:35 Valid----    INRIA_Lytro, PSNR---34.692469, SSIM---0.981107
+Aug 15 17:47:35 Average_Result: Average_PSNR---36.541660, Average_SSIM---0.980056
+Saving the epoch_02 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_02 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_02_model.pth
+
+Epoch 3 /75:
+Aug 15 18:19:48 Valid----Stanford_Gantry, PSNR---36.988746, SSIM---0.987177
+Aug 15 18:22:09 Valid----        HCI_new, PSNR---36.134194, SSIM---0.971313
+Aug 15 18:24:46 Valid----        HCI_old, PSNR---43.137129, SSIM---0.992936
+Aug 15 18:31:07 Valid----           EPFL, PSNR---33.520423, SSIM---0.972449
+Aug 15 18:34:17 Valid----    INRIA_Lytro, PSNR---35.341411, SSIM---0.981713
+Aug 15 18:34:17 Average_Result: Average_PSNR---37.024381, Average_SSIM---0.981117
+Saving the epoch_03 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 15 19:01:03 Valid----Stanford_Gantry, PSNR---37.336128, SSIM---0.988166
+Aug 15 19:03:23 Valid----        HCI_new, PSNR---36.310865, SSIM---0.972230
+Aug 15 19:06:00 Valid----        HCI_old, PSNR---43.245476, SSIM---0.993094
+Aug 15 19:12:21 Valid----           EPFL, PSNR---33.446801, SSIM---0.973039
+Aug 15 19:15:32 Valid----    INRIA_Lytro, PSNR---35.281241, SSIM---0.982207
+Aug 15 19:15:32 Average_Result: Average_PSNR---37.124102, Average_SSIM---0.981747
+Saving the epoch_03 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_03 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_03_model.pth
+
+Epoch 4 /75:
+Aug 15 19:47:43 Valid----Stanford_Gantry, PSNR---37.498070, SSIM---0.988562
+Aug 15 19:50:03 Valid----        HCI_new, PSNR---36.407567, SSIM---0.972681
+Aug 15 19:52:41 Valid----        HCI_old, PSNR---43.560256, SSIM---0.993439
+Aug 15 19:59:01 Valid----           EPFL, PSNR---33.809618, SSIM---0.973566
+Aug 15 20:02:12 Valid----    INRIA_Lytro, PSNR---35.635373, SSIM---0.982534
+Aug 15 20:02:12 Average_Result: Average_PSNR---37.382177, Average_SSIM---0.982156
+Saving the epoch_04 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 15 20:28:55 Valid----Stanford_Gantry, PSNR---37.923472, SSIM---0.989558
+Aug 15 20:31:15 Valid----        HCI_new, PSNR---36.578350, SSIM---0.973541
+Aug 15 20:33:53 Valid----        HCI_old, PSNR---43.480322, SSIM---0.993378
+Aug 15 20:40:13 Valid----           EPFL, PSNR---33.790268, SSIM---0.973818
+Aug 15 20:43:24 Valid----    INRIA_Lytro, PSNR---35.590462, SSIM---0.982765
+Aug 15 20:43:24 Average_Result: Average_PSNR---37.472575, Average_SSIM---0.982612
+Saving the epoch_04 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_04 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_04_model.pth
+
+Epoch 5 /75:
+Aug 15 21:15:33 Valid----Stanford_Gantry, PSNR---38.168074, SSIM---0.990260
+Aug 15 21:17:54 Valid----        HCI_new, PSNR---36.690282, SSIM---0.974011
+Aug 15 21:20:31 Valid----        HCI_old, PSNR---43.888303, SSIM---0.993878
+Aug 15 21:26:52 Valid----           EPFL, PSNR---34.016629, SSIM---0.974556
+Aug 15 21:30:02 Valid----    INRIA_Lytro, PSNR---35.844185, SSIM---0.983326
+Aug 15 21:30:02 Average_Result: Average_PSNR---37.721495, Average_SSIM---0.983206
+Saving the epoch_05 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 15 21:56:44 Valid----Stanford_Gantry, PSNR---38.129146, SSIM---0.990092
+Aug 15 21:59:04 Valid----        HCI_new, PSNR---36.757078, SSIM---0.974289
+Aug 15 22:01:42 Valid----        HCI_old, PSNR---43.746409, SSIM---0.993736
+Aug 15 22:08:02 Valid----           EPFL, PSNR---33.918767, SSIM---0.974434
+Aug 15 22:11:13 Valid----    INRIA_Lytro, PSNR---35.664289, SSIM---0.983208
+Aug 15 22:11:13 Average_Result: Average_PSNR---37.643138, Average_SSIM---0.983151
+Saving the epoch_05 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_05_model.pth
+
+Epoch 6 /75:
+Aug 15 22:43:25 Valid----Stanford_Gantry, PSNR---38.538428, SSIM---0.991014
+Aug 15 22:45:45 Valid----        HCI_new, PSNR---36.813000, SSIM---0.974651
+Aug 15 22:48:23 Valid----        HCI_old, PSNR---43.991174, SSIM---0.994034
+Aug 15 22:54:43 Valid----           EPFL, PSNR---34.264817, SSIM---0.975051
+Aug 15 22:57:54 Valid----    INRIA_Lytro, PSNR---36.143511, SSIM---0.983738
+Aug 15 22:57:54 Average_Result: Average_PSNR---37.950186, Average_SSIM---0.983697
+Saving the epoch_06 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 15 23:24:34 Valid----Stanford_Gantry, PSNR---38.799697, SSIM---0.991508
+Aug 15 23:26:54 Valid----        HCI_new, PSNR---36.948849, SSIM---0.975232
+Aug 15 23:29:31 Valid----        HCI_old, PSNR---44.117339, SSIM---0.994224
+Aug 15 23:35:52 Valid----           EPFL, PSNR---34.109967, SSIM---0.975322
+Aug 15 23:39:02 Valid----    INRIA_Lytro, PSNR---35.850477, SSIM---0.983896
+Aug 15 23:39:02 Average_Result: Average_PSNR---37.965266, Average_SSIM---0.984036
+Saving the epoch_06 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_06 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_06_model.pth
+
+Epoch 7 /75:
+Aug 16 00:11:14 Valid----Stanford_Gantry, PSNR---38.832299, SSIM---0.991654
+Aug 16 00:13:34 Valid----        HCI_new, PSNR---36.961661, SSIM---0.975486
+Aug 16 00:16:12 Valid----        HCI_old, PSNR---44.002253, SSIM---0.994156
+Aug 16 00:22:32 Valid----           EPFL, PSNR---34.265498, SSIM---0.975589
+Aug 16 00:25:43 Valid----    INRIA_Lytro, PSNR---36.060055, SSIM---0.984044
+Aug 16 00:25:43 Average_Result: Average_PSNR---38.024353, Average_SSIM---0.984186
+Saving the epoch_07 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 16 00:52:30 Valid----Stanford_Gantry, PSNR---38.996791, SSIM---0.991974
+Aug 16 00:54:50 Valid----        HCI_new, PSNR---37.116526, SSIM---0.975924
+Aug 16 00:57:28 Valid----        HCI_old, PSNR---44.181450, SSIM---0.994249
+Aug 16 01:03:49 Valid----           EPFL, PSNR---34.505335, SSIM---0.975675
+Aug 16 01:06:59 Valid----    INRIA_Lytro, PSNR---36.351111, SSIM---0.984090
+Aug 16 01:06:59 Average_Result: Average_PSNR---38.230243, Average_SSIM---0.984382
+Saving the epoch_07 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_07 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_07_model.pth
+
+Epoch 8 /75:
+Aug 16 01:39:04 Valid----Stanford_Gantry, PSNR---38.773353, SSIM---0.991703
+Aug 16 01:41:24 Valid----        HCI_new, PSNR---37.085394, SSIM---0.975890
+Aug 16 01:44:02 Valid----        HCI_old, PSNR---44.185867, SSIM---0.994330
+Aug 16 01:50:22 Valid----           EPFL, PSNR---34.436327, SSIM---0.975867
+Aug 16 01:53:33 Valid----    INRIA_Lytro, PSNR---36.268519, SSIM---0.984212
+Aug 16 01:53:33 Average_Result: Average_PSNR---38.149892, Average_SSIM---0.984400
+Aug 16 02:20:14 Valid----Stanford_Gantry, PSNR---38.997174, SSIM---0.991912
+Aug 16 02:22:34 Valid----        HCI_new, PSNR---37.199225, SSIM---0.976418
+Aug 16 02:25:12 Valid----        HCI_old, PSNR---44.328359, SSIM---0.994406
+Aug 16 02:31:32 Valid----           EPFL, PSNR---34.477610, SSIM---0.976104
+Aug 16 02:34:43 Valid----    INRIA_Lytro, PSNR---36.244121, SSIM---0.984266
+Aug 16 02:34:43 Average_Result: Average_PSNR---38.249298, Average_SSIM---0.984621
+Saving the epoch_08 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_08 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_08_model.pth
+
+Epoch 9 /75:
+Aug 16 03:07:09 Valid----Stanford_Gantry, PSNR---39.323099, SSIM---0.992547
+Aug 16 03:09:29 Valid----        HCI_new, PSNR---37.164525, SSIM---0.976413
+Aug 16 03:12:07 Valid----        HCI_old, PSNR---44.321042, SSIM---0.994391
+Aug 16 03:18:27 Valid----           EPFL, PSNR---34.443086, SSIM---0.976440
+Aug 16 03:21:38 Valid----    INRIA_Lytro, PSNR---36.137997, SSIM---0.984473
+Aug 16 03:21:38 Average_Result: Average_PSNR---38.277950, Average_SSIM---0.984853
+Saving the epoch_09 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 16 03:48:23 Valid----Stanford_Gantry, PSNR---39.333038, SSIM---0.992622
+Aug 16 03:50:43 Valid----        HCI_new, PSNR---37.344564, SSIM---0.977077
+Aug 16 03:53:21 Valid----        HCI_old, PSNR---44.553975, SSIM---0.994583
+Aug 16 03:59:41 Valid----           EPFL, PSNR---34.723109, SSIM---0.976437
+Aug 16 04:02:52 Valid----    INRIA_Lytro, PSNR---36.536345, SSIM---0.984598
+Aug 16 04:02:52 Average_Result: Average_PSNR---38.498206, Average_SSIM---0.985063
+Saving the epoch_09 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_09 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_09_model.pth
+
+Epoch 10 /75:
+Aug 16 04:35:05 Valid----Stanford_Gantry, PSNR---39.397329, SSIM---0.992674
+Aug 16 04:37:25 Valid----        HCI_new, PSNR---37.312832, SSIM---0.976981
+Aug 16 04:40:02 Valid----        HCI_old, PSNR---44.476252, SSIM---0.994577
+Aug 16 04:46:23 Valid----           EPFL, PSNR---34.642709, SSIM---0.976646
+Aug 16 04:49:33 Valid----    INRIA_Lytro, PSNR---36.444949, SSIM---0.984811
+Aug 16 04:49:33 Average_Result: Average_PSNR---38.454814, Average_SSIM---0.985138
+Aug 16 05:16:11 Valid----Stanford_Gantry, PSNR---39.385690, SSIM---0.992629
+Aug 16 05:18:31 Valid----        HCI_new, PSNR---37.402736, SSIM---0.977341
+Aug 16 05:21:08 Valid----        HCI_old, PSNR---44.435112, SSIM---0.994530
+Aug 16 05:27:29 Valid----           EPFL, PSNR---34.592061, SSIM---0.976611
+Aug 16 05:30:40 Valid----    INRIA_Lytro, PSNR---36.379127, SSIM---0.984690
+Aug 16 05:30:40 Average_Result: Average_PSNR---38.438945, Average_SSIM---0.985160
+Saving the epoch_10 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_10_model.pth
+
+Epoch 11 /75:
+Aug 16 06:02:44 Valid----Stanford_Gantry, PSNR---39.400017, SSIM---0.992778
+Aug 16 06:05:04 Valid----        HCI_new, PSNR---37.369117, SSIM---0.977353
+Aug 16 06:07:41 Valid----        HCI_old, PSNR---44.614893, SSIM---0.994636
+Aug 16 06:14:02 Valid----           EPFL, PSNR---34.739154, SSIM---0.976931
+Aug 16 06:17:12 Valid----    INRIA_Lytro, PSNR---36.539181, SSIM---0.984884
+Aug 16 06:17:12 Average_Result: Average_PSNR---38.532472, Average_SSIM---0.985316
+Saving the epoch_11 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 16 06:43:54 Valid----Stanford_Gantry, PSNR---39.481676, SSIM---0.992821
+Aug 16 06:46:14 Valid----        HCI_new, PSNR---37.495687, SSIM---0.977676
+Aug 16 06:48:52 Valid----        HCI_old, PSNR---44.530439, SSIM---0.994628
+Aug 16 06:55:12 Valid----           EPFL, PSNR---34.784589, SSIM---0.976958
+Aug 16 06:58:23 Valid----    INRIA_Lytro, PSNR---36.583242, SSIM---0.984784
+Aug 16 06:58:23 Average_Result: Average_PSNR---38.575127, Average_SSIM---0.985373
+Saving the epoch_11 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_11 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_11_model.pth
+
+Epoch 12 /75:
+Aug 16 07:30:28 Valid----Stanford_Gantry, PSNR---39.494495, SSIM---0.992823
+Aug 16 07:32:48 Valid----        HCI_new, PSNR---37.426973, SSIM---0.977435
+Aug 16 07:35:25 Valid----        HCI_old, PSNR---44.632786, SSIM---0.994703
+Aug 16 07:41:46 Valid----           EPFL, PSNR---34.691997, SSIM---0.977106
+Aug 16 07:44:56 Valid----    INRIA_Lytro, PSNR---36.461693, SSIM---0.985011
+Aug 16 07:44:56 Average_Result: Average_PSNR---38.541589, Average_SSIM---0.985416
+Aug 16 08:11:43 Valid----Stanford_Gantry, PSNR---39.660679, SSIM---0.993138
+Aug 16 08:14:03 Valid----        HCI_new, PSNR---37.490408, SSIM---0.977930
+Aug 16 08:16:40 Valid----        HCI_old, PSNR---44.649023, SSIM---0.994717
+Aug 16 08:23:01 Valid----           EPFL, PSNR---34.787953, SSIM---0.977442
+Aug 16 08:26:11 Valid----    INRIA_Lytro, PSNR---36.484234, SSIM---0.985082
+Aug 16 08:26:11 Average_Result: Average_PSNR---38.614460, Average_SSIM---0.985662
+Saving the epoch_12 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_12 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_12_model.pth
+
+Epoch 13 /75:
+Aug 16 08:58:33 Valid----Stanford_Gantry, PSNR---39.695930, SSIM---0.993235
+Aug 16 09:00:54 Valid----        HCI_new, PSNR---37.510714, SSIM---0.977913
+Aug 16 09:03:31 Valid----        HCI_old, PSNR---44.637854, SSIM---0.994727
+Aug 16 09:09:52 Valid----           EPFL, PSNR---34.743024, SSIM---0.977399
+Aug 16 09:13:02 Valid----    INRIA_Lytro, PSNR---36.479132, SSIM---0.985082
+Aug 16 09:13:02 Average_Result: Average_PSNR---38.613331, Average_SSIM---0.985671
+Aug 16 09:39:41 Valid----Stanford_Gantry, PSNR---39.780837, SSIM---0.993315
+Aug 16 09:42:01 Valid----        HCI_new, PSNR---37.598363, SSIM---0.978119
+Aug 16 09:44:38 Valid----        HCI_old, PSNR---44.701069, SSIM---0.994713
+Aug 16 09:50:59 Valid----           EPFL, PSNR---34.834146, SSIM---0.977493
+Aug 16 09:54:09 Valid----    INRIA_Lytro, PSNR---36.593934, SSIM---0.985160
+Aug 16 09:54:09 Average_Result: Average_PSNR---38.701670, Average_SSIM---0.985760
+Saving the epoch_13 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_13 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_13_model.pth
+
+Epoch 14 /75:
+Aug 16 10:26:18 Valid----Stanford_Gantry, PSNR---39.705438, SSIM---0.993252
+Aug 16 10:28:38 Valid----        HCI_new, PSNR---37.529867, SSIM---0.977863
+Aug 16 10:31:15 Valid----        HCI_old, PSNR---44.696545, SSIM---0.994773
+Aug 16 10:37:36 Valid----           EPFL, PSNR---34.898254, SSIM---0.977811
+Aug 16 10:40:46 Valid----    INRIA_Lytro, PSNR---36.641326, SSIM---0.985279
+Aug 16 10:40:46 Average_Result: Average_PSNR---38.694286, Average_SSIM---0.985796
+Aug 16 11:07:26 Valid----Stanford_Gantry, PSNR---39.609979, SSIM---0.992949
+Aug 16 11:09:46 Valid----        HCI_new, PSNR---37.578038, SSIM---0.978045
+Aug 16 11:12:23 Valid----        HCI_old, PSNR---44.769109, SSIM---0.994800
+Aug 16 11:18:44 Valid----           EPFL, PSNR---34.928293, SSIM---0.977807
+Aug 16 11:21:55 Valid----    INRIA_Lytro, PSNR---36.661861, SSIM---0.985272
+Aug 16 11:21:55 Average_Result: Average_PSNR---38.709456, Average_SSIM---0.985775
+Saving the epoch_14 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_14 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_14_model.pth
+
+Epoch 15 /75:
+Aug 16 11:54:00 Valid----Stanford_Gantry, PSNR---39.863773, SSIM---0.993495
+Aug 16 11:56:20 Valid----        HCI_new, PSNR---37.586638, SSIM---0.978202
+Aug 16 11:58:58 Valid----        HCI_old, PSNR---44.791460, SSIM---0.994848
+Aug 16 12:05:18 Valid----           EPFL, PSNR---34.966717, SSIM---0.977931
+Aug 16 12:08:29 Valid----    INRIA_Lytro, PSNR---36.722843, SSIM---0.985390
+Aug 16 12:08:29 Average_Result: Average_PSNR---38.786286, Average_SSIM---0.985973
+Saving the epoch_15 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 16 12:35:12 Valid----Stanford_Gantry, PSNR---39.864684, SSIM---0.993411
+Aug 16 12:37:32 Valid----        HCI_new, PSNR---37.676812, SSIM---0.978436
+Aug 16 12:40:09 Valid----        HCI_old, PSNR---44.889062, SSIM---0.994902
+Aug 16 12:46:30 Valid----           EPFL, PSNR---35.051532, SSIM---0.978014
+Aug 16 12:49:41 Valid----    INRIA_Lytro, PSNR---36.843786, SSIM---0.985455
+Aug 16 12:49:41 Average_Result: Average_PSNR---38.865175, Average_SSIM---0.986043
+Saving the epoch_15 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_15 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_15_model.pth
+
+Epoch 16 /75:
+Aug 16 13:21:53 Valid----Stanford_Gantry, PSNR---40.014271, SSIM---0.993672
+Aug 16 13:24:13 Valid----        HCI_new, PSNR---37.804672, SSIM---0.978981
+Aug 16 13:26:50 Valid----        HCI_old, PSNR---44.845547, SSIM---0.994904
+Aug 16 13:33:11 Valid----           EPFL, PSNR---35.060617, SSIM---0.978272
+Aug 16 13:36:22 Valid----    INRIA_Lytro, PSNR---36.809605, SSIM---0.985580
+Aug 16 13:36:22 Average_Result: Average_PSNR---38.906943, Average_SSIM---0.986282
+Saving the epoch_16 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 16 14:03:01 Valid----Stanford_Gantry, PSNR---40.126102, SSIM---0.993778
+Aug 16 14:05:21 Valid----        HCI_new, PSNR---37.832211, SSIM---0.978979
+Aug 16 14:07:59 Valid----        HCI_old, PSNR---44.920793, SSIM---0.994931
+Aug 16 14:14:19 Valid----           EPFL, PSNR---35.114891, SSIM---0.978520
+Aug 16 14:17:30 Valid----    INRIA_Lytro, PSNR---36.894213, SSIM---0.985659
+Aug 16 14:17:30 Average_Result: Average_PSNR---38.977642, Average_SSIM---0.986373
+Saving the epoch_16 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_16 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_16_model.pth
+
+Epoch 17 /75:
+Aug 16 14:49:45 Valid----Stanford_Gantry, PSNR---40.219161, SSIM---0.993887
+Aug 16 14:52:05 Valid----        HCI_new, PSNR---37.815428, SSIM---0.979098
+Aug 16 14:54:43 Valid----        HCI_old, PSNR---44.891558, SSIM---0.994920
+Aug 16 15:01:03 Valid----           EPFL, PSNR---35.146031, SSIM---0.978497
+Aug 16 15:04:14 Valid----    INRIA_Lytro, PSNR---36.943353, SSIM---0.985678
+Aug 16 15:04:14 Average_Result: Average_PSNR---39.003106, Average_SSIM---0.986416
+Saving the epoch_17 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 16 15:30:58 Valid----Stanford_Gantry, PSNR---40.303324, SSIM---0.993989
+Aug 16 15:33:19 Valid----        HCI_new, PSNR---37.846639, SSIM---0.979109
+Aug 16 15:35:56 Valid----        HCI_old, PSNR---44.929202, SSIM---0.994951
+Aug 16 15:42:17 Valid----           EPFL, PSNR---35.123102, SSIM---0.978619
+Aug 16 15:45:27 Valid----    INRIA_Lytro, PSNR---36.889974, SSIM---0.985722
+Aug 16 15:45:27 Average_Result: Average_PSNR---39.018448, Average_SSIM---0.986478
+Saving the epoch_17 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_17 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_17_model.pth
+
+Epoch 18 /75:
+Aug 16 16:17:35 Valid----Stanford_Gantry, PSNR---40.328628, SSIM---0.993941
+Aug 16 16:19:55 Valid----        HCI_new, PSNR---37.870494, SSIM---0.979095
+Aug 16 16:22:32 Valid----        HCI_old, PSNR---44.892041, SSIM---0.994894
+Aug 16 16:28:53 Valid----           EPFL, PSNR---35.138228, SSIM---0.978623
+Aug 16 16:32:03 Valid----    INRIA_Lytro, PSNR---36.911071, SSIM---0.985676
+Aug 16 16:32:03 Average_Result: Average_PSNR---39.028092, Average_SSIM---0.986446
+Saving the epoch_18 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 16 16:58:45 Valid----Stanford_Gantry, PSNR---40.202427, SSIM---0.993932
+Aug 16 17:01:05 Valid----        HCI_new, PSNR---37.875668, SSIM---0.979249
+Aug 16 17:03:42 Valid----        HCI_old, PSNR---44.975823, SSIM---0.994968
+Aug 16 17:10:03 Valid----           EPFL, PSNR---35.176741, SSIM---0.978759
+Aug 16 17:13:13 Valid----    INRIA_Lytro, PSNR---36.962655, SSIM---0.985773
+Aug 16 17:13:13 Average_Result: Average_PSNR---39.038663, Average_SSIM---0.986536
+Saving the epoch_18 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_18 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_18_model.pth
+
+Epoch 19 /75:
+Aug 16 17:45:39 Valid----Stanford_Gantry, PSNR---40.279103, SSIM---0.993948
+Aug 16 17:47:59 Valid----        HCI_new, PSNR---37.902297, SSIM---0.979266
+Aug 16 17:50:36 Valid----        HCI_old, PSNR---44.861746, SSIM---0.994896
+Aug 16 17:56:57 Valid----           EPFL, PSNR---35.148490, SSIM---0.978662
+Aug 16 18:00:07 Valid----    INRIA_Lytro, PSNR---36.914709, SSIM---0.985816
+Aug 16 18:00:07 Average_Result: Average_PSNR---39.021269, Average_SSIM---0.986518
+Aug 16 18:26:49 Valid----Stanford_Gantry, PSNR---40.274656, SSIM---0.993925
+Aug 16 18:29:10 Valid----        HCI_new, PSNR---37.893364, SSIM---0.979316
+Aug 16 18:31:47 Valid----        HCI_old, PSNR---44.887488, SSIM---0.994921
+Aug 16 18:38:08 Valid----           EPFL, PSNR---35.108323, SSIM---0.978820
+Aug 16 18:41:18 Valid----    INRIA_Lytro, PSNR---36.843677, SSIM---0.985795
+Aug 16 18:41:18 Average_Result: Average_PSNR---39.001502, Average_SSIM---0.986555
+Saving the epoch_19 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_19_model.pth
+
+Epoch 20 /75:
+Aug 16 19:13:32 Valid----Stanford_Gantry, PSNR---40.258685, SSIM---0.993962
+Aug 16 19:15:53 Valid----        HCI_new, PSNR---37.906307, SSIM---0.979426
+Aug 16 19:18:30 Valid----        HCI_old, PSNR---44.848904, SSIM---0.994894
+Aug 16 19:24:51 Valid----           EPFL, PSNR---35.098025, SSIM---0.978869
+Aug 16 19:28:01 Valid----    INRIA_Lytro, PSNR---36.845189, SSIM---0.985865
+Aug 16 19:28:01 Average_Result: Average_PSNR---38.991422, Average_SSIM---0.986603
+Aug 16 19:54:56 Valid----Stanford_Gantry, PSNR---40.179574, SSIM---0.993906
+Aug 16 19:57:16 Valid----        HCI_new, PSNR---37.870260, SSIM---0.979200
+Aug 16 19:59:54 Valid----        HCI_old, PSNR---44.931340, SSIM---0.994938
+Aug 16 20:06:14 Valid----           EPFL, PSNR---35.280850, SSIM---0.978988
+Aug 16 20:09:25 Valid----    INRIA_Lytro, PSNR---37.114256, SSIM---0.985882
+Aug 16 20:09:25 Average_Result: Average_PSNR---39.075256, Average_SSIM---0.986583
+Saving the epoch_20 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_20 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_20_model.pth
+
+Epoch 21 /75:
+Aug 16 20:41:42 Valid----Stanford_Gantry, PSNR---40.419961, SSIM---0.994145
+Aug 16 20:44:02 Valid----        HCI_new, PSNR---37.920012, SSIM---0.979354
+Aug 16 20:46:40 Valid----        HCI_old, PSNR---44.857971, SSIM---0.994876
+Aug 16 20:53:00 Valid----           EPFL, PSNR---35.430482, SSIM---0.978952
+Aug 16 20:56:11 Valid----    INRIA_Lytro, PSNR---37.468317, SSIM---0.985943
+Aug 16 20:56:11 Average_Result: Average_PSNR---39.219348, Average_SSIM---0.986654
+Saving the epoch_21 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 16 21:22:51 Valid----Stanford_Gantry, PSNR---40.374504, SSIM---0.994115
+Aug 16 21:25:11 Valid----        HCI_new, PSNR---37.919123, SSIM---0.979381
+Aug 16 21:27:48 Valid----        HCI_old, PSNR---44.941069, SSIM---0.994983
+Aug 16 21:34:09 Valid----           EPFL, PSNR---35.555111, SSIM---0.979108
+Aug 16 21:37:19 Valid----    INRIA_Lytro, PSNR---37.836355, SSIM---0.985961
+Aug 16 21:37:19 Average_Result: Average_PSNR---39.325232, Average_SSIM---0.986710
+Saving the epoch_21 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_21 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_21_model.pth
+
+Epoch 22 /75:
+Aug 16 22:09:32 Valid----Stanford_Gantry, PSNR---40.273160, SSIM---0.993943
+Aug 16 22:11:52 Valid----        HCI_new, PSNR---37.895504, SSIM---0.979371
+Aug 16 22:14:30 Valid----        HCI_old, PSNR---44.841646, SSIM---0.994865
+Aug 16 22:20:51 Valid----           EPFL, PSNR---35.290484, SSIM---0.978851
+Aug 16 22:24:01 Valid----    INRIA_Lytro, PSNR---37.260429, SSIM---0.985815
+Aug 16 22:24:01 Average_Result: Average_PSNR---39.112244, Average_SSIM---0.986569
+Aug 16 22:50:43 Valid----Stanford_Gantry, PSNR---40.355151, SSIM---0.994076
+Aug 16 22:53:03 Valid----        HCI_new, PSNR---37.926851, SSIM---0.979428
+Aug 16 22:55:40 Valid----        HCI_old, PSNR---44.904458, SSIM---0.994915
+Aug 16 23:02:01 Valid----           EPFL, PSNR---35.139010, SSIM---0.978996
+Aug 16 23:05:12 Valid----    INRIA_Lytro, PSNR---36.752445, SSIM---0.985938
+Aug 16 23:05:12 Average_Result: Average_PSNR---39.015583, Average_SSIM---0.986671
+Saving the epoch_22 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_22_model.pth
+
+Epoch 23 /75:
+Aug 16 23:37:27 Valid----Stanford_Gantry, PSNR---40.339708, SSIM---0.994007
+Aug 16 23:39:47 Valid----        HCI_new, PSNR---37.902316, SSIM---0.979434
+Aug 16 23:42:25 Valid----        HCI_old, PSNR---44.861396, SSIM---0.994883
+Aug 16 23:48:46 Valid----           EPFL, PSNR---35.160098, SSIM---0.978903
+Aug 16 23:51:56 Valid----    INRIA_Lytro, PSNR---36.844423, SSIM---0.985859
+Aug 16 23:51:56 Average_Result: Average_PSNR---39.021589, Average_SSIM---0.986617
+Aug 17 00:18:41 Valid----Stanford_Gantry, PSNR---40.448384, SSIM---0.994180
+Aug 17 00:21:01 Valid----        HCI_new, PSNR---37.977143, SSIM---0.979573
+Aug 17 00:23:39 Valid----        HCI_old, PSNR---44.994504, SSIM---0.995020
+Aug 17 00:29:59 Valid----           EPFL, PSNR---35.277664, SSIM---0.979152
+Aug 17 00:33:10 Valid----    INRIA_Lytro, PSNR---37.037371, SSIM---0.986002
+Aug 17 00:33:10 Average_Result: Average_PSNR---39.147013, Average_SSIM---0.986785
+Saving the epoch_23 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_23_model.pth
+
+Epoch 24 /75:
+Aug 17 01:05:25 Valid----Stanford_Gantry, PSNR---40.449679, SSIM---0.994171
+Aug 17 01:07:45 Valid----        HCI_new, PSNR---37.929675, SSIM---0.979473
+Aug 17 01:10:23 Valid----        HCI_old, PSNR---44.968752, SSIM---0.994995
+Aug 17 01:16:43 Valid----           EPFL, PSNR---35.197925, SSIM---0.979102
+Aug 17 01:19:54 Valid----    INRIA_Lytro, PSNR---37.018850, SSIM---0.985980
+Aug 17 01:19:54 Average_Result: Average_PSNR---39.112976, Average_SSIM---0.986744
+Aug 17 01:46:31 Valid----Stanford_Gantry, PSNR---40.440721, SSIM---0.994195
+Aug 17 01:48:51 Valid----        HCI_new, PSNR---37.975511, SSIM---0.979626
+Aug 17 01:51:29 Valid----        HCI_old, PSNR---45.013179, SSIM---0.995000
+Aug 17 01:57:49 Valid----           EPFL, PSNR---35.276038, SSIM---0.979245
+Aug 17 02:01:00 Valid----    INRIA_Lytro, PSNR---36.962405, SSIM---0.986044
+Aug 17 02:01:00 Average_Result: Average_PSNR---39.133571, Average_SSIM---0.986822
+Saving the epoch_24 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_24_model.pth
+
+Epoch 25 /75:
+Aug 17 02:33:17 Valid----Stanford_Gantry, PSNR---40.348628, SSIM---0.994034
+Aug 17 02:35:37 Valid----        HCI_new, PSNR---37.965564, SSIM---0.979563
+Aug 17 02:38:14 Valid----        HCI_old, PSNR---44.866125, SSIM---0.994917
+Aug 17 02:44:35 Valid----           EPFL, PSNR---35.425012, SSIM---0.979157
+Aug 17 02:47:45 Valid----    INRIA_Lytro, PSNR---37.311829, SSIM---0.986054
+Aug 17 02:47:45 Average_Result: Average_PSNR---39.183432, Average_SSIM---0.986745
+Aug 17 03:14:24 Valid----Stanford_Gantry, PSNR---40.450121, SSIM---0.994180
+Aug 17 03:16:45 Valid----        HCI_new, PSNR---37.977835, SSIM---0.979614
+Aug 17 03:19:22 Valid----        HCI_old, PSNR---44.989158, SSIM---0.994973
+Aug 17 03:25:43 Valid----           EPFL, PSNR---35.332947, SSIM---0.979181
+Aug 17 03:28:53 Valid----    INRIA_Lytro, PSNR---37.085633, SSIM---0.986002
+Aug 17 03:28:53 Average_Result: Average_PSNR---39.167139, Average_SSIM---0.986790
+Saving the epoch_25 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_25_model.pth
+
+Epoch 26 /75:
+Aug 17 04:00:57 Valid----Stanford_Gantry, PSNR---40.362874, SSIM---0.994069
+Aug 17 04:03:18 Valid----        HCI_new, PSNR---37.973600, SSIM---0.979578
+Aug 17 04:05:55 Valid----        HCI_old, PSNR---44.886079, SSIM---0.994932
+Aug 17 04:12:16 Valid----           EPFL, PSNR---35.284161, SSIM---0.979311
+Aug 17 04:15:26 Valid----    INRIA_Lytro, PSNR---37.007978, SSIM---0.986099
+Aug 17 04:15:26 Average_Result: Average_PSNR---39.102938, Average_SSIM---0.986798
+Aug 17 04:42:02 Valid----Stanford_Gantry, PSNR---40.422151, SSIM---0.994164
+Aug 17 04:44:22 Valid----        HCI_new, PSNR---37.995318, SSIM---0.979687
+Aug 17 04:46:59 Valid----        HCI_old, PSNR---44.967451, SSIM---0.994957
+Aug 17 04:53:20 Valid----           EPFL, PSNR---35.406129, SSIM---0.979437
+Aug 17 04:56:30 Valid----    INRIA_Lytro, PSNR---37.201178, SSIM---0.986077
+Aug 17 04:56:30 Average_Result: Average_PSNR---39.198445, Average_SSIM---0.986865
+Saving the epoch_26 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_26_model.pth
+
+Epoch 27 /75:
+Aug 17 05:28:42 Valid----Stanford_Gantry, PSNR---40.396870, SSIM---0.994117
+Aug 17 05:31:02 Valid----        HCI_new, PSNR---37.987905, SSIM---0.979610
+Aug 17 05:33:39 Valid----        HCI_old, PSNR---44.970974, SSIM---0.994992
+Aug 17 05:40:00 Valid----           EPFL, PSNR---35.302533, SSIM---0.979373
+Aug 17 05:43:10 Valid----    INRIA_Lytro, PSNR---37.010633, SSIM---0.986154
+Aug 17 05:43:10 Average_Result: Average_PSNR---39.133783, Average_SSIM---0.986849
+Aug 17 06:09:51 Valid----Stanford_Gantry, PSNR---40.459814, SSIM---0.994247
+Aug 17 06:12:11 Valid----        HCI_new, PSNR---37.992975, SSIM---0.979684
+Aug 17 06:14:48 Valid----        HCI_old, PSNR---44.983665, SSIM---0.994984
+Aug 17 06:21:09 Valid----           EPFL, PSNR---35.190316, SSIM---0.979460
+Aug 17 06:24:20 Valid----    INRIA_Lytro, PSNR---36.783354, SSIM---0.986159
+Aug 17 06:24:20 Average_Result: Average_PSNR---39.082025, Average_SSIM---0.986907
+Saving the epoch_27 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_27_model.pth
+
+Epoch 28 /75:
+Aug 17 06:56:27 Valid----Stanford_Gantry, PSNR---40.479384, SSIM---0.994151
+Aug 17 06:58:47 Valid----        HCI_new, PSNR---37.992996, SSIM---0.979607
+Aug 17 07:01:25 Valid----        HCI_old, PSNR---44.865703, SSIM---0.994886
+Aug 17 07:07:45 Valid----           EPFL, PSNR---35.602418, SSIM---0.979356
+Aug 17 07:10:56 Valid----    INRIA_Lytro, PSNR---37.608276, SSIM---0.986042
+Aug 17 07:10:56 Average_Result: Average_PSNR---39.309755, Average_SSIM---0.986809
+Aug 17 07:37:41 Valid----Stanford_Gantry, PSNR---40.488011, SSIM---0.994252
+Aug 17 07:40:01 Valid----        HCI_new, PSNR---37.982768, SSIM---0.979654
+Aug 17 07:42:39 Valid----        HCI_old, PSNR---44.970264, SSIM---0.994980
+Aug 17 07:49:00 Valid----           EPFL, PSNR---34.960601, SSIM---0.979421
+Aug 17 07:52:10 Valid----    INRIA_Lytro, PSNR---36.373362, SSIM---0.986197
+Aug 17 07:52:10 Average_Result: Average_PSNR---38.955001, Average_SSIM---0.986901
+Saving the epoch_28 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_28_model.pth
+
+Epoch 29 /75:
+Aug 17 08:24:21 Valid----Stanford_Gantry, PSNR---40.328761, SSIM---0.993989
+Aug 17 08:26:42 Valid----        HCI_new, PSNR---38.000726, SSIM---0.979696
+Aug 17 08:29:19 Valid----        HCI_old, PSNR---44.872705, SSIM---0.994875
+Aug 17 08:35:40 Valid----           EPFL, PSNR---35.262709, SSIM---0.979404
+Aug 17 08:38:50 Valid----    INRIA_Lytro, PSNR---37.012453, SSIM---0.986208
+Aug 17 08:38:50 Average_Result: Average_PSNR---39.095471, Average_SSIM---0.986834
+Aug 17 09:05:37 Valid----Stanford_Gantry, PSNR---40.519269, SSIM---0.994284
+Aug 17 09:07:57 Valid----        HCI_new, PSNR---38.025754, SSIM---0.979804
+Aug 17 09:10:35 Valid----        HCI_old, PSNR---44.989836, SSIM---0.994980
+Aug 17 09:16:56 Valid----           EPFL, PSNR---35.161603, SSIM---0.979682
+Aug 17 09:20:06 Valid----    INRIA_Lytro, PSNR---36.469638, SSIM---0.986283
+Aug 17 09:20:06 Average_Result: Average_PSNR---39.033220, Average_SSIM---0.987007
+Saving the epoch_29 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_29_model.pth
+
+Epoch 30 /75:
+Aug 17 09:52:09 Valid----Stanford_Gantry, PSNR---40.227534, SSIM---0.993730
+Aug 17 09:54:29 Valid----        HCI_new, PSNR---37.922886, SSIM---0.979365
+Aug 17 09:57:07 Valid----        HCI_old, PSNR---44.760344, SSIM---0.994755
+Aug 17 10:03:27 Valid----           EPFL, PSNR---35.020468, SSIM---0.979131
+Aug 17 10:06:38 Valid----    INRIA_Lytro, PSNR---36.607414, SSIM---0.986027
+Aug 17 10:06:38 Average_Result: Average_PSNR---38.907729, Average_SSIM---0.986602
+Aug 17 10:33:12 Valid----Stanford_Gantry, PSNR---40.576145, SSIM---0.994416
+Aug 17 10:35:32 Valid----        HCI_new, PSNR---38.018417, SSIM---0.979850
+Aug 17 10:38:10 Valid----        HCI_old, PSNR---44.979089, SSIM---0.994960
+Aug 17 10:44:30 Valid----           EPFL, PSNR---35.421628, SSIM---0.979706
+Aug 17 10:47:41 Valid----    INRIA_Lytro, PSNR---37.140067, SSIM---0.986308
+Aug 17 10:47:41 Average_Result: Average_PSNR---39.227070, Average_SSIM---0.987048
+Saving the epoch_30 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_30_model.pth
+
+Epoch 31 /75:
+Aug 17 11:19:48 Valid----Stanford_Gantry, PSNR---40.582809, SSIM---0.994314
+Aug 17 11:22:08 Valid----        HCI_new, PSNR---38.092726, SSIM---0.979937
+Aug 17 11:24:46 Valid----        HCI_old, PSNR---44.981702, SSIM---0.995008
+Aug 17 11:31:06 Valid----           EPFL, PSNR---35.352893, SSIM---0.979778
+Aug 17 11:34:17 Valid----    INRIA_Lytro, PSNR---36.997478, SSIM---0.986444
+Aug 17 11:34:17 Average_Result: Average_PSNR---39.201521, Average_SSIM---0.987096
+Aug 17 12:01:01 Valid----Stanford_Gantry, PSNR---40.569364, SSIM---0.994373
+Aug 17 12:03:21 Valid----        HCI_new, PSNR---38.081509, SSIM---0.979966
+Aug 17 12:05:59 Valid----        HCI_old, PSNR---45.040977, SSIM---0.995034
+Aug 17 12:12:19 Valid----           EPFL, PSNR---35.262548, SSIM---0.979980
+Aug 17 12:15:30 Valid----    INRIA_Lytro, PSNR---36.888026, SSIM---0.986477
+Aug 17 12:15:30 Average_Result: Average_PSNR---39.168485, Average_SSIM---0.987166
+Saving the epoch_31 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_31_model.pth
+
+Epoch 32 /75:
+Aug 17 12:47:43 Valid----Stanford_Gantry, PSNR---40.563613, SSIM---0.994284
+Aug 17 12:50:03 Valid----        HCI_new, PSNR---38.078316, SSIM---0.979959
+Aug 17 12:52:41 Valid----        HCI_old, PSNR---44.980132, SSIM---0.994979
+Aug 17 12:59:02 Valid----           EPFL, PSNR---35.504081, SSIM---0.979969
+Aug 17 13:02:12 Valid----    INRIA_Lytro, PSNR---37.274261, SSIM---0.986499
+Aug 17 13:02:12 Average_Result: Average_PSNR---39.280081, Average_SSIM---0.987138
+Aug 17 13:28:59 Valid----Stanford_Gantry, PSNR---40.653289, SSIM---0.994439
+Aug 17 13:31:20 Valid----        HCI_new, PSNR---38.091218, SSIM---0.979997
+Aug 17 13:33:57 Valid----        HCI_old, PSNR---45.063416, SSIM---0.995059
+Aug 17 13:40:18 Valid----           EPFL, PSNR---35.614063, SSIM---0.980057
+Aug 17 13:43:28 Valid----    INRIA_Lytro, PSNR---37.395873, SSIM---0.986607
+Aug 17 13:43:28 Average_Result: Average_PSNR---39.363572, Average_SSIM---0.987232
+Saving the epoch_32 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_32 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_32_model.pth
+
+Epoch 33 /75:
+Aug 17 14:15:46 Valid----Stanford_Gantry, PSNR---40.558469, SSIM---0.994274
+Aug 17 14:18:06 Valid----        HCI_new, PSNR---38.103970, SSIM---0.979979
+Aug 17 14:20:44 Valid----        HCI_old, PSNR---44.989343, SSIM---0.995006
+Aug 17 14:27:05 Valid----           EPFL, PSNR---35.320792, SSIM---0.979980
+Aug 17 14:30:15 Valid----    INRIA_Lytro, PSNR---37.050456, SSIM---0.986553
+Aug 17 14:30:15 Average_Result: Average_PSNR---39.204606, Average_SSIM---0.987158
+Aug 17 14:57:01 Valid----Stanford_Gantry, PSNR---40.702583, SSIM---0.994505
+Aug 17 14:59:21 Valid----        HCI_new, PSNR---38.063616, SSIM---0.979875
+Aug 17 15:01:58 Valid----        HCI_old, PSNR---45.046807, SSIM---0.995047
+Aug 17 15:08:19 Valid----           EPFL, PSNR---35.302073, SSIM---0.980123
+Aug 17 15:11:30 Valid----    INRIA_Lytro, PSNR---36.795447, SSIM---0.986554
+Aug 17 15:11:30 Average_Result: Average_PSNR---39.182105, Average_SSIM---0.987221
+Saving the epoch_33 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_33_model.pth
+
+Epoch 34 /75:
+Aug 17 15:43:39 Valid----Stanford_Gantry, PSNR---40.552300, SSIM---0.994295
+Aug 17 15:45:59 Valid----        HCI_new, PSNR---38.119244, SSIM---0.979989
+Aug 17 15:48:36 Valid----        HCI_old, PSNR---45.014954, SSIM---0.995015
+Aug 17 15:54:57 Valid----           EPFL, PSNR---35.335910, SSIM---0.980188
+Aug 17 15:58:07 Valid----    INRIA_Lytro, PSNR---36.965975, SSIM---0.986675
+Aug 17 15:58:07 Average_Result: Average_PSNR---39.197676, Average_SSIM---0.987232
+Aug 17 16:24:52 Valid----Stanford_Gantry, PSNR---40.637280, SSIM---0.994423
+Aug 17 16:27:13 Valid----        HCI_new, PSNR---38.129247, SSIM---0.980073
+Aug 17 16:29:50 Valid----        HCI_old, PSNR---45.036836, SSIM---0.995023
+Aug 17 16:36:11 Valid----           EPFL, PSNR---35.451577, SSIM---0.980276
+Aug 17 16:39:21 Valid----    INRIA_Lytro, PSNR---37.015401, SSIM---0.986666
+Aug 17 16:39:21 Average_Result: Average_PSNR---39.254068, Average_SSIM---0.987292
+Saving the epoch_34 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_34_model.pth
+
+Epoch 35 /75:
+Aug 17 17:11:36 Valid----Stanford_Gantry, PSNR---40.626628, SSIM---0.994391
+Aug 17 17:13:56 Valid----        HCI_new, PSNR---38.124153, SSIM---0.980079
+Aug 17 17:16:34 Valid----        HCI_old, PSNR---44.991096, SSIM---0.994994
+Aug 17 17:22:54 Valid----           EPFL, PSNR---35.446337, SSIM---0.980354
+Aug 17 17:26:05 Valid----    INRIA_Lytro, PSNR---37.119251, SSIM---0.986703
+Aug 17 17:26:05 Average_Result: Average_PSNR---39.261493, Average_SSIM---0.987304
+Aug 17 17:52:45 Valid----Stanford_Gantry, PSNR---40.669028, SSIM---0.994463
+Aug 17 17:55:05 Valid----        HCI_new, PSNR---38.096605, SSIM---0.979991
+Aug 17 17:57:43 Valid----        HCI_old, PSNR---44.994871, SSIM---0.995012
+Aug 17 18:04:04 Valid----           EPFL, PSNR---35.259967, SSIM---0.980565
+Aug 17 18:07:14 Valid----    INRIA_Lytro, PSNR---36.582480, SSIM---0.986755
+Aug 17 18:07:14 Average_Result: Average_PSNR---39.120590, Average_SSIM---0.987357
+Saving the epoch_35 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_35_model.pth
+
+Epoch 36 /75:
+Aug 17 18:39:25 Valid----Stanford_Gantry, PSNR---40.600793, SSIM---0.994330
+Aug 17 18:41:45 Valid----        HCI_new, PSNR---38.124183, SSIM---0.980030
+Aug 17 18:44:23 Valid----        HCI_old, PSNR---44.987402, SSIM---0.994992
+Aug 17 18:50:44 Valid----           EPFL, PSNR---35.441664, SSIM---0.980411
+Aug 17 18:53:54 Valid----    INRIA_Lytro, PSNR---37.191886, SSIM---0.986752
+Aug 17 18:53:54 Average_Result: Average_PSNR---39.269186, Average_SSIM---0.987303
+Aug 17 19:20:32 Valid----Stanford_Gantry, PSNR---40.626589, SSIM---0.994406
+Aug 17 19:22:53 Valid----        HCI_new, PSNR---38.119892, SSIM---0.980064
+Aug 17 19:25:30 Valid----        HCI_old, PSNR---45.054624, SSIM---0.995042
+Aug 17 19:31:51 Valid----           EPFL, PSNR---35.422893, SSIM---0.980385
+Aug 17 19:35:01 Valid----    INRIA_Lytro, PSNR---36.987862, SSIM---0.986769
+Aug 17 19:35:01 Average_Result: Average_PSNR---39.242372, Average_SSIM---0.987333
+Saving the epoch_36 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_36_model.pth
+
+Epoch 37 /75:
+Aug 17 20:07:17 Valid----Stanford_Gantry, PSNR---40.566473, SSIM---0.994303
+Aug 17 20:09:37 Valid----        HCI_new, PSNR---38.101969, SSIM---0.980012
+Aug 17 20:12:14 Valid----        HCI_old, PSNR---45.049231, SSIM---0.995038
+Aug 17 20:18:35 Valid----           EPFL, PSNR---35.505113, SSIM---0.980442
+Aug 17 20:21:45 Valid----    INRIA_Lytro, PSNR---37.205853, SSIM---0.986826
+Aug 17 20:21:45 Average_Result: Average_PSNR---39.285728, Average_SSIM---0.987324
+Aug 17 20:48:29 Valid----Stanford_Gantry, PSNR---40.677123, SSIM---0.994476
+Aug 17 20:50:49 Valid----        HCI_new, PSNR---38.113674, SSIM---0.980062
+Aug 17 20:53:26 Valid----        HCI_old, PSNR---45.047141, SSIM---0.995046
+Aug 17 20:59:47 Valid----           EPFL, PSNR---35.428248, SSIM---0.980594
+Aug 17 21:02:58 Valid----    INRIA_Lytro, PSNR---37.181653, SSIM---0.986826
+Aug 17 21:02:58 Average_Result: Average_PSNR---39.289568, Average_SSIM---0.987401
+Saving the epoch_37 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_37_model.pth
+
+Epoch 38 /75:
+Aug 17 21:35:12 Valid----Stanford_Gantry, PSNR---40.666663, SSIM---0.994449
+Aug 17 21:37:32 Valid----        HCI_new, PSNR---38.121342, SSIM---0.980067
+Aug 17 21:40:10 Valid----        HCI_old, PSNR---45.027246, SSIM---0.995033
+Aug 17 21:46:30 Valid----           EPFL, PSNR---35.487439, SSIM---0.980588
+Aug 17 21:49:41 Valid----    INRIA_Lytro, PSNR---37.223516, SSIM---0.986840
+Aug 17 21:49:41 Average_Result: Average_PSNR---39.305241, Average_SSIM---0.987395
+Aug 17 22:16:27 Valid----Stanford_Gantry, PSNR---40.676182, SSIM---0.994510
+Aug 17 22:18:47 Valid----        HCI_new, PSNR---38.135480, SSIM---0.980117
+Aug 17 22:21:24 Valid----        HCI_old, PSNR---45.008430, SSIM---0.995004
+Aug 17 22:27:45 Valid----           EPFL, PSNR---35.583890, SSIM---0.980729
+Aug 17 22:30:55 Valid----    INRIA_Lytro, PSNR---37.340649, SSIM---0.986877
+Aug 17 22:30:55 Average_Result: Average_PSNR---39.348926, Average_SSIM---0.987448
+Saving the epoch_38 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_38_model.pth
+
+Epoch 39 /75:
+Aug 17 23:03:17 Valid----Stanford_Gantry, PSNR---40.655698, SSIM---0.994398
+Aug 17 23:05:37 Valid----        HCI_new, PSNR---38.113128, SSIM---0.979958
+Aug 17 23:08:15 Valid----        HCI_old, PSNR---44.996780, SSIM---0.994972
+Aug 17 23:14:36 Valid----           EPFL, PSNR---35.505135, SSIM---0.980504
+Aug 17 23:17:46 Valid----    INRIA_Lytro, PSNR---37.344795, SSIM---0.986852
+Aug 17 23:17:46 Average_Result: Average_PSNR---39.323107, Average_SSIM---0.987337
+Aug 17 23:44:37 Valid----Stanford_Gantry, PSNR---40.739995, SSIM---0.994586
+Aug 17 23:46:57 Valid----        HCI_new, PSNR---38.115121, SSIM---0.980122
+Aug 17 23:49:35 Valid----        HCI_old, PSNR---45.065313, SSIM---0.995069
+Aug 17 23:55:55 Valid----           EPFL, PSNR---35.395156, SSIM---0.980724
+Aug 17 23:59:06 Valid----    INRIA_Lytro, PSNR---36.855852, SSIM---0.986888
+Aug 17 23:59:06 Average_Result: Average_PSNR---39.234288, Average_SSIM---0.987478
+Saving the epoch_39 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_39_model.pth
+
+Epoch 40 /75:
+Aug 18 00:31:14 Valid----Stanford_Gantry, PSNR---40.493247, SSIM---0.994237
+Aug 18 00:33:34 Valid----        HCI_new, PSNR---38.108141, SSIM---0.979969
+Aug 18 00:36:11 Valid----        HCI_old, PSNR---44.962581, SSIM---0.994981
+Aug 18 00:42:32 Valid----           EPFL, PSNR---35.476860, SSIM---0.980647
+Aug 18 00:45:43 Valid----    INRIA_Lytro, PSNR---37.167269, SSIM---0.986867
+Aug 18 00:45:43 Average_Result: Average_PSNR---39.241619, Average_SSIM---0.987340
+Aug 18 01:12:23 Valid----Stanford_Gantry, PSNR---40.708213, SSIM---0.994565
+Aug 18 01:14:43 Valid----        HCI_new, PSNR---38.147357, SSIM---0.980176
+Aug 18 01:17:21 Valid----        HCI_old, PSNR---45.031626, SSIM---0.995037
+Aug 18 01:23:42 Valid----           EPFL, PSNR---35.473070, SSIM---0.980803
+Aug 18 01:26:52 Valid----    INRIA_Lytro, PSNR---37.110410, SSIM---0.986914
+Aug 18 01:26:52 Average_Result: Average_PSNR---39.294135, Average_SSIM---0.987499
+Saving the epoch_40 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_40_model.pth
+
+Epoch 41 /75:
+Aug 18 01:59:13 Valid----Stanford_Gantry, PSNR---40.704515, SSIM---0.994470
+Aug 18 02:01:33 Valid----        HCI_new, PSNR---38.135996, SSIM---0.980067
+Aug 18 02:04:11 Valid----        HCI_old, PSNR---44.975688, SSIM---0.994976
+Aug 18 02:10:31 Valid----           EPFL, PSNR---35.537649, SSIM---0.980686
+Aug 18 02:13:42 Valid----    INRIA_Lytro, PSNR---37.308124, SSIM---0.986918
+Aug 18 02:13:42 Average_Result: Average_PSNR---39.332395, Average_SSIM---0.987424
+Aug 18 02:40:18 Valid----Stanford_Gantry, PSNR---40.807355, SSIM---0.994639
+Aug 18 02:42:38 Valid----        HCI_new, PSNR---38.143339, SSIM---0.980162
+Aug 18 02:45:16 Valid----        HCI_old, PSNR---45.060715, SSIM---0.995050
+Aug 18 02:51:37 Valid----           EPFL, PSNR---35.443811, SSIM---0.980759
+Aug 18 02:54:47 Valid----    INRIA_Lytro, PSNR---37.130734, SSIM---0.986934
+Aug 18 02:54:47 Average_Result: Average_PSNR---39.317191, Average_SSIM---0.987509
+Saving the epoch_41 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_41_model.pth
+
+Epoch 42 /75:
+Aug 18 03:26:57 Valid----Stanford_Gantry, PSNR---40.646748, SSIM---0.994356
+Aug 18 03:29:17 Valid----        HCI_new, PSNR---38.089258, SSIM---0.979921
+Aug 18 03:31:55 Valid----        HCI_old, PSNR---45.038689, SSIM---0.995012
+Aug 18 03:38:15 Valid----           EPFL, PSNR---35.536016, SSIM---0.980582
+Aug 18 03:41:26 Valid----    INRIA_Lytro, PSNR---37.275439, SSIM---0.986928
+Aug 18 03:41:26 Average_Result: Average_PSNR---39.317230, Average_SSIM---0.987360
+Aug 18 04:08:06 Valid----Stanford_Gantry, PSNR---40.798749, SSIM---0.994637
+Aug 18 04:10:26 Valid----        HCI_new, PSNR---38.164594, SSIM---0.980217
+Aug 18 04:13:04 Valid----        HCI_old, PSNR---45.059028, SSIM---0.995051
+Aug 18 04:19:24 Valid----           EPFL, PSNR---35.648844, SSIM---0.980857
+Aug 18 04:22:35 Valid----    INRIA_Lytro, PSNR---37.688576, SSIM---0.987002
+Aug 18 04:22:35 Average_Result: Average_PSNR---39.471958, Average_SSIM---0.987553
+Saving the epoch_42 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_42 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_42_model.pth
+
+Epoch 43 /75:
+Aug 18 04:54:44 Valid----Stanford_Gantry, PSNR---40.746956, SSIM---0.994498
+Aug 18 04:57:05 Valid----        HCI_new, PSNR---38.161555, SSIM---0.980129
+Aug 18 04:59:42 Valid----        HCI_old, PSNR---44.998638, SSIM---0.995016
+Aug 18 05:06:03 Valid----           EPFL, PSNR---35.613815, SSIM---0.980891
+Aug 18 05:09:13 Valid----    INRIA_Lytro, PSNR---37.443878, SSIM---0.987015
+Aug 18 05:09:13 Average_Result: Average_PSNR---39.392968, Average_SSIM---0.987510
+Aug 18 05:35:51 Valid----Stanford_Gantry, PSNR---40.710847, SSIM---0.994577
+Aug 18 05:38:11 Valid----        HCI_new, PSNR---38.147468, SSIM---0.980156
+Aug 18 05:40:49 Valid----        HCI_old, PSNR---45.047407, SSIM---0.995052
+Aug 18 05:47:09 Valid----           EPFL, PSNR---35.638645, SSIM---0.980878
+Aug 18 05:50:20 Valid----    INRIA_Lytro, PSNR---37.487025, SSIM---0.986997
+Aug 18 05:50:20 Average_Result: Average_PSNR---39.406278, Average_SSIM---0.987532
+Saving the epoch_43 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_43_model.pth
+
+Epoch 44 /75:
+Aug 18 06:22:35 Valid----Stanford_Gantry, PSNR---40.652039, SSIM---0.994384
+Aug 18 06:24:55 Valid----        HCI_new, PSNR---38.144565, SSIM---0.980109
+Aug 18 06:27:33 Valid----        HCI_old, PSNR---44.990725, SSIM---0.994987
+Aug 18 06:33:54 Valid----           EPFL, PSNR---35.538496, SSIM---0.980802
+Aug 18 06:37:04 Valid----    INRIA_Lytro, PSNR---37.419722, SSIM---0.986962
+Aug 18 06:37:04 Average_Result: Average_PSNR---39.349109, Average_SSIM---0.987449
+Aug 18 07:03:46 Valid----Stanford_Gantry, PSNR---40.711880, SSIM---0.994579
+Aug 18 07:06:07 Valid----        HCI_new, PSNR---38.142271, SSIM---0.980210
+Aug 18 07:08:44 Valid----        HCI_old, PSNR---45.069531, SSIM---0.995054
+Aug 18 07:15:05 Valid----           EPFL, PSNR---35.471895, SSIM---0.981007
+Aug 18 07:18:16 Valid----    INRIA_Lytro, PSNR---37.117543, SSIM---0.987046
+Aug 18 07:18:16 Average_Result: Average_PSNR---39.302624, Average_SSIM---0.987579
+Saving the epoch_44 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_44_model.pth
+
+Epoch 45 /75:
+Aug 18 07:50:29 Valid----Stanford_Gantry, PSNR---40.722803, SSIM---0.994538
+Aug 18 07:52:49 Valid----        HCI_new, PSNR---38.165339, SSIM---0.980235
+Aug 18 07:55:26 Valid----        HCI_old, PSNR---45.059250, SSIM---0.995039
+Aug 18 08:01:47 Valid----           EPFL, PSNR---35.620226, SSIM---0.980917
+Aug 18 08:04:57 Valid----    INRIA_Lytro, PSNR---37.418955, SSIM---0.987042
+Aug 18 08:04:57 Average_Result: Average_PSNR---39.397315, Average_SSIM---0.987554
+Aug 18 08:31:43 Valid----Stanford_Gantry, PSNR---40.766025, SSIM---0.994630
+Aug 18 08:34:03 Valid----        HCI_new, PSNR---38.152725, SSIM---0.980196
+Aug 18 08:36:40 Valid----        HCI_old, PSNR---45.104385, SSIM---0.995075
+Aug 18 08:43:01 Valid----           EPFL, PSNR---35.540761, SSIM---0.981039
+Aug 18 08:46:12 Valid----    INRIA_Lytro, PSNR---37.235348, SSIM---0.987050
+Aug 18 08:46:12 Average_Result: Average_PSNR---39.359849, Average_SSIM---0.987598
+Saving the epoch_45 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_45_model.pth
+
+Epoch 46 /75:
+Aug 18 09:18:24 Valid----Stanford_Gantry, PSNR---40.764152, SSIM---0.994576
+Aug 18 09:20:44 Valid----        HCI_new, PSNR---38.179327, SSIM---0.980259
+Aug 18 09:23:22 Valid----        HCI_old, PSNR---45.030662, SSIM---0.995035
+Aug 18 09:29:42 Valid----           EPFL, PSNR---35.664646, SSIM---0.981093
+Aug 18 09:32:53 Valid----    INRIA_Lytro, PSNR---37.584663, SSIM---0.987132
+Aug 18 09:32:53 Average_Result: Average_PSNR---39.444690, Average_SSIM---0.987619
+Aug 18 09:59:35 Valid----Stanford_Gantry, PSNR---40.809813, SSIM---0.994672
+Aug 18 10:01:55 Valid----        HCI_new, PSNR---38.186140, SSIM---0.980302
+Aug 18 10:04:33 Valid----        HCI_old, PSNR---45.058738, SSIM---0.995049
+Aug 18 10:10:53 Valid----           EPFL, PSNR---35.623945, SSIM---0.981099
+Aug 18 10:14:04 Valid----    INRIA_Lytro, PSNR---37.477269, SSIM---0.987152
+Aug 18 10:14:04 Average_Result: Average_PSNR---39.431181, Average_SSIM---0.987655
+Saving the epoch_46 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_46_model.pth
+
+Epoch 47 /75:
+Aug 18 10:46:27 Valid----Stanford_Gantry, PSNR---40.840024, SSIM---0.994688
+Aug 18 10:48:47 Valid----        HCI_new, PSNR---38.197205, SSIM---0.980379
+Aug 18 10:51:25 Valid----        HCI_old, PSNR---45.065081, SSIM---0.995056
+Aug 18 10:57:46 Valid----           EPFL, PSNR---35.744694, SSIM---0.981153
+Aug 18 11:00:56 Valid----    INRIA_Lytro, PSNR---37.660102, SSIM---0.987167
+Aug 18 11:00:56 Average_Result: Average_PSNR---39.501421, Average_SSIM---0.987688
+Saving the epoch_47 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 18 11:27:38 Valid----Stanford_Gantry, PSNR---40.874298, SSIM---0.994747
+Aug 18 11:29:58 Valid----        HCI_new, PSNR---38.192849, SSIM---0.980361
+Aug 18 11:32:35 Valid----        HCI_old, PSNR---45.121270, SSIM---0.995086
+Aug 18 11:38:56 Valid----           EPFL, PSNR---35.688056, SSIM---0.981204
+Aug 18 11:42:06 Valid----    INRIA_Lytro, PSNR---37.597264, SSIM---0.987159
+Aug 18 11:42:06 Average_Result: Average_PSNR---39.494747, Average_SSIM---0.987711
+Saving the epoch_47 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_47_model.pth
+
+Epoch 48 /75:
+Aug 18 12:14:22 Valid----Stanford_Gantry, PSNR---40.861703, SSIM---0.994703
+Aug 18 12:16:42 Valid----        HCI_new, PSNR---38.190519, SSIM---0.980320
+Aug 18 12:19:19 Valid----        HCI_old, PSNR---45.076216, SSIM---0.995049
+Aug 18 12:25:40 Valid----           EPFL, PSNR---35.609907, SSIM---0.981111
+Aug 18 12:28:50 Valid----    INRIA_Lytro, PSNR---37.408224, SSIM---0.987153
+Aug 18 12:28:50 Average_Result: Average_PSNR---39.429314, Average_SSIM---0.987667
+Aug 18 12:55:41 Valid----Stanford_Gantry, PSNR---40.807823, SSIM---0.994650
+Aug 18 12:58:01 Valid----        HCI_new, PSNR---38.199915, SSIM---0.980327
+Aug 18 13:00:39 Valid----        HCI_old, PSNR---45.104395, SSIM---0.995093
+Aug 18 13:06:59 Valid----           EPFL, PSNR---35.613998, SSIM---0.981230
+Aug 18 13:10:10 Valid----    INRIA_Lytro, PSNR---37.486748, SSIM---0.987185
+Aug 18 13:10:10 Average_Result: Average_PSNR---39.442576, Average_SSIM---0.987697
+Saving the epoch_48 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_48_model.pth
+
+Epoch 49 /75:
+Aug 18 13:42:28 Valid----Stanford_Gantry, PSNR---40.826699, SSIM---0.994663
+Aug 18 13:44:48 Valid----        HCI_new, PSNR---38.210324, SSIM---0.980358
+Aug 18 13:47:26 Valid----        HCI_old, PSNR---45.022908, SSIM---0.995023
+Aug 18 13:53:46 Valid----           EPFL, PSNR---35.677986, SSIM---0.981187
+Aug 18 13:56:57 Valid----    INRIA_Lytro, PSNR---37.572704, SSIM---0.987174
+Aug 18 13:56:57 Average_Result: Average_PSNR---39.462124, Average_SSIM---0.987681
+Aug 18 14:23:46 Valid----Stanford_Gantry, PSNR---40.838076, SSIM---0.994697
+Aug 18 14:26:06 Valid----        HCI_new, PSNR---38.198000, SSIM---0.980381
+Aug 18 14:28:43 Valid----        HCI_old, PSNR---45.101169, SSIM---0.995076
+Aug 18 14:35:04 Valid----           EPFL, PSNR---35.782323, SSIM---0.981242
+Aug 18 14:38:15 Valid----    INRIA_Lytro, PSNR---37.782289, SSIM---0.987172
+Aug 18 14:38:15 Average_Result: Average_PSNR---39.540371, Average_SSIM---0.987714
+Saving the epoch_49 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_49 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_49_model.pth
+
+Epoch 50 /75:
+Aug 18 15:10:43 Valid----Stanford_Gantry, PSNR---40.746370, SSIM---0.994534
+Aug 18 15:13:03 Valid----        HCI_new, PSNR---38.198704, SSIM---0.980319
+Aug 18 15:15:40 Valid----        HCI_old, PSNR---45.071570, SSIM---0.995075
+Aug 18 15:22:01 Valid----           EPFL, PSNR---35.611890, SSIM---0.981195
+Aug 18 15:25:11 Valid----    INRIA_Lytro, PSNR---37.509362, SSIM---0.987191
+Aug 18 15:25:11 Average_Result: Average_PSNR---39.427579, Average_SSIM---0.987663
+Aug 18 15:52:12 Valid----Stanford_Gantry, PSNR---40.878169, SSIM---0.994746
+Aug 18 15:54:32 Valid----        HCI_new, PSNR---38.191029, SSIM---0.980339
+Aug 18 15:57:09 Valid----        HCI_old, PSNR---45.078801, SSIM---0.995071
+Aug 18 16:03:30 Valid----           EPFL, PSNR---35.550110, SSIM---0.981261
+Aug 18 16:06:41 Valid----    INRIA_Lytro, PSNR---37.158302, SSIM---0.987171
+Aug 18 16:06:41 Average_Result: Average_PSNR---39.371282, Average_SSIM---0.987717
+Saving the epoch_50 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_50_model.pth
+
+Epoch 51 /75:
+Aug 18 16:39:05 Valid----Stanford_Gantry, PSNR---40.829144, SSIM---0.994653
+Aug 18 16:41:25 Valid----        HCI_new, PSNR---38.216631, SSIM---0.980422
+Aug 18 16:44:03 Valid----        HCI_old, PSNR---45.060522, SSIM---0.995047
+Aug 18 16:50:23 Valid----           EPFL, PSNR---35.692742, SSIM---0.981173
+Aug 18 16:53:34 Valid----    INRIA_Lytro, PSNR---37.663208, SSIM---0.987187
+Aug 18 16:53:34 Average_Result: Average_PSNR---39.492450, Average_SSIM---0.987696
+Aug 18 17:20:27 Valid----Stanford_Gantry, PSNR---40.899045, SSIM---0.994768
+Aug 18 17:22:48 Valid----        HCI_new, PSNR---38.181624, SSIM---0.980366
+Aug 18 17:25:25 Valid----        HCI_old, PSNR---45.114065, SSIM---0.995103
+Aug 18 17:31:46 Valid----           EPFL, PSNR---35.686799, SSIM---0.981304
+Aug 18 17:34:56 Valid----    INRIA_Lytro, PSNR---37.605745, SSIM---0.987232
+Aug 18 17:34:56 Average_Result: Average_PSNR---39.497455, Average_SSIM---0.987755
+Saving the epoch_51 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_51_model.pth
+
+Epoch 52 /75:
+Aug 18 18:07:18 Valid----Stanford_Gantry, PSNR---40.815833, SSIM---0.994625
+Aug 18 18:09:38 Valid----        HCI_new, PSNR---38.210970, SSIM---0.980379
+Aug 18 18:12:15 Valid----        HCI_old, PSNR---45.068052, SSIM---0.995041
+Aug 18 18:18:36 Valid----           EPFL, PSNR---35.866450, SSIM---0.981187
+Aug 18 18:21:46 Valid----    INRIA_Lytro, PSNR---37.905728, SSIM---0.987193
+Aug 18 18:21:46 Average_Result: Average_PSNR---39.573406, Average_SSIM---0.987685
+Saving the epoch_52 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Aug 18 18:48:29 Valid----Stanford_Gantry, PSNR---40.868149, SSIM---0.994720
+Aug 18 18:50:49 Valid----        HCI_new, PSNR---38.192244, SSIM---0.980365
+Aug 18 18:53:26 Valid----        HCI_old, PSNR---45.103003, SSIM---0.995095
+Aug 18 18:59:47 Valid----           EPFL, PSNR---35.750440, SSIM---0.981219
+Aug 18 19:02:58 Valid----    INRIA_Lytro, PSNR---37.623937, SSIM---0.987237
+Aug 18 19:02:58 Average_Result: Average_PSNR---39.507555, Average_SSIM---0.987727
+Saving the epoch_52 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_52_model.pth
+
+Epoch 53 /75:
+Aug 18 19:35:07 Valid----Stanford_Gantry, PSNR---40.884324, SSIM---0.994711
+Aug 18 19:37:27 Valid----        HCI_new, PSNR---38.204966, SSIM---0.980353
+Aug 18 19:40:05 Valid----        HCI_old, PSNR---45.001169, SSIM---0.995003
+Aug 18 19:46:26 Valid----           EPFL, PSNR---35.856791, SSIM---0.981048
+Aug 18 19:49:37 Valid----    INRIA_Lytro, PSNR---37.917040, SSIM---0.987180
+Aug 18 19:49:37 Average_Result: Average_PSNR---39.572858, Average_SSIM---0.987659
+Aug 18 20:16:34 Valid----Stanford_Gantry, PSNR---40.894944, SSIM---0.994781
+Aug 18 20:18:55 Valid----        HCI_new, PSNR---38.204141, SSIM---0.980382
+Aug 18 20:21:32 Valid----        HCI_old, PSNR---45.121470, SSIM---0.995102
+Aug 18 20:27:53 Valid----           EPFL, PSNR---35.598263, SSIM---0.981242
+Aug 18 20:31:03 Valid----    INRIA_Lytro, PSNR---37.258703, SSIM---0.987240
+Aug 18 20:31:03 Average_Result: Average_PSNR---39.415504, Average_SSIM---0.987749
+Saving the epoch_53 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_53_model.pth
+
+Epoch 54 /75:
+Aug 18 21:03:29 Valid----Stanford_Gantry, PSNR---40.879589, SSIM---0.994732
+Aug 18 21:05:49 Valid----        HCI_new, PSNR---38.223940, SSIM---0.980436
+Aug 18 21:08:26 Valid----        HCI_old, PSNR---45.028049, SSIM---0.995031
+Aug 18 21:14:47 Valid----           EPFL, PSNR---35.643927, SSIM---0.981239
+Aug 18 21:17:57 Valid----    INRIA_Lytro, PSNR---37.427239, SSIM---0.987235
+Aug 18 21:17:57 Average_Result: Average_PSNR---39.440549, Average_SSIM---0.987735
+Aug 18 21:44:38 Valid----Stanford_Gantry, PSNR---40.953425, SSIM---0.994814
+Aug 18 21:46:58 Valid----        HCI_new, PSNR---38.200020, SSIM---0.980421
+Aug 18 21:49:36 Valid----        HCI_old, PSNR---45.095308, SSIM---0.995076
+Aug 18 21:55:57 Valid----           EPFL, PSNR---35.711712, SSIM---0.981253
+Aug 18 21:59:07 Valid----    INRIA_Lytro, PSNR---37.628189, SSIM---0.987240
+Aug 18 21:59:07 Average_Result: Average_PSNR---39.517731, Average_SSIM---0.987761
+Saving the epoch_54 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_54_model.pth
+
+Epoch 55 /75:
+Aug 18 22:31:40 Valid----Stanford_Gantry, PSNR---40.895266, SSIM---0.994739
+Aug 18 22:34:00 Valid----        HCI_new, PSNR---38.211750, SSIM---0.980398
+Aug 18 22:36:38 Valid----        HCI_old, PSNR---45.070513, SSIM---0.995039
+Aug 18 22:42:58 Valid----           EPFL, PSNR---35.599119, SSIM---0.981240
+Aug 18 22:46:09 Valid----    INRIA_Lytro, PSNR---37.386331, SSIM---0.987227
+Aug 18 22:46:09 Average_Result: Average_PSNR---39.432596, Average_SSIM---0.987729
+Aug 18 23:12:55 Valid----Stanford_Gantry, PSNR---40.889606, SSIM---0.994751
+Aug 18 23:15:16 Valid----        HCI_new, PSNR---38.205727, SSIM---0.980417
+Aug 18 23:17:53 Valid----        HCI_old, PSNR---45.071865, SSIM---0.995072
+Aug 18 23:24:14 Valid----           EPFL, PSNR---35.675820, SSIM---0.981343
+Aug 18 23:27:24 Valid----    INRIA_Lytro, PSNR---37.509907, SSIM---0.987267
+Aug 18 23:27:24 Average_Result: Average_PSNR---39.470585, Average_SSIM---0.987770
+Saving the epoch_55 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_55_model.pth
+
+Epoch 56 /75:
+Aug 18 23:59:48 Valid----Stanford_Gantry, PSNR---40.796436, SSIM---0.994600
+Aug 19 00:02:08 Valid----        HCI_new, PSNR---38.209814, SSIM---0.980376
+Aug 19 00:04:46 Valid----        HCI_old, PSNR---45.038081, SSIM---0.995032
+Aug 19 00:11:07 Valid----           EPFL, PSNR---35.637308, SSIM---0.981259
+Aug 19 00:14:17 Valid----    INRIA_Lytro, PSNR---37.539323, SSIM---0.987248
+Aug 19 00:14:17 Average_Result: Average_PSNR---39.444192, Average_SSIM---0.987703
+Aug 19 00:41:00 Valid----Stanford_Gantry, PSNR---40.882831, SSIM---0.994741
+Aug 19 00:43:20 Valid----        HCI_new, PSNR---38.219586, SSIM---0.980445
+Aug 19 00:45:57 Valid----        HCI_old, PSNR---45.093035, SSIM---0.995084
+Aug 19 00:52:18 Valid----           EPFL, PSNR---35.731861, SSIM---0.981317
+Aug 19 00:55:29 Valid----    INRIA_Lytro, PSNR---37.642851, SSIM---0.987265
+Aug 19 00:55:29 Average_Result: Average_PSNR---39.514032, Average_SSIM---0.987770
+Saving the epoch_56 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_56_model.pth
+
+Epoch 57 /75:
+Aug 19 01:27:56 Valid----Stanford_Gantry, PSNR---40.781953, SSIM---0.994575
+Aug 19 01:30:16 Valid----        HCI_new, PSNR---38.215512, SSIM---0.980342
+Aug 19 01:32:53 Valid----        HCI_old, PSNR---45.068936, SSIM---0.995071
+Aug 19 01:39:14 Valid----           EPFL, PSNR---35.709023, SSIM---0.981300
+Aug 19 01:42:25 Valid----    INRIA_Lytro, PSNR---37.670806, SSIM---0.987264
+Aug 19 01:42:25 Average_Result: Average_PSNR---39.489246, Average_SSIM---0.987710
+Aug 19 02:09:20 Valid----Stanford_Gantry, PSNR---40.915466, SSIM---0.994786
+Aug 19 02:11:40 Valid----        HCI_new, PSNR---38.208591, SSIM---0.980423
+Aug 19 02:14:17 Valid----        HCI_old, PSNR---45.097866, SSIM---0.995093
+Aug 19 02:20:38 Valid----           EPFL, PSNR---35.729566, SSIM---0.981347
+Aug 19 02:23:49 Valid----    INRIA_Lytro, PSNR---37.664538, SSIM---0.987288
+Aug 19 02:23:49 Average_Result: Average_PSNR---39.523205, Average_SSIM---0.987787
+Saving the epoch_57 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_57_model.pth
+
+Epoch 58 /75:
+Aug 19 02:55:59 Valid----Stanford_Gantry, PSNR---40.911064, SSIM---0.994772
+Aug 19 02:58:19 Valid----        HCI_new, PSNR---38.216083, SSIM---0.980445
+Aug 19 03:00:56 Valid----        HCI_old, PSNR---45.073499, SSIM---0.995063
+Aug 19 03:07:17 Valid----           EPFL, PSNR---35.756090, SSIM---0.981353
+Aug 19 03:10:28 Valid----    INRIA_Lytro, PSNR---37.717195, SSIM---0.987282
+Aug 19 03:10:28 Average_Result: Average_PSNR---39.534786, Average_SSIM---0.987783
+Aug 19 03:37:09 Valid----Stanford_Gantry, PSNR---40.943860, SSIM---0.994808
+Aug 19 03:39:29 Valid----        HCI_new, PSNR---38.208875, SSIM---0.980425
+Aug 19 03:42:07 Valid----        HCI_old, PSNR---45.105254, SSIM---0.995093
+Aug 19 03:48:28 Valid----           EPFL, PSNR---35.742366, SSIM---0.981393
+Aug 19 03:51:38 Valid----    INRIA_Lytro, PSNR---37.787978, SSIM---0.987310
+Aug 19 03:51:38 Average_Result: Average_PSNR---39.557666, Average_SSIM---0.987806
+Saving the epoch_58 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_58_model.pth
+
+Epoch 59 /75:
+Aug 19 04:23:47 Valid----Stanford_Gantry, PSNR---40.904972, SSIM---0.994753
+Aug 19 04:26:08 Valid----        HCI_new, PSNR---38.198425, SSIM---0.980369
+Aug 19 04:28:45 Valid----        HCI_old, PSNR---45.053704, SSIM---0.995052
+Aug 19 04:35:06 Valid----           EPFL, PSNR---35.809731, SSIM---0.981342
+Aug 19 04:38:16 Valid----    INRIA_Lytro, PSNR---37.765623, SSIM---0.987300
+Aug 19 04:38:16 Average_Result: Average_PSNR---39.546491, Average_SSIM---0.987763
+Aug 19 05:04:56 Valid----Stanford_Gantry, PSNR---40.878500, SSIM---0.994735
+Aug 19 05:07:16 Valid----        HCI_new, PSNR---38.201346, SSIM---0.980323
+Aug 19 05:09:53 Valid----        HCI_old, PSNR---45.048579, SSIM---0.995043
+Aug 19 05:16:14 Valid----           EPFL, PSNR---35.707825, SSIM---0.981351
+Aug 19 05:19:25 Valid----    INRIA_Lytro, PSNR---37.543885, SSIM---0.987280
+Aug 19 05:19:25 Average_Result: Average_PSNR---39.476027, Average_SSIM---0.987746
+Saving the epoch_59 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_59_model.pth
+
+Epoch 60 /75:
+Aug 19 05:51:48 Valid----Stanford_Gantry, PSNR---40.924585, SSIM---0.994753
+Aug 19 05:54:08 Valid----        HCI_new, PSNR---38.207159, SSIM---0.980371
+Aug 19 05:56:45 Valid----        HCI_old, PSNR---45.068037, SSIM---0.995036
+Aug 19 06:03:06 Valid----           EPFL, PSNR---35.774535, SSIM---0.981300
+Aug 19 06:06:16 Valid----    INRIA_Lytro, PSNR---37.747353, SSIM---0.987266
+Aug 19 06:06:16 Average_Result: Average_PSNR---39.544334, Average_SSIM---0.987745
+Aug 19 06:33:03 Valid----Stanford_Gantry, PSNR---40.967493, SSIM---0.994860
+Aug 19 06:35:23 Valid----        HCI_new, PSNR---38.209220, SSIM---0.980396
+Aug 19 06:38:01 Valid----        HCI_old, PSNR---45.112710, SSIM---0.995103
+Aug 19 06:44:21 Valid----           EPFL, PSNR---35.756264, SSIM---0.981365
+Aug 19 06:47:32 Valid----    INRIA_Lytro, PSNR---37.733691, SSIM---0.987309
+Aug 19 06:47:32 Average_Result: Average_PSNR---39.555876, Average_SSIM---0.987807
+Saving the epoch_60 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_60_model.pth
+
+Epoch 61 /75:
+Aug 19 07:19:45 Valid----Stanford_Gantry, PSNR---40.914994, SSIM---0.994748
+Aug 19 07:22:05 Valid----        HCI_new, PSNR---38.232107, SSIM---0.980484
+Aug 19 07:24:42 Valid----        HCI_old, PSNR---45.042415, SSIM---0.995047
+Aug 19 07:31:03 Valid----           EPFL, PSNR---35.712000, SSIM---0.981448
+Aug 19 07:34:14 Valid----    INRIA_Lytro, PSNR---37.625031, SSIM---0.987344
+Aug 19 07:34:14 Average_Result: Average_PSNR---39.505309, Average_SSIM---0.987814
+Aug 19 08:00:53 Valid----Stanford_Gantry, PSNR---40.929824, SSIM---0.994801
+Aug 19 08:03:13 Valid----        HCI_new, PSNR---38.221721, SSIM---0.980444
+Aug 19 08:05:50 Valid----        HCI_old, PSNR---45.108486, SSIM---0.995098
+Aug 19 08:12:11 Valid----           EPFL, PSNR---35.757496, SSIM---0.981467
+Aug 19 08:15:21 Valid----    INRIA_Lytro, PSNR---37.717869, SSIM---0.987350
+Aug 19 08:15:21 Average_Result: Average_PSNR---39.547079, Average_SSIM---0.987832
+Saving the epoch_61 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_61_model.pth
+
+Epoch 62 /75:
+Aug 19 08:47:33 Valid----Stanford_Gantry, PSNR---40.938540, SSIM---0.994773
+Aug 19 08:49:53 Valid----        HCI_new, PSNR---38.230229, SSIM---0.980456
+Aug 19 08:52:30 Valid----        HCI_old, PSNR---45.096235, SSIM---0.995085
+Aug 19 08:58:51 Valid----           EPFL, PSNR---35.719165, SSIM---0.981441
+Aug 19 09:02:02 Valid----    INRIA_Lytro, PSNR---37.579592, SSIM---0.987339
+Aug 19 09:02:02 Average_Result: Average_PSNR---39.512752, Average_SSIM---0.987819
+Aug 19 09:28:45 Valid----Stanford_Gantry, PSNR---40.927899, SSIM---0.994811
+Aug 19 09:31:05 Valid----        HCI_new, PSNR---38.236564, SSIM---0.980489
+Aug 19 09:33:42 Valid----        HCI_old, PSNR---45.100398, SSIM---0.995089
+Aug 19 09:40:03 Valid----           EPFL, PSNR---35.862331, SSIM---0.981497
+Aug 19 09:43:14 Valid----    INRIA_Lytro, PSNR---37.889573, SSIM---0.987343
+Aug 19 09:43:14 Average_Result: Average_PSNR---39.603353, Average_SSIM---0.987846
+Saving the epoch_62 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/best_model.pth
+Saving the epoch_62 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_62_model.pth
+
+Epoch 63 /75:
+Aug 19 10:15:25 Valid----Stanford_Gantry, PSNR---40.906990, SSIM---0.994737
+Aug 19 10:17:46 Valid----        HCI_new, PSNR---38.238171, SSIM---0.980498
+Aug 19 10:20:23 Valid----        HCI_old, PSNR---45.085681, SSIM---0.995078
+Aug 19 10:26:44 Valid----           EPFL, PSNR---35.782966, SSIM---0.981416
+Aug 19 10:29:54 Valid----    INRIA_Lytro, PSNR---37.711567, SSIM---0.987345
+Aug 19 10:29:54 Average_Result: Average_PSNR---39.545075, Average_SSIM---0.987815
+Aug 19 10:56:42 Valid----Stanford_Gantry, PSNR---40.951184, SSIM---0.994829
+Aug 19 10:59:02 Valid----        HCI_new, PSNR---38.234304, SSIM---0.980483
+Aug 19 11:01:40 Valid----        HCI_old, PSNR---45.136755, SSIM---0.995115
+Aug 19 11:08:00 Valid----           EPFL, PSNR---35.807661, SSIM---0.981504
+Aug 19 11:11:11 Valid----    INRIA_Lytro, PSNR---37.735590, SSIM---0.987342
+Aug 19 11:11:11 Average_Result: Average_PSNR---39.573099, Average_SSIM---0.987855
+Saving the epoch_63 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_63_model.pth
+
+Epoch 64 /75:
+Aug 19 11:43:31 Valid----Stanford_Gantry, PSNR---40.887399, SSIM---0.994732
+Aug 19 11:45:52 Valid----        HCI_new, PSNR---38.242686, SSIM---0.980507
+Aug 19 11:48:29 Valid----        HCI_old, PSNR---45.081707, SSIM---0.995061
+Aug 19 11:54:50 Valid----           EPFL, PSNR---35.800909, SSIM---0.981485
+Aug 19 11:58:00 Valid----    INRIA_Lytro, PSNR---37.750310, SSIM---0.987367
+Aug 19 11:58:00 Average_Result: Average_PSNR---39.552602, Average_SSIM---0.987830
+Aug 19 12:24:44 Valid----Stanford_Gantry, PSNR---40.949845, SSIM---0.994820
+Aug 19 12:27:04 Valid----        HCI_new, PSNR---38.233607, SSIM---0.980473
+Aug 19 12:29:41 Valid----        HCI_old, PSNR---45.094177, SSIM---0.995084
+Aug 19 12:36:02 Valid----           EPFL, PSNR---35.683732, SSIM---0.981493
+Aug 19 12:39:13 Valid----    INRIA_Lytro, PSNR---37.575012, SSIM---0.987371
+Aug 19 12:39:13 Average_Result: Average_PSNR---39.507275, Average_SSIM---0.987848
+Saving the epoch_64 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_64_model.pth
+
+Epoch 65 /75:
+Aug 19 13:11:34 Valid----Stanford_Gantry, PSNR---40.919757, SSIM---0.994783
+Aug 19 13:13:54 Valid----        HCI_new, PSNR---38.226669, SSIM---0.980473
+Aug 19 13:16:31 Valid----        HCI_old, PSNR---45.089189, SSIM---0.995081
+Aug 19 13:22:52 Valid----           EPFL, PSNR---35.692024, SSIM---0.981478
+Aug 19 13:26:02 Valid----    INRIA_Lytro, PSNR---37.566543, SSIM---0.987364
+Aug 19 13:26:02 Average_Result: Average_PSNR---39.498836, Average_SSIM---0.987836
+Aug 19 13:52:47 Valid----Stanford_Gantry, PSNR---40.929731, SSIM---0.994812
+Aug 19 13:55:07 Valid----        HCI_new, PSNR---38.221855, SSIM---0.980454
+Aug 19 13:57:45 Valid----        HCI_old, PSNR---45.116792, SSIM---0.995097
+Aug 19 14:04:06 Valid----           EPFL, PSNR---35.714810, SSIM---0.981515
+Aug 19 14:07:16 Valid----    INRIA_Lytro, PSNR---37.569661, SSIM---0.987364
+Aug 19 14:07:16 Average_Result: Average_PSNR---39.510570, Average_SSIM---0.987848
+Saving the epoch_65 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_65_model.pth
+
+Epoch 66 /75:
+Aug 19 14:39:27 Valid----Stanford_Gantry, PSNR---40.935525, SSIM---0.994788
+Aug 19 14:41:47 Valid----        HCI_new, PSNR---38.231876, SSIM---0.980469
+Aug 19 14:44:25 Valid----        HCI_old, PSNR---45.085352, SSIM---0.995076
+Aug 19 14:50:45 Valid----           EPFL, PSNR---35.733182, SSIM---0.981374
+Aug 19 14:53:56 Valid----    INRIA_Lytro, PSNR---37.611074, SSIM---0.987328
+Aug 19 14:53:56 Average_Result: Average_PSNR---39.519401, Average_SSIM---0.987807
+Aug 19 15:20:39 Valid----Stanford_Gantry, PSNR---40.944246, SSIM---0.994819
+Aug 19 15:22:59 Valid----        HCI_new, PSNR---38.228221, SSIM---0.980491
+Aug 19 15:25:37 Valid----        HCI_old, PSNR---45.143689, SSIM---0.995126
+Aug 19 15:31:57 Valid----           EPFL, PSNR---35.673812, SSIM---0.981467
+Aug 19 15:35:08 Valid----    INRIA_Lytro, PSNR---37.424664, SSIM---0.987368
+Aug 19 15:35:08 Average_Result: Average_PSNR---39.482926, Average_SSIM---0.987854
+Saving the epoch_66 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_66_model.pth
+
+Epoch 67 /75:
+Aug 19 16:07:18 Valid----Stanford_Gantry, PSNR---40.945690, SSIM---0.994778
+Aug 19 16:09:38 Valid----        HCI_new, PSNR---38.241307, SSIM---0.980507
+Aug 19 16:12:15 Valid----        HCI_old, PSNR---45.064124, SSIM---0.995054
+Aug 19 16:18:36 Valid----           EPFL, PSNR---35.772073, SSIM---0.981444
+Aug 19 16:21:47 Valid----    INRIA_Lytro, PSNR---37.690360, SSIM---0.987370
+Aug 19 16:21:47 Average_Result: Average_PSNR---39.542711, Average_SSIM---0.987830
+Aug 19 16:48:26 Valid----Stanford_Gantry, PSNR---40.910571, SSIM---0.994798
+Aug 19 16:50:46 Valid----        HCI_new, PSNR---38.231657, SSIM---0.980494
+Aug 19 16:53:24 Valid----        HCI_old, PSNR---45.116792, SSIM---0.995104
+Aug 19 16:59:44 Valid----           EPFL, PSNR---35.676581, SSIM---0.981520
+Aug 19 17:02:55 Valid----    INRIA_Lytro, PSNR---37.532249, SSIM---0.987378
+Aug 19 17:02:55 Average_Result: Average_PSNR---39.493570, Average_SSIM---0.987859
+Saving the epoch_67 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_67_model.pth
+
+Epoch 68 /75:
+Aug 19 17:35:13 Valid----Stanford_Gantry, PSNR---40.983816, SSIM---0.994834
+Aug 19 17:37:33 Valid----        HCI_new, PSNR---38.234066, SSIM---0.980526
+Aug 19 17:40:10 Valid----        HCI_old, PSNR---45.113831, SSIM---0.995101
+Aug 19 17:46:31 Valid----           EPFL, PSNR---35.794674, SSIM---0.981495
+Aug 19 17:49:41 Valid----    INRIA_Lytro, PSNR---37.754870, SSIM---0.987367
+Aug 19 17:49:41 Average_Result: Average_PSNR---39.576251, Average_SSIM---0.987865
+Aug 19 18:16:23 Valid----Stanford_Gantry, PSNR---40.939941, SSIM---0.994803
+Aug 19 18:18:43 Valid----        HCI_new, PSNR---38.235978, SSIM---0.980489
+Aug 19 18:21:20 Valid----        HCI_old, PSNR---45.124163, SSIM---0.995105
+Aug 19 18:27:41 Valid----           EPFL, PSNR---35.749832, SSIM---0.981493
+Aug 19 18:30:52 Valid----    INRIA_Lytro, PSNR---37.675110, SSIM---0.987385
+Aug 19 18:30:52 Average_Result: Average_PSNR---39.545005, Average_SSIM---0.987855
+Saving the epoch_68 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_68_model.pth
+
+Epoch 69 /75:
+Aug 19 19:02:59 Valid----Stanford_Gantry, PSNR---40.902239, SSIM---0.994746
+Aug 19 19:05:19 Valid----        HCI_new, PSNR---38.245715, SSIM---0.980524
+Aug 19 19:07:57 Valid----        HCI_old, PSNR---45.064497, SSIM---0.995059
+Aug 19 19:14:17 Valid----           EPFL, PSNR---35.670340, SSIM---0.981477
+Aug 19 19:17:28 Valid----    INRIA_Lytro, PSNR---37.540481, SSIM---0.987399
+Aug 19 19:17:28 Average_Result: Average_PSNR---39.484654, Average_SSIM---0.987841
+Aug 19 19:44:16 Valid----Stanford_Gantry, PSNR---40.966343, SSIM---0.994849
+Aug 19 19:46:36 Valid----        HCI_new, PSNR---38.223782, SSIM---0.980482
+Aug 19 19:49:14 Valid----        HCI_old, PSNR---45.115098, SSIM---0.995097
+Aug 19 19:55:34 Valid----           EPFL, PSNR---35.663025, SSIM---0.981501
+Aug 19 19:58:45 Valid----    INRIA_Lytro, PSNR---37.494772, SSIM---0.987381
+Aug 19 19:58:45 Average_Result: Average_PSNR---39.492604, Average_SSIM---0.987862
+Saving the epoch_69 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_69_model.pth
+
+Epoch 70 /75:
+Aug 19 20:30:51 Valid----Stanford_Gantry, PSNR---40.916743, SSIM---0.994745
+Aug 19 20:33:11 Valid----        HCI_new, PSNR---38.239359, SSIM---0.980519
+Aug 19 20:35:49 Valid----        HCI_old, PSNR---45.088259, SSIM---0.995066
+Aug 19 20:42:09 Valid----           EPFL, PSNR---35.749729, SSIM---0.981504
+Aug 19 20:45:20 Valid----    INRIA_Lytro, PSNR---37.723420, SSIM---0.987379
+Aug 19 20:45:20 Average_Result: Average_PSNR---39.543502, Average_SSIM---0.987843
+Aug 19 21:12:05 Valid----Stanford_Gantry, PSNR---40.990549, SSIM---0.994879
+Aug 19 21:14:25 Valid----        HCI_new, PSNR---38.225283, SSIM---0.980474
+Aug 19 21:17:03 Valid----        HCI_old, PSNR---45.139116, SSIM---0.995109
+Aug 19 21:23:24 Valid----           EPFL, PSNR---35.754267, SSIM---0.981552
+Aug 19 21:26:34 Valid----    INRIA_Lytro, PSNR---37.672098, SSIM---0.987391
+Aug 19 21:26:34 Average_Result: Average_PSNR---39.556263, Average_SSIM---0.987881
+Saving the epoch_70 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_70_model.pth
+
+Epoch 71 /75:
+Aug 19 21:58:49 Valid----Stanford_Gantry, PSNR---40.957427, SSIM---0.994800
+Aug 19 22:01:09 Valid----        HCI_new, PSNR---38.238882, SSIM---0.980512
+Aug 19 22:03:46 Valid----        HCI_old, PSNR---45.080840, SSIM---0.995071
+Aug 19 22:10:07 Valid----           EPFL, PSNR---35.758709, SSIM---0.981504
+Aug 19 22:13:18 Valid----    INRIA_Lytro, PSNR---37.700505, SSIM---0.987408
+Aug 19 22:13:18 Average_Result: Average_PSNR---39.547273, Average_SSIM---0.987859
+Aug 19 22:40:07 Valid----Stanford_Gantry, PSNR---40.961104, SSIM---0.994849
+Aug 19 22:42:27 Valid----        HCI_new, PSNR---38.237614, SSIM---0.980502
+Aug 19 22:45:04 Valid----        HCI_old, PSNR---45.126445, SSIM---0.995115
+Aug 19 22:51:25 Valid----           EPFL, PSNR---35.786874, SSIM---0.981519
+Aug 19 22:54:36 Valid----    INRIA_Lytro, PSNR---37.728179, SSIM---0.987399
+Aug 19 22:54:36 Average_Result: Average_PSNR---39.568043, Average_SSIM---0.987877
+Saving the epoch_71 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_71_model.pth
+
+Epoch 72 /75:
+Aug 19 23:26:44 Valid----Stanford_Gantry, PSNR---40.963530, SSIM---0.994834
+Aug 19 23:29:04 Valid----        HCI_new, PSNR---38.242073, SSIM---0.980513
+Aug 19 23:31:41 Valid----        HCI_old, PSNR---45.063271, SSIM---0.995055
+Aug 19 23:38:02 Valid----           EPFL, PSNR---35.793477, SSIM---0.981508
+Aug 19 23:41:12 Valid----    INRIA_Lytro, PSNR---37.723550, SSIM---0.987404
+Aug 19 23:41:12 Average_Result: Average_PSNR---39.557180, Average_SSIM---0.987863
+Aug 20 00:07:56 Valid----Stanford_Gantry, PSNR---40.972623, SSIM---0.994845
+Aug 20 00:10:16 Valid----        HCI_new, PSNR---38.227025, SSIM---0.980504
+Aug 20 00:12:54 Valid----        HCI_old, PSNR---45.112546, SSIM---0.995102
+Aug 20 00:19:15 Valid----           EPFL, PSNR---35.810260, SSIM---0.981543
+Aug 20 00:22:25 Valid----    INRIA_Lytro, PSNR---37.730826, SSIM---0.987389
+Aug 20 00:22:25 Average_Result: Average_PSNR---39.570656, Average_SSIM---0.987876
+Saving the epoch_72 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_72_model.pth
+
+Epoch 73 /75:
+Aug 20 00:54:38 Valid----Stanford_Gantry, PSNR---40.946892, SSIM---0.994788
+Aug 20 00:56:58 Valid----        HCI_new, PSNR---38.250172, SSIM---0.980516
+Aug 20 00:59:36 Valid----        HCI_old, PSNR---45.070317, SSIM---0.995065
+Aug 20 01:05:56 Valid----           EPFL, PSNR---35.758348, SSIM---0.981523
+Aug 20 01:09:07 Valid----    INRIA_Lytro, PSNR---37.611105, SSIM---0.987370
+Aug 20 01:09:07 Average_Result: Average_PSNR---39.527367, Average_SSIM---0.987852
+Aug 20 01:35:51 Valid----Stanford_Gantry, PSNR---41.051893, SSIM---0.994934
+Aug 20 01:38:12 Valid----        HCI_new, PSNR---38.232539, SSIM---0.980493
+Aug 20 01:40:49 Valid----        HCI_old, PSNR---45.104211, SSIM---0.995103
+Aug 20 01:47:10 Valid----           EPFL, PSNR---35.740157, SSIM---0.981557
+Aug 20 01:50:20 Valid----    INRIA_Lytro, PSNR---37.680681, SSIM---0.987393
+Aug 20 01:50:20 Average_Result: Average_PSNR---39.561896, Average_SSIM---0.987896
+Saving the epoch_73 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_73_model.pth
+
+Epoch 74 /75:
+Aug 20 02:22:36 Valid----Stanford_Gantry, PSNR---40.915627, SSIM---0.994734
+Aug 20 02:24:56 Valid----        HCI_new, PSNR---38.250842, SSIM---0.980507
+Aug 20 02:27:33 Valid----        HCI_old, PSNR---45.063555, SSIM---0.995037
+Aug 20 02:33:54 Valid----           EPFL, PSNR---35.699378, SSIM---0.981523
+Aug 20 02:37:05 Valid----    INRIA_Lytro, PSNR---37.542161, SSIM---0.987383
+Aug 20 02:37:05 Average_Result: Average_PSNR---39.494313, Average_SSIM---0.987837
+Aug 20 03:03:49 Valid----Stanford_Gantry, PSNR---40.981382, SSIM---0.994865
+Aug 20 03:06:10 Valid----        HCI_new, PSNR---38.227180, SSIM---0.980499
+Aug 20 03:08:47 Valid----        HCI_old, PSNR---45.102627, SSIM---0.995099
+Aug 20 03:15:08 Valid----           EPFL, PSNR---35.799773, SSIM---0.981558
+Aug 20 03:18:19 Valid----    INRIA_Lytro, PSNR---37.693030, SSIM---0.987423
+Aug 20 03:18:19 Average_Result: Average_PSNR---39.560798, Average_SSIM---0.987889
+Saving the epoch_74 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_74_model.pth
+
+Epoch 75 /75:
+Aug 20 03:50:38 Valid----Stanford_Gantry, PSNR---40.948988, SSIM---0.994823
+Aug 20 03:52:58 Valid----        HCI_new, PSNR---38.237591, SSIM---0.980490
+Aug 20 03:55:35 Valid----        HCI_old, PSNR---45.108259, SSIM---0.995085
+Aug 20 04:01:56 Valid----           EPFL, PSNR---35.749627, SSIM---0.981522
+Aug 20 04:05:07 Valid----    INRIA_Lytro, PSNR---37.617418, SSIM---0.987404
+Aug 20 04:05:07 Average_Result: Average_PSNR---39.532377, Average_SSIM---0.987865
+Aug 20 04:31:48 Valid----Stanford_Gantry, PSNR---40.948857, SSIM---0.994831
+Aug 20 04:34:08 Valid----        HCI_new, PSNR---38.231842, SSIM---0.980488
+Aug 20 04:36:46 Valid----        HCI_old, PSNR---45.095989, SSIM---0.995092
+Aug 20 04:43:07 Valid----           EPFL, PSNR---35.792213, SSIM---0.981548
+Aug 20 04:46:17 Valid----    INRIA_Lytro, PSNR---37.710978, SSIM---0.987386
+Aug 20 04:46:17 Average_Result: Average_PSNR---39.555976, Average_SSIM---0.987869
+Saving the epoch_75 model at log/SR_5x5_2x/ALL/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation/checkpoints/base_parallel_3_res_4_iAFF_cswin_3_deverse_aggregation_5x5_2x_epoch_75_model.pth
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
