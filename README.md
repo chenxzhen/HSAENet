@@ -10,7 +10,7 @@ We introduce a novel Hybrid Spatial-Angular Exploitation (HSAE) module to exploi
 ![image](image/overview.png)
 
 # Quantitative Results
-Please see training log [HSAENet_x4_log](HSAENet_x4_log.txt) on five commonly-used datasets (*EPFL*, *HCI_new*, *HCI_old*, *INRIA_Lytro*, *Stanford_Gantry*).
+Please see training log [HSAENet_x4_log](HSAENet_x4_log.txt) [HSAENet_x2_log](HSAENet_x2_log.txt) on five commonly-used datasets (*EPFL*, *HCI_new*, *HCI_old*, *INRIA_Lytro*, *Stanford_Gantry*).
 
 ![image](image/Quantitative_Results.jpg)
 
